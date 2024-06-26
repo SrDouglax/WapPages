@@ -1,0 +1,99 @@
+@import "./splide.css";
+
+@tailwind utilities;
+
+@font-face {
+  font-family: FontInter;
+  src: url(./fonts/Inter-Variable.ttf);
+}
+
+@font-face {
+  font-family: FontRoboto;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: FontPoppins;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Font;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
+}
+
+@font-face {
+  font-family: FontSemiBold;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
+}
+
+@font-face {
+  font-family: FontBold;
+  src: url(./fonts/Uni_Sans_Bold.ttf);
+}
+
+@font-face {
+  font-family: FontBold;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_Bold.ttf.css);
+}
+
+.font {
+  font-family: Font;
+}
+
+.font-book {
+  font-family: FontBook;
+  font-weight: normal;
+}
+
+.font-inter {
+  font-family: FontInter;
+  font-weight: 300;
+}
+
+.font-roboto {
+  font-family: FontRoboto;
+  @apply uppercase;
+}
+
+.font-roboto {
+  font-family: FontPoppins;
+  @apply uppercase;
+}
+
+.--title {
+  @apply font-bold text-black text-title md:text-title-md;
+}
+
+.--title-white {
+  @apply text-white text-title md:text-title-md;
+}
+
+.--title-roboto {
+  @apply text-black font-roboto text-title md:text-title-md;
+}
+
+.--title-poppins {
+  @apply leading-tight text-black font-roboto text-title md:text-title-md;
+}
+
+.--body {
+  @apply font-book text-body text-[#1D1D1B] md:text-body-md;
+}
+
+
+.--body-white {
+  @apply font-book text-body text-white md:text-body-md;
+}
+
+.--body-inter {
+  @apply font-inter text-body text-[#1D1D1B] md:text-body-md;
+}
+
+.--body-inter-white {
+  @apply font-inter text-body text-white md:text-body-md;
+}
+
+.--product_info * {
+  box-sizing: border-box;
+}

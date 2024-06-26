@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "init": "^0.1.2",
+    "tailwindcss": "latest",
+    "typeface-inter": "^3.18.1",
+    "typeface-poppins": "^1.1.13"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss-cli": "^10.1.0",
+    "postcss-nested": "^6.0.1"
+  },
+  "scripts": {
+    "build": "postcss ./src/css/wrap-tailwind..css -o ./src/css/output.css",
+    "build-w": "npx tailwindcss -o src/styles/styles.css --watch"
+  }
+}

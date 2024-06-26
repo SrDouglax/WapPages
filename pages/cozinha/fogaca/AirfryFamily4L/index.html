@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="./javascript/slider.js"></script>
+    
+    <script src="./javascript/productInspect.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" />
+    <link rel="stylesheet" href="./styles/slider.css">
+    <title>Airfry 4L</title>
+  </head>
+  <body class="m-0 ">
+    <main class="flex overflow-x-hidden flex-col w-full items-center pt-16 container-content [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+      <section class="flex flex-col items-center gap-2 pl-4 pr-4 md:gap-14 md:pr-12 md:pl-4">
+        <div class="flex items-center justify-center gap-2 md:gap-8">
+          <img src="./imgs/desktop/sdaairfry_i00-0.png" alt="Imagem do produto" class="w-full px-16 md:block dnone" />
+          <img src="./imgs/mobile/sdaairfry_i00-0.png" alt="Imagem do produto" class="w-full max-w-lg md:hidden" />
+        </div>
+      </section>
+      <section class="flex flex-col items-center gap-8 px-8 mt-8 md:mt-0 md:flex-row md:items-start md:gap-2 justify-evenly">
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/sdaairfry_i01-0.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 !font-bold uppercase --body-inter whitespace-nowrap">FRITURA<br class="dnone md:block" />SEM ÓLEO</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --body-inter md:pt-2">
+              A tecnologia de circulação de ar em 360° proporciona crocância aos alimentos sem o uso de óleo.
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/sdaairfry_i01-1.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 !font-bold uppercase --body-inter">GRELHA <br class="hidden md:block" />removível</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --body-inter md:pt-2">
+              Experimente uma variedade de receitas sem se preocupar com a limpeza.
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/sdaairfry_i01-2.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 !font-bold uppercase --body-inter">CESTO <br class="hidden md:block" />QUADRADO</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --body-inter md:pt-2">
+              O design inteligente garante espaço de sobra para que cada item tenha a cocção perfeita.
+            </p>
+          </div>
+        </div>
+      </section>
+
+    <!--Slider-->
+    <section class="flex flex-col md:flex-row items-stretch justify-center gap-2">
+      <div class="order-last md:order-first flex gap-2 flex-col w-full">
+        <div id="text-info" class="h-[40%] rounded-3xl flex flex-col pt-5 pb-5">
+          <h3 id="main-text" class="ml-10 uppercase text-white font-bold w-[50%] line-clamp-2"></h3>
+          <p id="main-description" class="leading-tight -mt-1 ml-10 --body-inter-white w-[75%]"></p>
+        </div>
+        <div class="rounded-3xl w-full">
+          <img id="image-detail" src="" alt="" class="w-full">
+        </div>
+      </div>
+
+      <div class="order-first md:order-last bg-[#EDEDED] py-10 flex flex-col items-center justify-center rounded-3xl w-full">
+        <img id="image-main" src="" alt="" class="mx-auto">
+        <div class="flex gap-4 justify-center items-center">
+          <div id="button1" onclick="selectButton('#5A2730')" class="cursor-pointer relative p-1 bg-gray-200 rounded-full">
+            <div class="bg-white p-1 rounded-full flex justify-center items-center">
+              <div class="bg-[#5A2730] w-10 h-10 rounded-full"></div>
+            </div>
+          </div>
+          <div id="button2" onclick="selectButton('#2E2E2E')" class="cursor-pointer relative p-1 bg-gray-200 rounded-full">
+            <div class="bg-white p-1 rounded-full flex justify-center items-center">
+              <div class="bg-[#2E2E2E] w-10 h-10 rounded-full"></div>
+            </div>
+          </div>
+          <div id="button3" onclick="selectButton('#858585')" class="cursor-pointer relative p-1 bg-gray-200 rounded-full">
+            <div class="bg-white p-1 rounded-full flex justify-center items-center">
+              <div class="bg-[#858585] w-10 h-10 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="md:rounded-3xl bg-black-default pb-10 md:pb-40 flex flex-col">
+      <div class=" md:flex hidden justify-between">
+        <div class="md:ml-20 flex flex-col  justify-center text-white ">
+          <h1 class="font-bold text-3xl lg:text-[4.5rem] leading-tight">4 LITROS</h1>
+          <p class="md:-mt-16 lg:text-[2.5rem] text-2xl --body-inter-white">DE CAPACIDADE</p>
+          <p class="font-bold text-2xl uppercase">A capacidade perfeita para as receitas que a sua família adora</p>
+          <p class=" -mt-2 font-light tracking-tighter font-inter">
+            Sua jornada para refeições deliciosas e limpeza descomplicada começa agora! Com 1500W de potência, a Fritadeira WAP AirFry Family é a parceira de design inteligente que despertará sua criatividade no preparo de refeições saborosas, mais saudáveis e práticas em grandes porções. 
+          </p>
+        </div>
+        <img class="" src="./imgs/desktop/produto_de_cima.png" alt="Cesto com alimento"/>
+      </div>
+
+      <div class="md:hidden text-white">
+        <div class="grid grid-cols-2">
+          <div class="w-full flex flex-col items-center justify-end ">
+            <h1 class="font-bold text-3xl leading-tight">4 LITROS</h1>
+            <p class="-mt-8 text-2xl --body-inter-white">DE CAPACIDADE</p>
+            </div>
+          <img class="w-full" src="./imgs/desktop/produto_de_cima.png" alt="Cesto com alimento"/>
+        </div>
+
+        <div class="ml-10 mt-10">
+          <p class="font-bold text-1xl uppercase">A capacidade perfeita para as <br> receitas que a sua família adora</p>
+          <p class="-mt-2 w-[80%] font-light tracking-tighter font-inter">
+            Sua jornada para refeições deliciosas e limpeza descomplicada começa agora! Com 1500W de potência, a Fritadeira WAP AirFry Family é a parceira de design inteligente que despertará sua criatividade no preparo de refeições saborosas, mais saudáveis e práticas em grandes porções. 
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <!--Product capacities recipes -->
+        <div class="flex flex-wrap sm:flex-nowrap items-center w-full md:gap-2 gap-8 px-2 mt-24 sm:px-10 md:mx-0 justify-evenly">
+          <div class="flex flex-col items-center justify-center w-40 h-48">
+            <img class="object-cover object-center w-40 h-48" src="./imgs/replied/sdaairfry_8-paes-dequeijo.png" alt="Pão de Queijo" />
+            <h1 class="text-white h-10 text-[0.9rem] text-center font-bold font-poppins">8 PÃES DE QUEIJO</h1>
+          </div>
+          <div class="flex flex-col items-center justify-center w-40 h-48">
+            <img class="object-cover object-center w-40 h-48" src="./imgs/replied/sdaairfry_4-mini-burguers.png" alt="Hamburguer" />
+            <h1 class="text-white h-10 text-[0.9rem] text-center font-bold font-poppins">4 MINI <br>HAMBÚRGUERES</h1>
+          </div>
+          <div class="flex flex-col items-center justify-center w-40 h-48">
+            <img class="object-cover object-center w-40 h-48" src="./imgs/replied/sdaairfry_15-coxinhas-de-frango.png" alt="Coxinhas de Frango" />
+            <h1 class="text-white h-10 text-[0.9rem] text-center font-bold font-poppins">15 COXINHAS DE FRANGO</h1>
+          </div>
+          <div class="flex flex-col items-center justify-center w-40 h-48">
+            <img class="object-cover object-center w-40 h-48" src="./imgs/replied/sdaairfry_7-cupcakes.png" alt="Cupcakes" />
+            <h1 class="text-white h-10 text-[0.9rem] text-center font-bold font-poppins">7 CUPCAKES</h1>
+          </div>
+          <div class="flex flex-col items-center justify-center w-40 h-48">
+            <img class="object-cover object-center w-40 h-48" src="./imgs/replied/sdaairfry_15-nuggets.png" alt="Nuggets" />
+            <h1 class="text-white h-10 text-[0.9rem] text-center font-bold font-poppins">19 NUGGETS</h1>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    
+    <!--Slider 2-->
+    <section id="slider_aduhs" class="relative mx-auto md:-mt-44 overflow-hidden  ">
+      <div id="slider_container" class="flex items-start md:pr-[0rem] transition-transform duration-250"></div>
+      <div
+        id="btn_previous_uas"
+        class="absolute z-10 hidden w-10 h-10 p-2 px-4 text-3xl transform -translate-y-1/2 cursor-pointer md:block left-5 top-1/2"
+        style="
+          background-image: url(&quot;./imgs/replied/sdaairfry_left_sign.png&quot;);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "></div>
+      <div
+        id="button_next_uasdhuas"
+        class="absolute z-20 hidden w-10 h-10 p-2 px-4 transform -translate-y-1/2 cursor-pointer md:block right-5 top-1/2"
+        style="
+          background-image: url(&quot;./imgs/replied/sdaairfry_right_sign.png&quot;);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "></div>
+    </section>
+
+    <section class="flex flex-col mt-10 md:flex-row md:mt-32 md:mx-0 lg:grid-cols-2">
+      <div class="flex flex-col">
+        <div class="flex flex-col mx-8 md:px-0 md:mr-5 md:ml-20">
+          <h1 class="text-1xl md:text-2xl -top-[1rem] font-extrabold --title-poppins">
+            Praticidade para <br class="md:hidden"/> transformar <br class="md:block hidden"/> suas refeições
+          </h1>
+
+          <p class="mt-3 text-base w-[90%] font-light text-black font-inter md:mt-5">
+            Ganhe mais sabor enquanto economiza tempo, mesmo no preparo de grandes porções. Inovadora, <span class="font-bold">a grelha removível</span> promove uma experiência de cozimento sem esforço e prática no dia a dia da cozinha. Basta retirá-la, lavar facilmente e pronto - liberdade para saborear suas receitas sem se preocupar com a bagunça. 
+          </p>
+        </div>
+        <div class="flex flex-col mx-8 md:px-0 md:mr-5 md:ml-20">
+          <h1 class="text-1xl md:text-2xl -top-[1rem] font-extrabold --title-poppins">
+            Receitas exclusivas para você
+          </h1>
+
+          <p class="text-base w-[90%] font-light text-black font-inter md:mt-5">
+            Desperte seu paladar para uma rotina alimentar mais 
+            saudável e de dar água na boca com receitas assinadas 
+            pelo Chef Henrique Fogaça.
+          </p>
+          <p class="mt-3 text-base w-[90%] font-light text-black font-inter md:mt-5">
+            De pratos principais a sobremesa, o chef irá revelar 
+            como usar todo o potencial da linha de produtos de 
+            cozinha da WAP em suas receitas
+          </p>
+          <div class="flex items-center  mt-10 md:justify-start wf">
+            <span
+              class="px-6  py-3 bg-red-700 font-bold text-white rounded-lg cursor-pointer "
+              onclick="window.open('https://wap.ind.br/receitas', '_blank')">
+              ACESSE AS RECEITAS DA WAP
+            </span>
+          </div>
+        </div>
+      </div>
+      <img
+        class="hidden w-1/2 mx-auto mt-10 mr-4 h-max md:block sm:mt-0"
+        src="./imgs/desktop/sdaairfry_fogaca_mao_na_cintura_fundo_vermelho.png"
+        alt="Henrique fogaça com a mão na cintura" />
+    </section>
+
+    <section class="md:-mt-20 mt-40">
+      <div class="bg-black-default z-20 pb-20 md:pb-0 relative grid m-auto overflow-visible text-white lg:mt-80 lg:pb-10  lg:rounded-3xl lg:grid-cols-2">
+        <img class="-mt-40 w-full" src="./imgs/desktop/sdaairfry_i03.png" alt="Circulação de ar 360 graus" />
+        <div class="w-[85%] ml-10 mt-50 lg:mx-0 lg:ml-20 lg:mt-20">
+          <h3 class="font-light font-bold font-poppins text-[1.25rem] lg:text-[2.5rem]">
+            CIRCULAÇÃO DE AR
+          </h3>
+          <h1 class="lg:text-[5.625rem]  -mt-4 lg:-mt-8 text-[2.8rem] font-bold font-poppins">
+            EM 360°
+          </h1>
+          <p class="font-light -mt-5  md:-mt-16 lg:text-[1.25rem] w-[90%] md:w-[90%] tracking-tighter font-inter">
+            O calor distribuído no interior da fritadeira elétrica proporciona mais agilidade e eficiência no preparo dos pratos. Dessa forma, os alimentos são cozidos de maneira uniforme, independente da posição no cesto, eliminando o óleo em excesso, para receitas saborosas, crocantes e mais saudáveis. 
+          </p>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="flex ml-10 flex-col items-start justify-center">
+          <h3 class="font-bold --title-poppins">WAP AIRFRY FAMILY<br> PROSDÓCIMO 4L</h3>
+          <p class="w-[85%] --body-inter">
+            Frite, asse, desidrate ou toste as suas refeições 
+            favoritas, sem gordura, fumaça e cheiro de fritura 
+            para os amigos e a família sem esforço. Conheça 
+            a Fritadeira Elétrica WAP AirFry Family, a parceira ideal na cozinha!
+          </p>
+        </div>
+
+        <div class="relative flex flex-col lg:w-[800px] -mt-10 lg:h-[750px]">
+          <!--Desktop product inspect-->
+          <div class="hidden lg:block">
+            <img class="" src="./imgs/desktop/sdaairfry_i04.png" alt="">
+            <span id="span1" onmouseover="productInspect(event)" onmouseout="hideInspect(event)" class="absolute rounded-full px-5 py-5  bottom-[14.5rem] left-[16%]">
+              <div class="w-[25rem] absolute rounded-lg p-4 hidden -bottom-10 right-[2.5rem] bg-white shadow-2xl py-5 px-5 text-black-default" id="infoBox">
+                <h1 class="text-2xl font-bold font-poppins">Revestimento antiaderente</h1>
+                <p class="tracking-tighter font-inter">Uma cozinha inteligente é sinônimo de uma limpeza fácil. O revestimento antiaderente da air fryer 4L WAP evita que os alimentos grudem. Assim, você não se preocupa com a limpeza para uma experiência culinária sem complicações.</p>
+              </div>
+            </span>
+            <span id="span2" onmouseover="productInspect(event)" onmouseout="hideInspect(event)" class="absolute rounded-full px-5 py-5  bottom-[10.4rem] left-[14.7rem]">
+              <div class="w-[25rem] absolute rounded-lg p-4 hidden -bottom-10 right-[2.5rem] bg-white shadow-2xl py-5 px-5 text-black-default" id="infoBox">
+                <h1 class="text-2xl font-bold font-poppins uppercase">Grelha removível</h1>
+                <p class="tracking-tighter font-inter">Tenha mais espaço, mais sabor, menos bagunça. A grelha removível oferece espaço de sobra para cozinhar as melhores receitas, com resultados deliciosos e uma limpeza prática. </p>
+              </div>
+            </span>
+            <span id="span3" onmouseover="productInspect(event)" onmouseout="hideInspect(event)" class="absolute rounded-full px-5 py-5  bottom-[8.2rem] left-[26.3rem]">
+              <div class="w-[25rem] absolute rounded-lg p-4 hidden -bottom-10 right-[2.5rem] bg-white shadow-2xl py-5 px-5 text-black-default" id="infoBox">
+                <h1 class="text-2xl font-bold font-poppins uppercase">Cesto quadrado</h1>
+                <p class="tracking-tighter font-inter">Liberte sua criatividade na cozinha! Com o cesto quadrado, você tem mais espaço para preparar alimentos sem empilhar, garantindo resultados deliciosos em todas as suas receitas.</p>
+              </div>
+            </span>
+            <span id="span4" onmouseover="productInspect(event)" onmouseout="hideInspect(event)" class="absolute rounded-full px-5 py-5  bottom-[24rem] left-[21.8rem]">
+              <div class="w-[25rem] absolute rounded-lg p-4 hidden -bottom-10 right-[2.5rem] bg-white shadow-2xl py-5 px-5 text-black-default" id="infoBox">
+                <h1 class="text-2xl font-bold font-poppins uppercase">Timer de 60min</h1>
+                <p class="tracking-tighter font-inter">Chega de preocupações com o tempo de cozimento! O timer de 60 minutos, com aviso sonoro, avisa o momento certo para finalizar o preparo dos alimentos. .</p>
+              </div>
+            </span>
+            <span id="span5" onmouseover="productInspect(event)" onmouseout="hideInspect(event)" class="absolute rounded-full px-5 py-5  bottom-[19rem] left-[21.6rem]">
+              <div class="w-[25rem] absolute rounded-lg p-4 hidden -bottom-10 right-[2.5rem] bg-white shadow-2xl py-5 px-5 text-black-default" id="infoBox">
+                <h1 class="text-2xl font-bold font-poppins">Temperatura de 80°C até 200°C</h1>
+                <p class="tracking-tighter font-inter">O ajuste da temperatura dá controle total do cozimento a você. Prepare pratos saudáveis do seu jeito, sem complicações.</p>
+              </div>
+            </span>
+          </div>
+      </section>
+
+      <!--Mobile product inspect-->
+      <section>
+        <div class="flex flex-col mt-10 lg:hidden">
+          <div class="mx-10">
+            <img id='product-inspect-image' src="" class="w-full" alt="">
+          </div>
+        
+          <div class="relative flex">
+            <div class="flex-none w-full p-4 px-12 rounded-lg shadow-lg">
+              <h1 id="cardTitle" class="text-2xl font-bold font-poppins"></h1>
+              <p id="cardDescription"></p>
+            </div>
+            <button class="absolute left-0 p-2 transform -translate-y-1/2 bg-white top-1/2" onclick="changeCard(-1)">&#10094;</button>
+            <button class="absolute right-0 p-2 transform -translate-y-1/2 bg-white top-1/2" onclick="changeCard(1)">&#10095;</button>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="flex flex-col items-center md:gap-8 mt-8 md:mt-16 md:flex-row">
+        <img src="./imgs/mobile/sdaairfry_i08-0.png" alt="Imagem do produto" class="w-3/4 md:max-w-xl md:hidden" />
+        <img src="./imgs/desktop/sdaairfry_i08-0_2.png" alt="Imagem do produto" class="w-3/4 md:max-w-xl hidden md:block" />
+        
+        <div class="flex flex-col bg-black-default md:pb-0 pb-10 md:bg-white w-full gap-12 md:flex-row">
+          <div class="flex flex-col w-full gap-4 text-center px-10 md:px-0 items-center md:items-start md:text-start md:pr-12 md:pl-0">
+            <img src="./imgs/replied/sdaairfry_baker-icon.png" alt="" class="w-14 hidden md:block">
+            <img src="./imgs/replied/sdaairfry_baker-white.png" alt="" class="w-14 mt-10 md:hidden">
+            <h3 class="m-0 font-bold --title-poppins !text-white md:!text-black">Desperte sua criatividade</h3>
+            <p class="m-0 --body-inter !text-white md:!text-black">Descubra um mundo de sabores, desde suculentas carnes, até saborosos pratos de salmão, verduras e legumes. E não para por aí! Explore também o lado doce da sua air fryer com sobremesas como bolo de chocolate e muitas outras delícias.</p>
+            <h3 class="m-0 mt-10 font-bold --title-poppins !text-white md:!text-black">Sua jornada para refeições saudáveis, saborosas e versáteis está prestes a começar! </h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex items-center -mt-10 md:mt-4">
+        <img src="./imgs/mobile/sdaairfry_i10-0.png" alt="Imagem do produto" class="w-full max-w-xl md:hidden" />
+        <img src="./imgs/desktop/sdaairfry_i10-0.png" alt="Imagem do produto" class="w-full rounded-3xl dnone md:block" />
+      </section>
+    </main>
+  <script src="./javascript/slider2.js"></script>
+  </body>
+  </html>

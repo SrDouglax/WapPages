@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fritadeira WAP</title>
+  </head>
+  <body>
+    <iframe
+      id="product-iframe-page"
+      width="100%"
+      height="8929px;"
+      scrolling="no"
+      class="w-full"
+      style="border: none; height: 100%; width: 100%; box-sizing: border-box"
+    >
+    </iframe>
+  </body>
+  <script src="./javascript/insertHtml.js"></script>
+  <script src="./javascript/addScriptsToHtml.js"></script>
+  <script>
+    const iframe2 = document.getElementById("product-iframe-page");
+    window.addEventListener(
+      "message",
+      function (event) {
+        if (event.data.frameHeight) {
+          iframe2.style.height = event.data.frameHeight + "px";
+        }
+      },
+      false,
+    );
+    window.addEventListener("scroll", () => {
+      iframe2.contentWindow.postMessage({ scrollY: window.scrollY }, "*");
+    });
+  </script>
+</html>

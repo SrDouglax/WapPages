@@ -1,0 +1,83 @@
+.splide__slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.splide__wrapper .splide img {
+  width: 65%;
+  height: auto;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+
+.splide__wrapper .splide .is-active img {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.splide__wrapper .splide .is-active .card__description {
+  opacity: 1;
+}
+
+.splide__wrapper .splide {
+  margin-inline: auto;
+  height: auto;
+}
+
+.splide__wrapper .splide .splide__track {
+  overflow: initial;
+}
+
+.splide__wrapper .splide .splide__pagination {
+  bottom: initial;
+  top: calc(100% - 22px);
+}
+
+.splide__wrapper .splide .splide__pagination__page {
+  background: transparent;
+  border: 1px solid #000;
+  height: 15px;
+  width: 15px;
+  display: none;
+}
+
+.splide__wrapper .splide .splide__arrow {
+  background-color: #00bcbc;
+  display: none;
+}
+
+.splide__wrapper .splide .splide__pagination__page.is-active {
+  background-color: #00bcbc;
+}
+
+.splide__wrapper .splide .card {
+  border-radius: 4px;
+  cursor: pointer;
+  height: auto;
+  text-align: center;
+}
+
+.splide__wrapper .splide .card .card__content {
+  height: auto;
+}
+
+.splide__wrapper .splide .card__title {
+  font-size: 13px;
+}
+
+.splide__wrapper .splide .card__description {
+  text-align: center;
+  opacity: 0;
+  margin-top: 16px;
+  width: 130%;
+  margin-left: -15%;
+  transition: ease-in-out 200ms;
+}
+
+.splide__wrapper .splide .card {
+  width: clamp(1rem, 60vw, 14rem);
+}
+.splide__wrapper .splide img {
+  margin-top: 37px;
+}

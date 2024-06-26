@@ -1,0 +1,5 @@
+.animate-float,
+.animate-subtle,
+.animate-float-reverse {
+  transition: transform 4.5s ease-in-out;
+}

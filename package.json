@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "W96": "npx tailwindcss -i ./styles/input.css -o ./pages/W96/styles/styles.css --watch",
+    "AIRFRYFAMILIY4L": "npx tailwindcss -i ./styles/input.css -o ./pages/cozinha/fogaca/AirfryFamily4L/styles/styles.css --watch",
+    "W95": "npx tailwindcss -i ./styles/input.css -o ./pages/W95/styles/styles.css --watch",
+    "HSM": "npx tailwindcss -i ./styles/input.css -o ./pages/HSMax/styles/styles.css --watch",
+    "ECORAPIDO": "npx tailwindcss -i ./styles/input.css -o ./pages/Ecorapido/styles/styles.css --watch",
+    "ANTIODOR": "npx tailwindcss -i ./styles/input.css -o ./pages/Antiodor/styles/styles.css --watch",
+    "LIMPAMB": "npx tailwindcss -i ./styles/input.css -o ./pages/LimpaMB/styles/styles.css --watch",
+    "WL2660": "npx tailwindcss -i ./styles/input.css -o ./pages/WL2660/styles/styles.css --watch",
+    "WAPROBOT1000": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/WapRobotW1000/styles/styles.css --watch",
+    "WL2660D": "npx tailwindcss -i ./styles/input.css -o ./pages/WL2660D/styles/styles.css --watch",
+    "WL4000": "npx tailwindcss -i ./styles/input.css -o ./pages/WL4000/styles/styles.css --watch",
+    "WL4000D": "npx tailwindcss -i ./styles/input.css -o ./pages/WL4000D/styles/styles.css --watch",
+    "WL1820BU": "npx tailwindcss -i ./styles/input.css -o ./pages/WL1820BU/styles/styles.css --watch",
+    "WL1820BUD": "npx tailwindcss -i ./styles/input.css -o ./pages/WL1820BUD/styles/styles.css --watch",
+    "U2": "npx tailwindcss -i ./styles/input.css -o ./pages/AirFlowU2/styles/styles.css --watch",
+    "W90": "npx tailwindcss -i ./styles/input.css -o ./pages/W90/styles/styles.css --watch",
+    "PRESSAOELETRICA": "npx tailwindcss -i ./styles/input.css -o ./pages/PressaoEletrica/styles/styles.css --watch",
+    "AIRHEAT": "npx tailwindcss -i ./styles/input.css -o ./pages/AirHeat/styles/styles.css --watch"
+  },
+  "devDependencies": {
+    "cssnano": "^6.0.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.7"
+  }
+}
