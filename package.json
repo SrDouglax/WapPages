@@ -2,6 +2,7 @@
   "scripts": {
     "W96": "npx tailwindcss -i ./styles/input.css -o ./pages/W96/styles/styles.css --watch",
     "AIRFRYFAMILIY4L": "npx tailwindcss -i ./styles/input.css -o ./pages/cozinha/fogaca/AirfryFamily4L/styles/styles.css --watch",
+    "BATERIA_4AH_WAP_21V_K21_BT04": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/Bateria_4AH_WAP_21K_K21_BTO/styles/styles.css --watch",
     "W95": "npx tailwindcss -i ./styles/input.css -o ./pages/W95/styles/styles.css --watch",
     "HSM": "npx tailwindcss -i ./styles/input.css -o ./pages/HSMax/styles/styles.css --watch",
     "ECORAPIDO": "npx tailwindcss -i ./styles/input.css -o ./pages/Ecorapido/styles/styles.css --watch",

@@ -37,6 +37,13 @@
   src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_Bold.ttf.css);
 }
 
+@font-face {
+  font-family: 'FontBook';
+  src: url(./fonts/Uni_Sans_Book.ttf);
+}
+
+
+
 .font {
   font-family: Font;
 }
