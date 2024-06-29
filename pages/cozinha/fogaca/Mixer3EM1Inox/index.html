@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" />
+    <link rel="stylesheet" href="./styles/slider.css">
+    <title>Mixer 3 em 1</title>
+  </head>
+  <body class="m-0 ">
+    <main class="flex overflow-x-hidden flex-col w-full items-center md:pt-16 container-content [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+
+      <header class="flex flex-col items-center">
+        <div class="w-full" x-data="{ showVideo: false }">
+          <img
+            x-show="!showVideo"
+            @click="showVideo = true"
+            src="./imgs/desktop/cover_video.png"
+            alt="Video Thumbnail"
+            class="hidden object-cover w-full h-full mt-10 md:block "
+          />
+          <iframe
+            x-show="showVideo"
+            loading="lazy"
+            :src="showVideo ? 'https://www.youtube.com/embed/FkZ0bcu_Hwk?enablejsapi=1&autoplay=1' : ''"
+            class="w-full mt-10 m-auto h-[40rem] hidden md:block"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h1 class="py-2 --unisans text-center text-white rounded-b-lg md:py-2 mt-0 px-7 text-sm  bg-red-default">
+          PROSDÓCIMO
+        </h1>
+      </header>
+
+      <section class="flex flex-col items-center gap-2 pl-4 pr-4 md:gap-14 md:pr-12 md:pl-4">
+        <div class="flex items-center justify-center gap-2 md:gap-8">
+          <img src="./imgs/desktop/mixer_3_em_1_show_header.png" alt="Imagem do produto" class="w-full px-16 md:block dnone" />
+          <img src="./imgs/desktop/mixer_3_em_1_show_header.png" alt="Imagem do produto" class="w-full max-w-lg md:hidden" />
+        </div>
+        
+        <div class="flex flex-col md:items-center items-start justify-center px-5 md:px-0 md:mr-5">
+          <h1 class="--unisans-bold uppercase text-center md:text-title-md md:max-w-[70%]">
+            Descubra mais sabores em suas aventuras culinárias
+          </h1>
+          <p class="mt-3  text-base md:text-center font-light text-black --unisans md:-mt-5 md:max-w-[70%]">
+            Desperte o chef que há em você com versatilidade e potência para experimentar desde massas leves até molhos densos quando quiser. Aproveite a variedade de acessórios e resistência para se aventurar por uma infinidade de pratos de forma rápida e fácil.
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center gap-8 px-8 mt-8 md:-mt-5 md:flex-row md:items-start md:gap-2 justify-evenly">
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/mixer_3_em_1_fogaca_icons_1.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0  uppercase --unisans-bold whitespace-nowrap">600W de potência</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --unisans md:pt-2">
+              Crie receitas deliciosas no dia a dia, com máximo poder, em poucos minutos.
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/mixer_3_em_1_fogaca_icons_2.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 --unisans-bold uppercase ">3 em 1</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --unisans md:pt-2">
+              Bata, triture e processe alimentos com facilidade e eficiência utilizando apenas um aparelho.
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-6 md:px-0 max-w-[20rem]">
+          <img src="./imgs/replied/mixer_3_em_1_fogaca_icons_3.png" alt="Imagem do produto" class="object-contain w-8 h-8 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 --unisans-bold uppercase ">Hastes e lâminas em aço inox</h3>
+            <p class="px-2 pt-1 m-0 leading-tight --unisans md:pt-2">
+              Garantem resultados precisos e uniformes, enquanto facilitam a limpeza.
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="mt-8">
+        <div class="pl-8 md:space-y-1 md:px-8">
+          <div class="flex items-center gap-4">
+            <h2 class="m-0 uppercase whitespace-nowrap --unisans-bold text-title md:text-title-md">
+              COZINHA COMPLETA,<br> versátil e moderna 
+            </h2>
+            <div class="h-0.5 w-full bg-zinc-400"></div>
+          </div>
+        </div>
+        <div class="w-full px-8 mt-8 text-center xl:px-0">
+          <img
+            src="./imgs/desktop/mixer_3_em_1_inox_img-01.png"
+            alt="Imagem do produto"
+            class="[display:none] w-full md:block" />
+          <img
+            src="./imgs/desktop/mixer_3_em_1_inox_img-01.png"
+            alt="Imagem do produto"
+            class="w-full md:hidden" />
+        </div>
+      </section>
+
+    
+      <section class="flex flex-col mt-10 md:flex-row md:mx-0 ">
+        <img class="py-5 mx-auto px-10 md:h-max w-full sm:mt-0" src="./imgs/desktop/mixer_3_em_1_inox_bow_of_salad.png" alt="" />
+        <div class="flex flex-col  items-start justify-center mx-8 md:px-0 md:mr-5">
+          <h1 class="text-1xl md:text-2xl md:max-w-[70%] -top-[1rem] font-extrabold --unisans-bold uppercase">
+            Praticidade para refeições saudáveis e deliciosas
+          </h1>
+          <p class="mt-3  text-base w-[90%] font-light text-black --unisans md:mt-5">
+            Preparar um cardápio de dar água com receitas saudáveis, desde molhos e sopas até smoothies e purês, fica mais fácil quando é possível misturar, bater, triturar e picar os ingredientes de uma só vez.
+            <br><br>
+            Potente, o <span class="--unisans-bold">WAP MIXER 3 EM 1 INOX PROSDÓCIMO WM1</span> é a melhor escolha para picar vegetais, legumes, ervas, triturar grãos, queijos e carnes. Ele permite fazer milk-shakes, sucos, vitaminas, coquetéis, chocolates quentes batidos, molhos, patês, temperos e sopas com mais textura e sabor aos pratos do dia a dia. 
+          </p>
+        </div>
+        </section>
+
+        <section class="relative md:-mt-20 [&]:mb-0 md:[&]:mb-24 ">
+          <div class="[display:none] px-8 lg:px-16 sm:block">
+            <div class="relative z-10 [display:none] w-full h-full mt-32 mb-12 md:block">
+              <img src="./imgs/desktop/mixer_3_em_1_inox_img-02.png" alt="Imagem do produto" class="relative w-full" />
+              <div class="absolute top-0 left-0 w-full h-full">
+                <div class="absolute top-[5%] left-[22%] text-[14px] lg:text-[18px] text-start leading-tight --unisans text-black m-0 max-w-[27%]">
+                  <h4 class="uppercase --unisans-bold">FUNÇÃO TURBO</h4>
+                  <p class="-mt-5">Economize tempo com potência extra ao misturar, bater e triturar ingredientes com rapidez e eficiência.</p>
+                </div>
+                <div class="absolute bottom-[40%] left-[0%] text-[14px] lg:text-[18px] text-start leading-tight --unisans text-black m-0 w-[25%]">
+                  <h4 class="uppercase --unisans-bold">Desmontável</h4>
+                  <p class="-mt-5">
+                    O design do <span class="--unisans-semi-bold">mixer 3 em 1 WAP</span> torna a troca de acessórios e a limpeza rápida e eficiente, para que você o mantenha sempre pronto para uso sem esforço. 
+                  </p>
+                </div>
+  
+                <div class="absolute top-[12%] right-[0.2%] text-[14px] lg:text-[18px] text-end leading-tight --unisans text-black m-0 w-[25%]">
+                  <h4 class="uppercase --unisans-bold">Cabo elétrico de 90 cm</h4>
+                  <p class="-mt-5">
+                    Proporciona liberdade de movimento para preparar receitas com facilidade, sem estar próximo da tomada.
+                  </p>
+                </div>
+  
+                <div class="absolute bottom-[42%] right-[7%] text-[14px] lg:text-[18px] text-end leading-tight --unisans text-black m-0 w-[25%]">
+                  <h4 class="uppercase --unisans-bold">Acabamento em aço inox escovado</h4>
+                  <p class="-mt-5">
+                    O design em aço inox é combinação certa entre elegância e durabilidade para sua cozinha.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="splide__wrapper mt-8 md:h-[28rem] h-[22rem] w-full overflow-hidden md:hidden">
+          <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="card">
+                    <img class="rounded-lg card__image" src="./imgs/splider/mixer_3_em_1_detail_splider_1.png" alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        <h3>Função turbo</h3>
+                        <p class="-mt-2">
+                          Economize tempo com potência extra ao misturar, bater e triturar ingredientes com rapidez e eficiência.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/splider/mixer_3_em_1_detail_splider_2.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        <h3>Desmontável</h3>
+                        <p class="-mt-2">
+                          O design do mixer 3 em 1 WAP torna a troca de acessórios e a limpeza rápida e eficiente, para que você o mantenha sempre pronto para uso sem esforço.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/splider/mixer_3_em_1_detail_splider_3.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        <h3>Acabamento em aço inox escovado</h3>
+                        <p class="-mt-2">
+                          O design em aço inox é combinação certa entre  elegância e durabilidade para sua cozinha.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/splider/mixer_3_em_1_detail_splider_4.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        <h3>Cabo elétrico de 90 cm</h3>
+                        <p class="-mt-2">
+                          Proporciona liberdade de movimento para preparar receitas com facilidade, sem estar próximo da tomada.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+    <section class="mt-10">
+      <div class="bg-black-default z-20 pt-10 md:pb-0 relative grid m-auto overflow-visible text-white  md:rounded-3xl md:rounded-br-3xl lg:grid-cols-2">
+        <img class="hidden md:block w-full mt-10" src="./imgs/desktop/mixer_3_em_1_inox_misturador.png" alt="Misturador" />
+        <div class="w-[85%] ml-10 mt-50 lg:mx-0 md:ml-40 lg:mt-[10rem]">
+          <h3 class=" uppercase  --unisans-bold text-title md:text-title-md">
+            Potência e precisão <br> na sua cozinha
+          </h3>
+          <p class="font-light md:-mt-5 lg:text-[1.25rem] w-[90%] md:w-[90%]  --unisans">
+            Robusto e durável, o <span class="--unisans-bold">WAP MIXER 3 EM 1 INOX</span> oferece quatro lâminas afiadas em aço inoxidável para cortes precisos nos ingredientes, garantindo resultado uniformes, dignos de chefe.
+            <br><br>
+            As hastes removíveis que acompanham o equipamento facilitam a sua limpeza e a armazenagem após o uso. Com um formato ideal para evitar respingos, elas permitem manter o mixer sempre pronto para uso. 
+          </p>
+        </div>
+        <img class="md:hidden w-full mt-10" src="./imgs/desktop/mixer_3_em_1_inox_misturador.png" alt="Misturador" />
+      </div>
+      <div class="flex flex-col md:flex-row">
+        <img class="w-full md:hidden" src="./imgs/mobile/mixer_3_em_1_show_case_mobile.png" alt="">
+
+        <div class="flex px-5 flex-col items-start justify-center">
+          <h3 class="font-bold --unisans-bold text-title md:text-title-md uppercase">Cremosidade e sabor, <br> do seu jeito</h3>
+          <p class="w-[85%] --unisans">
+            De alta performance, a velocidade variável intuitiva do mixer facilita a trituração dos ingredientes, proporcionando maior homogeneidade e consistência às receitas. Seja o chef e controle o preparo de cada prato.
+            <br><br>
+            Acione a <span class="--unisans-semi-bold">Função Turbo</span> e experimente a potência extra para misturar, bater e triturar alimentos com máxima eficiência e instantaneidade, desafiando até os ingredientes mais resistentes com facilidade. 
+          </p>
+        </div>
+
+        <div class="relative flex flex-col lg:w-[800px] -mt-10 lg:h-[750px]">
+          <div class="hidden lg:block">
+            <img class="" src="./imgs/desktop/mixer_3_em_1_inox_example.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-8 m-auto md:px-0 px-5">
+        <div class="flex items-center gap-4">
+          <h2 class="m-0 uppercase  whitespace-nowrap --unisans-bold text-tile md:text-title-md">IDEAL PARA</h2>
+          <div class="h-0.5 w-full bg-zinc-400"></div>
+        </div>
+
+        <div class="grid grid-cols-2 2xl:grid-cols-4 md:justify-evenly gap-x-4 mt-10">
+          <div class="flex flex-col">
+            <img class="w-full sm:max-w-[60%] md:max-w-[100%] m-auto" src="imgs/desktop/mixer_3_em_1_ideal_para_4.png" alt="">
+            <h3 class="text-center --unisans-bold uppercase -">TRITURAR</h3>
+          </div>
+
+          <div class="flex flex-col">
+            <img class="w-full sm:max-w-[60%] md:max-w-[100%] m-auto" src="imgs/desktop/mixer_3_em_1_ideal_para_3.png" alt="">
+            <h3 class="text-center --unisans-bold uppercase">PICAR</h3>
+          </div>
+  
+          <div class="flex flex-col">
+            <img class="w-full sm:max-w-[60%] md:max-w-[100%] m-auto" src="imgs/desktop/mixer_3_em_1_ideal_para_2.png" alt="">
+            <h3 class="text-center --unisans-bold uppercase">LIQUIDIFICAR</h3>
+          </div>
+  
+          <div class="flex flex-col">
+            <img class="w-full sm:max-w-[60%] md:max-w-[100%] m-auto" src="imgs/desktop/mixer_3_em_1_ideal_para_1.png" alt="">
+            <h3 class="text-center --unisans-bold uppercase">BATER</h3>
+          </div>
+        </div>
+      </section>
+     
+      <section class="w-full mt-8 max-h-[40rem]">
+        <div class="w-full h-full">
+          <img
+            src="./imgs/desktop/mixer_3_em_1_show_case.png"
+            alt="Imagem do produto"
+            class="[display:none] object-cover object-center w-full sm:block" />
+          <img
+            src="./imgs/desktop/mixer_3_em_1_show_case.png"
+            alt="Imagem do produto"
+            class="object-cover object-center w-full sm:[display:none]" />
+        </div>
+      </section>
+
+
+
+      <section class="hidden md:flex justify-center gap-x-4">
+        <div class="w-full flex flex-col items-center">
+          <img src="./imgs/desktop/mixer_3_em_1_detail_1.png" alt="" class="">
+          <h3 class="h-16 text-center --unisans-bold max-w-[60%] text-3xl">Velocidade regulável</h3>
+          <p class="text-center -mt-2 max-w-[80%] --body ">Tenha controle total durante a preparação de receitas com a velocidade regulável, que permite selecionar a intensidade de forma intuitiva.</p>
+        </div>
+        <div class="w-full  flex flex-col items-center">
+          <img src="./imgs/desktop/mixer_3_em_1_detail_2.png" alt="" class="">
+          <h3 class="h-16 text-center --unisans-bold max-w-[60%] text-3xl">Corpo ergonômico</h3>
+          <p class="text-center -mt-2 max-w-[80%] --body ">Desenvolvido para facilitar sua rotina, o design ergonômico do copo faz toda diferença no manuseio e na limpeza.</p>
+        </div>
+        <div class="w-full  flex flex-col items-center">
+          <img src="./imgs/desktop/mixer_3_em_1_detail_3.png" alt="" class="">
+          <h3 class="h-16 text-center --unisans-bold max-w-[60%] text-3xl">Compatível com lava-louças</h3>
+          <p class="text-center -mt-2 max-w-[80%] --body ">De fácil limpeza, os acessórios e a haste podem ser lavados na sua lava-louças.</p>
+        </div>
+      </section>
+
+      <!--Swiper mobile-->
+      <section class="slider-container md:hidden relative flex flex-col items-center justify-center">
+        <div id="slider-content" class="flex flex-col items-center">
+            <img src="./imgs/desktop/mixer_3_em_1_detail_1.png" alt="Velocidade regulável" id="slider-image" class="w-full px-14">
+            <h3 id="slider-title" class="text-center font-roboto-no-uppercase text-3xl max-w-[70%]">Velocidade regulável</h3>
+            <p id="slider-description" class="text-center max-w-[60%] -mt-2 --body">Tenha controle total durante a preparação de receitas com a velocidade regulável, que permite selecionar a intensidade de forma intuitiva.</p>
+        </div>
+        <div id="prev" class="absolute max-w-[10%] left-3 top-[35%] rounded-full">
+          <img src="./imgs/replied/mixer_3_em_1_fogaca_icons_left.png" alt="" class="w-full">
+        </div>
+        <div id="next" class="absolute max-w-[10%] top-[35%] right-3 rounded-full">
+          <img src="./imgs/replied/mixer_3_em_1_fogaca_icons_right.png" alt="" class="w-full">
+        </div>
+        <div class="flex bg-[#EDEDED] px-8 py-2 rounded-2xl gap-x-4">
+          <div id='pointer-0' class="pointer py-2 px-2 rounded-full"></div>
+          <div id='pointer-1' class="pointer py-2 px-2 rounded-full"></div>
+          <div id='pointer-2' class="pointer py-2 px-2 rounded-full"></div>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="bg-red-default py-5  mt-20 md:mt-0 flex flex-col px-5 md:pl-0 md:items-center md:rounded-2xl">
+          <h1 class="text-white md:max-w-[100%] max-w-[90%] uppercase --unisans-bold ">Conforto e modernidade para o dia a dia</h1>
+          <p class="md:text-center --body !text-white md:max-w-[71%] ">
+            Projetado para acompanhar a rotina de quem valoriza modernidade, praticidade e eficiência, o design ergonômico do mixer WAP facilita as tarefas diárias, proporcionando conforto e firmeza durante o manuseio, além de uma desmontagem simples e segura para destros e canhotos.
+            <br><br>
+            O <span class="--unisans-bold">WAP MIXER 3 EM 1 INOX PROSDÓCIMO WM1</span> acompanha um kit completo de acessórios:
+          </p>
+        </div>
+        <div class="bg-[#EEEEEE] flex md:flex-row flex-col max-w-[80%] m-auto rounded-b-2xl py-10 ">
+          <div class=" flex flex-col items-center">
+            <img src="./imgs/desktop/mixer_3_em_1_detail_6.png" alt="" class="">
+            <h3 class="text-center uppercase --unisans-bold text-[black] md:text-[#5E5E5E]">Miniprocessador de 500ml</h3>
+            <p class="text-center max-w-[70%] --body -mt-2 text-black md:text-[#434343]">Prepare deliciosos molhos, pique cebolas e triture nozes com facilidade.</p>
+          </div>
+          <div class=" flex flex-col items-center">
+            <img src="./imgs/desktop/mixer_3_em_1_detail_5.png" alt="" class="">
+            <h3 class="text-center uppercase --unisans-bold text-[black] md:text-[#5E5E5E]">Copo de 700ml</h3>
+            <p class="text-center max-w-[70%] --body -mt-2 text-black md:text-[#434343]">Prepare smoothies, shakes e sopas cremosas saborosas, com texturas consistentes.</p>
+          </div>
+          <div class=" flex flex-col items-center">
+            <img src="./imgs/desktop/mixer_3_em_1_detail_4.png" alt="" class="">
+            <h3 class="text-center uppercase --unisans-bold text-[black] md:text-[#5E5E5E]">Batedor de claras</h3>
+            <p class="text-center max-w-[70%] --body -mt-2 text-black md:text-[#434343]">Alcance texturas uniformes ao bater claras em neve para preparar cremes e molhos ou misturar ingredientes para massas de bolo, panqueca e waffle.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-col items-center md:gap-8  md:-mt-[5rem] md:flex-row">
+        <img src="./imgs/desktop/mixer_3_em_1_fogaca_braco_cruzado_fundo_red.png" alt="Imagem do produto" class="w-3/4 md:max-w-xl " />
+        <div class="flex flex-col text-end md:pb-0 pb-10 md:bg-white w-full gap-12 md:flex-row px-5">
+          <div class="flex flex-col w-full gap-4  md:px-0 mt-10 md:mt-0 md:pl-10 md:items-end md:text-start md:pr-0 mr-10 pl-0">
+            <h3 class="m- text-start md:text-end --unisans-bold uppercase md:text-title-md text-title ">Aprenda as <br class="md:block hidden"> receitas do Chef Henrique Fogaça</h3>
+            <p class="m-0 text-start md:text-end md:-mt-10 --unisans !text-black">Vivencie experiências gastronômica únicas sem sair de casa, aprendendo as receitas do Chef Henrique Fogaça.
+              <br><br>
+              Desde os ingredientes até o modo de preparo, Fogaça compartilhou pratos simples e deliciosos para despertar o chef que existe em você, com a linha cozinha da WAP.</p>
+            <h3 onclick="window.open('https://wap.ind.br/receitas', '_blank')" class="mt-10 max-w-[80%] md:mr-0 md:px-7 px-4 md:w-full m-auto text-center md:block font-bold !text-white bg-red-default py-3 cursor-pointer rounded-xl">ACESSE AS RECEITAS DA WAP</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-col-reverse  md:flex-row ">
+        <div class="flex flex-col justify-center">
+          <div class="flex items-start flex-col md:ml-20 px-5">
+            <h1 class="--unisans-bold uppercase text-title md:text-title-md text-start">Sua rotina mais leve e saborosa</h1>
+            <p class="--unisans -mt-2 md:max-w-[70%]">Deixe sua rotina na cozinha mais fácil com modernidade, resistência e multifunções em um só equipamento. O <span class="--unisans-bold">WAP MIXER 3 EM 1 INOX PROSDÓCIMO WM1</span> vai transformar sua rotina para melhor a cada receita cremosa e saborosa. </p>
+          </div>
+        </div>
+        <div class="w-full px-5">
+          <img src="./imgs/desktop/mixer_3_em_1_show_case_2.png" alt="" class="w-full">
+        </div>
+      </section>
+    </main>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide(".splide", {
+          type: "loop",
+          perPage: 1,
+          perMove: 2,
+          focus: "center",
+          //padding: '5rem',
+          gap: "15px",
+          rewind: true,
+          width: "min(190px, 70% - 60px)",
+        });
+        splide.mount();
+      });
+    </script>
+    <script src="./scripts/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+  </body>
+  </html>

@@ -1,0 +1,25 @@
+.slider-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ddd;
+    border: none;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    background-color: #ccc;
+}
+
+.pointer { /* Default style for unselected pointers */
+    background-color: #ABABAB;
+}
+
+.pointer-selected { /* Style for the selected pointer */
+    background-color: #711D30;
+}

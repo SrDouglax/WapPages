@@ -7,9 +7,10 @@ module.exports = {
       colors: {
         "zinc-400": "#434343",
         "black-default": "#1D1D1B",
+        "red-default": "#981F1F",
       },
       fontSize: {
-        title: "16pt", // Adicione tamanhos de fonte personalizados
+        title: "16pt",
         "title-md": "35px",
         body: "12pt",
         "body-md": "18px",

@@ -23,12 +23,22 @@
 }
 
 @font-face {
-  font-family: FontSemiBold;
+  font-family: UniSans;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
+}
+
+@font-face {
+  font-family: UniSansSemiBold;
   src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
 }
 
 @font-face {
   font-family: FontBold;
+  src: url(./fonts/Uni_Sans_Bold.ttf);
+}
+
+@font-face {
+  font-family: UniSansBold;
   src: url(./fonts/Uni_Sans_Bold.ttf);
 }
 
@@ -41,8 +51,6 @@
   font-family: 'FontBook';
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
-
-
 
 .font {
   font-family: Font;
@@ -63,9 +71,24 @@
   @apply uppercase;
 }
 
-.font-roboto {
-  font-family: FontPoppins;
-  @apply uppercase;
+.font-roboto-no-uppercase {
+  font-family: FontRoboto;
+}
+
+.--unisans-bold {
+  @apply font-[UniSansBold]
+}
+
+.--unisans-semi-bold {
+  @apply font-[UniSansSemiBold]
+}
+
+.--unisans {
+  @apply font-[UniSans]
+}
+
+.--poppins-bold {
+  @apply font-[FontPoppins]
 }
 
 .--title {
@@ -81,13 +104,12 @@
 }
 
 .--title-poppins {
-  @apply leading-tight text-black font-roboto text-title md:text-title-md;
+  @apply font-roboto text-title md:text-title-md;
 }
 
 .--body {
   @apply font-book text-body text-[#1D1D1B] md:text-body-md;
 }
-
 
 .--body-white {
   @apply font-book text-body text-white md:text-body-md;

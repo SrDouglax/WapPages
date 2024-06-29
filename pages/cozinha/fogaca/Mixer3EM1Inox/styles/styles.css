@@ -2766,6 +2766,10 @@
   border-width: 1px;
 }
 
+.border-solid {
+  border-style: solid;
+}
+
 .border-none {
   border-style: none;
 }
