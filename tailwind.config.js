@@ -15,6 +15,9 @@ module.exports = {
         body: "12pt",
         "body-md": "18px",
       },
+      borderWidth: {
+        '40': '10rem', // 10rem assuming 1rem = 4px
+      }
     },
     fontFamily: {
       semibold: "FontSemibold",

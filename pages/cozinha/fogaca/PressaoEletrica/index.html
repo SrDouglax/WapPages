@@ -9,7 +9,30 @@
     <title>Panela de Pressão Elétrica</title>
   </head>
   <body class="m-0">
-    <main class="flex flex-col w-full items-center pt-16 container-content [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+    <main class="flex flex-col w-full items-center container-content [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+      <header class="flex flex-col items-center">
+        <div class="w-full" x-data="{ showVideo: false }">
+          <img
+            x-show="!showVideo"
+            @click="showVideo = true"
+            src="./imgs/desktop/cover_video.png"
+            alt="Video Thumbnail"
+            class="hidden object-cover w-full h-full mt-10 md:block "
+          />
+          <iframe
+            x-show="showVideo"
+            loading="lazy"
+            :src="showVideo ? 'https://www.youtube.com/embed/FkZ0bcu_Hwk?enablejsapi=1&autoplay=1' : ''"
+            class="w-full mt-10 m-auto h-[40rem] hidden md:block"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <img src="imgs/replied/mixer_3_em_1_prosdocimo.png" alt="Prodoscimo logo" class="hidden md:block">
+        <img src="imgs/mobile/prosdocimo-lobo-mobile.png" alt="Prodoscimo logo" class="md:hidden max-w-[35%]">
+      </header>
+      
       <section class="flex flex-col items-center gap-2 pl-4 pr-4 md:gap-14 md:pr-12 md:pl-4">
         <div class="flex items-center justify-center gap-2 md:gap-8">
           <img src="./imgs/desktop/FW010156_i00-0.png" alt="Imagem do produto" class="w-full px-16 md:block dnone" />
@@ -487,5 +510,6 @@
         });
       });
     </script>
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
   </body>
 </html>

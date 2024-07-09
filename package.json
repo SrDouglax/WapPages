@@ -18,8 +18,9 @@
     "WL1820BUD": "npx tailwindcss -i ./styles/input.css -o ./pages/WL1820BUD/styles/styles.css --watch",
     "U2": "npx tailwindcss -i ./styles/input.css -o ./pages/AirFlowU2/styles/styles.css --watch",
     "W90": "npx tailwindcss -i ./styles/input.css -o ./pages/W90/styles/styles.css --watch",
-    "PRESSAOELETRICA": "npx tailwindcss -i ./styles/input.css -o ./pages/PressaoEletrica/styles/styles.css --watch",
-    "AIRHEAT": "npx tailwindcss -i ./styles/input.css -o ./pages/AirHeat/styles/styles.css --watch"
+    "PRESSAOELETRICA": "npx tailwindcss -i ./styles/input.css -o ./pages/cozinha/fogaca/PressaoEletrica/styles/styles.css --watch",
+    "AIRHEAT": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/AirHeat/styles/styles.css --watch",
+    "GTW_ASH": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/GtwAsh/styles/styles.css --watch"
   },
   "devDependencies": {
     "cssnano": "^6.0.2",
