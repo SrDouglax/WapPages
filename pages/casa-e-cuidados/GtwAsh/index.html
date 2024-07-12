@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/custom.css" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.7.1/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" />
     <title>Aspirador de Cinzas</title>
@@ -11,7 +13,7 @@
   </style>
   </head>
   <body class="m-0">
-    <main class="flex flex-col w-full items-center  py-8 container-content --product_info [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-20 [&>*]:mb-8">
+    <main class="flex flex-col w-full items-center  py-8 container-content --product_info bg-white [&>*]:max-w-6xl --product_info [&>*]:w-full md:[&>*]:mb-20 [&>*]:mb-8">
       <section class="flex flex-col items-center justify-center px-2 md:px-12">
         <div class="flex flex-col items-center md:hidden">
           <h3 class="text-[13pt] text-black font-book m-0 [font-weight:400]">Aspirador de Cinzas</h3>
@@ -31,7 +33,7 @@
               </p>
             </div>
           </div>
-          <img src="./imgs/desktop/ASH_GTW_i00-0.png" alt="Imagem do produto" class="[display:none] md:block max-w-[40%] max-h-[46rem]" />
+          <img src="./imgs/desktop/ASH_GTW_i00-0.png" alt="Imagem do produto" class="[display:none] md:block max-w-[50%] max-h-[46rem]" />
         </div>
         <div class="md:hidden mt-10 px-10">
           <div class="">
@@ -87,32 +89,57 @@
         </div>
       </section>
 
-      <section class="px-8 mt-8">
-        <div class="flex flex-col items-center gap-12 md:flex-row-reverse" id="content-container">
-          <div class="w-full space-y-4 md:w-1/2">
-            <h3 class="m-0 --title md:text-start text-center">Tecnologia que simplifica a limpeza</h3>
-            <p id="content-text" class="--body  md:text-start text-center">
-            </p>
-          </div>
-          <div class="relative w-full md:w-1/2">
-            <div class="cursor-pointer top-[5.4rem] left-[1rem] md:top-[9.5rem] md:left-[2rem] absolute ">
-              <img class="w-full h-10 md:h-full" src="./imgs/desktop/ASH_GTW-left.png" alt="Mover para esquerda" id="arrow-left">
+      <section>
+        <div id="content-container " class="overflow-hidden relative">
+          <div class="carousel-wrapper flex transition-transform duration-500 ease-in-out  ">
+            <!-- Slide 1 -->
+            <div class="carousel-slide flex flex-col-reverse md:flex-row items-center gap-12" style="flex: 0 0 100%;">
+              <div class="w-full space-y-4 md:w-1/2 h-64 overflow-auto px-5 md:px-0">
+                <h3 class="m-0 --title md:text-start text-center">Tecnologia que simplifica a limpeza</h3>
+                <p class="--body md:text-start text-center">
+                  Manter pequenas churrasqueiras, lareiras e fogões a lenha sempre prontos para uso não precisa mais ser um desafio. <span class="font-bold">O Aspirador de Cinzas WAP GTW ASH</span> proporciona uma limpeza potente dos resíduos deixados pela queima de carvão e lenha.
+                  <br><br>
+                  Projetado para coletar apenas <span class="font-bold">cinzas frias</span>, o equipamento é versátil e está pronto para te acompanhar nos desafios, com seus <span class="font-bold">1400W de potência</span>. Apesar do design compacto, o <span class="font-bold">recipiente de aço</span> tem capacidade para aspirar até 4 litros de cinzas.
+                </p>
+              </div>
+              <div class="w-full md:w-1/2">
+                <img class="w-full arrow-right hidden md:block" src="./imgs/desktop/ASH_GTW_slider-2.png" alt="Imagem do produto" />
+                <img class="w-full arrow-right md:hidden" src="./imgs/mobile/ASH_GTW_slider-1.png" alt="Imagem do produto" />
+                <!--Pointers Mobile-->
+                <div class="flex md:hidden bg-[#EDEDED] py-2 gap-x-5 rounded-full items-center justify-center mt-5 max-w-[6rem] m-auto">
+                  <div id="pointer3" class="pointer-3 px-[0.35rem] py-[0.35rem] bg-[#711D30] rounded-full cursor-pointer"></div>
+                  <div id="pointer4" class="pointer-2 px-[0.35rem] py-[0.35rem] bg-[#ABABAB] rounded-full cursor-pointer"></div>
+                </div>
+              </div>
             </div>
-            <div class="cursor-pointer top-[5.4rem] right-[1rem] md:top-[9.5rem] md:right-[2rem] absolute ">
-              <img class="w-full h-10 md:h-full" src="./imgs/desktop/ASH_GTW-right.png" alt="Mover para direita" id="arrow-right">
-            </div>
-            <div>
-              <img class="w-full hidden md:block" src="./imgs/desktop/ASH_GTW_i02-0.png" alt="Imagem do produto"  />
-              <img id='slider-mobile' class="w-full md:hidden" src="./imgs/desktop/ASH_GTW_i02-0.png" alt="Imagem do produto"  />
+            
+            <!-- Slide 2 -->
+            <div class="carousel-slide flex flex-col-reverse md:flex-row items-center gap-12 carousel-slide flex-none w-full" style="flex: 0 0 100%;">
+              <div class="w-full space-y-4 md:w-1/2 h-64 overflow-auto px-5 md:px-0">
+                <h3 class="m-0 --title md:text-start text-center">Tecnologia que simplifica a limpeza</h3>
+                <p class="--body md:text-start text-center">
+                  Por que escolher o <span class="font-bold">GTW ASH</span> ao invés de um aspirador comum para remover as cinzas de lareiras, churrasqueiras e fogões a lenha?
+                  Diferentemente das partículas de pó presentes no cotidiano, as cinzas são finas e podem danificar de forma irreversível o motor de um aspirador comum durante a tarefa de limpeza.
+                </p>
+              </div>
+              <div class="w-full md:w-1/2 ">
+                <img class="w-full hidden md:block arrow-left " src="./imgs/desktop/ASH_GTW_slider-1.png" alt="Imagem do produto" />
+                <img class="w-full md:hidden arrow-left" src="./imgs/mobile/ASH_GTW_slider-2.png" alt="Imagem do produto" />
+                <!--Pointers Mobile-->
+                <div class="flex md:hidden  bg-[#EDEDED] py-2 gap-x-5 rounded-full items-center justify-center mt-5 max-w-[6rem] m-auto">
+                  <div id="pointer5" class="pointer-3 px-[0.35rem] py-[0.35rem] bg-[#711D30] rounded-full cursor-pointer"></div>
+                  <div id="pointer6" class="pointer-2 px-[0.35rem] py-[0.35rem] bg-[#ABABAB] rounded-full cursor-pointer"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="flex bg-[#EDEDED] py-2 gap-x-5 rounded-full items-center justify-center max-w-[10rem] m-auto">
+        <!--Pointers Desktop-->
+        <div class="hidden md:flex bg-[#EDEDED] py-2 gap-x-5 rounded-full items-center justify-center max-w-[10rem] m-auto">
           <div id="pointer1" class="pointer-2 px-2 py-2 bg-[#711D30] rounded-full cursor-pointer"></div>
           <div id="pointer2" class="pointer-2 px-2 py-2 bg-[#ABABAB] rounded-full cursor-pointer"></div>
         </div>
-
       </section>
       
       <section>
@@ -130,9 +157,9 @@
                   <div class="bg-white rounded-lg  overflow-hidden m-2">
                       <img class="w-full rounded-2xl object-cover" src="./imgs/splider/ASH_GTW-splider-3.png" alt="Imagem do produto">
                       <div class="p-4">
-                          <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Mangueira de trama de aço</h3>
+                          <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Alça para transporte</h3>
                           <p class="text-center mt-2 md:text-[18px] font-book text-[#434343]">
-                            Resistente, ela oferece durabilidade e mobilidade extra à aspiração de cinzas frias. 
+                            Realize a limpeza de cinzas com liberdade de movimento em qualquer ambiente com praticidade.
                           </p>
                       </div>
                   </div>
@@ -141,9 +168,9 @@
                       <div class="bg-white rounded-lg  overflow-hidden m-2">
                           <img class="w-full rounded-2xl object-cover" src="./imgs/splider/ASH_GTW-splider-1.png" alt="Imagem do produto">
                           <div class="p-4">
-                              <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Porta cabo elétrico</h3>
+                              <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Mangueira de trama de aço</h3>
                               <p class="text-center mt-2 md:text-[18px] font-book text-[#434343]">
-                                Mantém o cabo de alimentação organizado e seguro, evitando emaranhados e danos.
+                                Resistente, ela oferece durabilidade e mobilidade extra à aspiração de cinzas frias. .
                               </p>
                           </div>
                       </div>
@@ -152,9 +179,9 @@
                     <div class="bg-white rounded-lg  overflow-hidden m-2">
                         <img class="w-full rounded-2xl object-cover" src="./imgs/splider/ASH_GTW-splider-2.png" alt="Imagem do produto">
                         <div class="p-4">
-                            <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Alça para transporte</h3>
+                            <h3 class="text-2xl max-w-[70%] h-16 m-auto text-center font-bold">Porta cabo elétrico</h3>
                             <p class="text-center mt-2 md:text-[18px] font-book text-[#434343]">
-                              Realize a limpeza de cinzas com liberdade de movimento em qualquer ambiente com praticidade.
+                              Mantém o cabo de alimentação organizado e seguro, evitando emaranhados e danos.
                             </p>
                         </div>
                     </div>
@@ -214,7 +241,7 @@
         </div>
       </section>
 
-      <section class="sm:mb-[0_!important] p-8 space-y-8 md:p-16 md:space-y-16 bg-[#E5E5E5] md:bg-transparent">
+      <section class="sm:mb-[0_!important] p-8 space-y-8 md:p-16 md:space-y-16  md:bg-transparent">
         <div class="flex items-center gap-6">
           <p class="m-0 --title whitespace-nowrap">IDEAL PARA</p>
           <div class="h-0.5 w-full bg-zinc-400"></div>
@@ -260,7 +287,7 @@
       <section class="md:mt-28">
         <div class="flex flex-col-reverse items-center gap-2 md:gap-16 md:flex-row">
           <div class="w-full">
-            <h3 class="px-8 m-0 mt-4 md:text-start text-center leading-tight --title">
+            <h3 class="px-8 m-0 mt-4 md:text-start text-center leading-tight md:max-w-full max-w-[70%] m-auto --title">
               Com o GTW ASH, você está no comando da limpeza
             </h3>
             <p class="px-8 mt-4 --body  md:text-start text-center">
