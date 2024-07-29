@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <!-- <link rel="stylesheet" href="WapCar12v22.css" /> -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" />
+    <title>Aspirador de Pó e Água</title>
+  </head>
+  <body class="m-0">
+    <main class="flex flex-col w-full items-center py-16  [&>*]:max-w-6xl  [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+      
+      <header class="flex flex-col items-center">
+        <div class="w-full" x-data="{ showVideo: false }">
+          <img
+            x-show="!showVideo"
+            @click="showVideo = true"
+            src="./imgs/desktop/cover_video.png"
+            alt="Video Thumbnail"
+            class="hidden object-cover w-full h-full mt-10 md:block" />
+          <iframe
+            x-show="showVideo"
+            loading="lazy"
+            :src="showVideo ? 'https://www.youtube.com/embed/FkZ0bcu_Hwk?enablejsapi=1&autoplay=1' : ''"
+            class="w-full mt-10 m-auto h-[40rem] hidden md:block"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+        </div>
+      </header>
+
+      <section class="flex items-center gap-2 pl-2 pr-4 md:gap-14 md:pr-12 md:pl-4">
+        <img
+          src="./imgs/desktop/desktop_i00-0.png"
+          alt="Imagem do produto"
+          class="w-[40%] md:block [display:none]" />
+        <div class="w-full">
+          <div class="title text-center md:text-start">
+            <h3 class="text-[12pt] text-black md:text-[40px] font-book m-0">
+              Aspirador de Pó e Água
+            </h3>
+            <h2 class="text-[16pt]  text-black md:text-[64px] m-0 whitespace-nowrap font-bold">
+              WAP GTW INOX 20i
+            </h2>
+          </div>
+          <div class="pt-2 md:pt-8 text-center md:text-start px-5">
+            <img src="./imgs/mobile/mobile_i00-0.png" alt="Imagem do produto" class="w-[70%] m-auto px-14 md:hidden" />
+            <h3 class="pt-2 m-0 text-[14pt] text-black md:text-[40px] font-bold">
+              Limpeza completa com robustez e tecnologia
+            </h3>
+            <p class="pt-2 m-0 leading-tight --body">
+              Ter um aspirador de água e pó potente, que oferece mobilidade e desempenho profissional, faz toda a diferença, independentemente do tipo de limpeza. Remova a sujeira, tanto em espaços internos quanto externos, com um parceiro completo. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="flex flex-col items-center gap-8 px-8 mt-5 md:flex-row md:items-start md:gap-2 justify-evenly">
+        <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
+          <img
+            src="./imgs/replied/replied_i01-0.png"
+            alt="Imagem do produto"
+            class="object-contain w-12 h-12 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 font-bold --title whitespace-nowrap">Função <br> autolimpeza</h3>
+            <p class="pt-1 m-0 leading-tight --body md:pt-2">
+              A tecnologia Easy Cleaning facilita a remoção dos resíduos e a limpeza do filtro. 
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
+          <img
+            src="./imgs/replied/replied_i01-1.png"
+            alt="Imagem do produto"
+            class="object-contain w-12 h-12 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 font-bold --title">Aspira água <br>e pó</h3>
+            <p class="pt-1 m-0 leading-tight --body md:pt-2">
+              A escolha ideal para remover sujeiras, líquidos e resíduos com facilidade e rapidez. 
+            </p>
+          </div>
+        </div>
+        <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
+          <img
+            src="./imgs/replied/replied_i01-2.png"
+            alt="Imagem do produto"
+            class="object-contain w-12 h-12 md:w-16 md:h-16" />
+          <div>
+            <h3 class="m-0 font-bold --title">Filtro HEPA <br> Lavável</h3>
+            <p class="pt-1 m-0 leading-tight --body md:pt-2">
+              Limpeza profunda em todos os tipos de superfícies, com a garantia de alto desempenho a cada uso. 
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-8 px-8">
+        <div class="md:space-y-1 px-5">
+          <h2 class="uppercase --title m-0 [fontFamily:FontBook_!important]">PODER COMPLETO</h2>
+          <div class="flex items-center gap-4">
+            <h2 class="uppercase --title m-0 [fontFamily:FontBook_!important]">DE</h2><span class="m-0 font-bold uppercase --title whitespace-nowrap">LIMPEZA</span>
+            <div class="h-0.5 w-full bg-zinc-400"></div>
+          </div>
+        </div>
+        <div class="px-5 m-auto  mt-8 text-center">
+          <img
+            src="./imgs/desktop/desktop_i01-0.png"
+            alt="Imagem do produto"
+            class="[display:none] w-full md:block" />
+          <img src="./imgs/mobile/mobile_i01-0.png" alt="Imagem do produto" class="w-full m-auto md:hidden" />
+        </div>
+      </section>
+
+      <section class="mt-10 flex flex-col items-center gap-12 md:flex-row ">
+        <div class="w-full space-y-4 px-5">
+          <h3 class="m-0 font-bold --title px-5">Potência e versatilidade <br class="hidden md:block"> para uma limpeza total</h3>
+          <p class="--body px-5">
+            O Aspirador de Pó e Água 1900W WAP GTW INOX 20i, com capacidade de 20 litros, é projetado para lidar com qualquer desafio de limpeza. Ele remove resíduos sólidos e líquidos com máxima eficiência, seja em tarefas residenciais ou comerciais.  
+            <br><br>
+            Resistente ao uso intensivo e aos mais variados ambientes, ele oferece durabilidade e confiabilidade de 1900W de potência e tambor de aço inox, que o torna, além de prático, elegante. 
+          </p>
+        </div>
+        <img src="./imgs/replied/replied_i04-0.png" alt="Imagem do produto" class="w-3/4 md:w-1/2" />
+      </section>
+
+      <section class="w-full max-h-[40rem] z-10 flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center m-auto max-w-[55%] text-center">
+          <h1>Autolimpeza em cinco cliques</h1>
+          <p>
+            Manter o aspirador sempre pronto para uso não é mais uma tarefa difícil! Com a Tecnologia Easy Cleaning exclusiva do GTW INOX 20i, a rotina de manutenção é simples e segurança. Basta pressionar o botão de acionamento cinco vezes seguidas para que o sistema integrado realize a autolimpeza do filtro, removendo o acúmulo de poeira e sujeira de forma eficiente, sem que você precise lidar diretamente com os resíduos. 
+          </p>
+        </div>
+        <div class="w-full h-full mt-10 flex">
+          <img
+            src="./imgs/desktop/desktop_i05-0.gif"
+            alt="Imagem do produto"
+            class="max-h-30 rounded-3xl object-cover object-center w-[80%] m-auto" />
+        </div>
+      </section>
+      
+
+
+      <section class="px-8 mt-10">
+        <div class="flex md:flex-row flex-col">
+          <div class="flex flex-col justify-center px-8">
+            <h2 class="font-bold text-4xl" >Ar puro e limpeza eficiente</h2>
+            <p class="--body">
+              O filtro HEPA lavável do aspirador de pó e água WAP, equipado com um sistema de filtragem dupla do filtro espuma, facilita a manutenção e promove uma melhor qualidade do ar, pois é responsável por capturar até mesmo as menores partículas de sujeira e alérgenos, garantindo ambientes mais limpos para todos. 
+          </div>
+          <img src="imgs/desktop/desktop_i10-0.png" alt="" class="w-[80%] h-full m-auto">
+        </div>
+        <div class="flex md:flex-row flex-col -mt-5">
+          <div class="flex md:w-1/2 mt-10">
+            <img src="imgs/desktop/desktop_i04-22.png" alt="" class="md:w-full w-[80%] m-auto h-full">
+          </div>
+          <div class="flex flex-col justify-end pl-8 md:w-1/2 ">
+            <h2 class="font-bold px-5 text-4xl">Mobilidade para a <br>ação de limpeza</h2>
+            <p class="--body px-5">
+              Equipado com rodas e alça de transporte ergonômica, o Aspirador de Pó e Água 1900W WAP GTW INOX 20i se adapta melhor aos ambientes de trabalho, sem ocupar muito espaço no momento de guardá-lo.
+              <br><br>
+              Além disso, ele conta com acessórios versáteis na hora da faxina. Os bicos canto e escova aspiram cada detalhe das superfícies e cantos dos ambientes. Capaz de lidar com vários pisos e tipos de sujeira, o bico múltiplo é um ótimo parceiro da limpeza.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container mx-auto p-4 -mt-10 md:mt-0 ">
+        <!-- Wrapper principal -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
+            <!-- Coluna esquerda (desktop) / Parte inferior (mobile) -->
+            <div class="order-3 md:order-1  flex justify-center items-center w-full">
+              <div class="grid grid-cols-3 md:grid-cols-1 gap-10 w-full h-auto ">
+                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="1">Mangueira de 1,7m</div>
+                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="2">Bico canto e escova</div>
+                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="3">Filtro HEPA</div>
+              </div>
+          </div>
+            <!-- Coluna central (desktop) / Parte superior (mobile) -->
+            <div class="order-1 md:order-2 h-[30rem] md:pb-0 pb-5 flex flex-col">
+                <img id="centralImage" src="./imgs/acessories/1.png" alt="Imagem central" class="md:w-full w-[80%] m-auto mb-4">
+                <p id="centralDescription" class="text-center">Alcança áreas de limpeza maiores e aumenta sua produtividade e conforto durante as tarefas.</p>
+            </div>
+
+            <!-- Coluna direita (desktop) / Parte inferior (mobile) -->
+            <div class="order-3 md:order-3  flex justify-center items-center w-full">
+                <div class="grid grid-cols-3 md:grid-cols-1 gap-10 w-full h-auto ">
+                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="4">Bico múltiplo</div>
+                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="5">Filtro espuma</div>
+                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="6">Extensor de bico</div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="sm:mb-[0_!important] relative">
+        <div class="[display:none] px-16 md:block">
+          <div class="bg-[#D9D9D9] [display:none] md:block rounded-tl-[14rem] right-0 absolute bottom-0 w-1/2 h-full"></div>
+          <div class="relative z-10 [display:none] w-full h-full mt-20 md:block mb-20">
+            <img src="./imgs/desktop/i08-0.png" alt="Imagem do produto" class="relative w-full" />
+            <div class="absolute top-0 left-0 w-full h-full">
+              <p class="absolute bottom-[80.5%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[38%]">
+                Com o enrolador de cabo, é mais prático para armazenar e utilizar o aspirador de pó e água.  
+              </p>
+              <p class="absolute bottom-[64%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[36%]">
+                O design robusto, moderno e funcional em aço inox torna o aspirador ideal para uso contínuo. 
+              </p>
+              <p class="absolute bottom-[41.5%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[32%]">
+                Com 1900W de potência remova sujeira, líquidos e detritos com maior poder de sucção e facilidade em qualquer ambiente.
+              </p>
+              <p class="absolute bottom-[69%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
+                Acenda a churrasqueira, encha infláveis e sopre folhas utilizando o bocal de sopro. 
+              </p>
+              <p class="absolute bottom-[42%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
+                Garante uma limpeza eficiente em áreas grandes sem interrupções, armazenando 20 litros de capacidade de sujeira, poeira e detritos líquidos.  
+              </p>
+              <p class="absolute bottom-[17%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
+                Mantenha tudo organizado enquanto trabalha e não mais perca tempo procurando pelos acessórios do aspirador com o porta acessório. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="splide__wrapper mt-8 md:h-[28rem] h-[22rem] w-full overflow-hidden md:hidden">
+          <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-0.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        O
+                        <span class="font-semibold">bico regulável</span>
+                        permite ajustar o jato conforme sua necessidade. Deixe o jato concentrado para remover sujeiras
+                        resistentes ou em leque, para cuidar do jardim.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-1.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        Para proporcionar conforto durante a limpeza, a
+                        <span class="font-semibold">mangueira de alta pressão</span>
+                        possui 3 metros de extensão. 
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-2.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        A extensão de 5 metros do
+                        <span class="font-semibold">cabo de alimentação</span>
+                        da lavadora de alta pressão transforma a rotina de limpeza, sem a necessidade de trocar de
+                        tomadas ou usar extensões que dificultam a mobilidade.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-3.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        O
+                        <span class="font-semibold">porta acessórios</span>
+                        integrado é perfeito para o transporte, armazenando com segurança itens como mangueira, pistola,
+                        bico regulável e baioneta.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-4.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        Com o
+                        <span class="font-semibold">engate rápido</span>, apenas um clique deixa as tarefas
+                        de limpeza mais fáceis, as transformando em experiências descomplicadas.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-5.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        O
+                        <span class="font-semibold">filtro com engate rápido</span>
+                        facilita a conexão da lavadora com a mangueira de jardim no bocal de água em um instante. 
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-6.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        A pistola acompanha o sistema eletrônico de ‘<b class="font-semibold">Stop Total</b
+                        >’, que coloca você no controle da lavadora. Ao soltar o gatilho, ele interrompe a vazão e
+                        desliga o motor automaticamente.  
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img
+                      class="rounded-lg card__image"
+                      src="./imgs/mobile/i08-7.png"
+                      alt="Imagem do produto" />
+                    <div class="card__content">
+                      <div class="card__description --body">
+                        Equipada com a
+                        <span class="font-semibold">mangueira desobstruidora</span>
+                        que remove qualquer obstáculo no caminho.
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="p-8 space-y-8 md:p-16 bg-[#757679] md:space-y-16 [&]:mb-16">
+        <div class="flex items-center gap-6">
+          <p class="m-0 ml-10 font-bold --title whitespace-nowrap !text-white">
+            IDEAL PARA <span class="font-book">LIMPEZAS EM</span>
+          </p>
+          <div class="h-[1px] w-full bg-white"></div>
+        </div>
+        <div class="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:justify-evenly">
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-0.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Piso</div>
+          </div>
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-1.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Tapete</div>
+          </div>
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-2.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Carpete</div>
+          </div>
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-3.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Colchão</div>
+          </div>
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-4.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Estofado</div>
+          </div>
+          <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
+            <img src="./imgs/replied/replied_i09-5.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
+            <div class="--body !text-white">Carro</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-8 mt-10">
+        <div class="flex md:flex-row flex-col">
+          <img src="imgs/desktop/desktop_i04-2.png" alt="" class="w-[80%] h-full m-auto">
+          <div class="flex flex-col justify-center px-8">
+            <h2 class="font-bold">Aspiração completa, prática e funcional</h2>
+            <p class="--body">
+              Parceiro ideal para todas as necessidades de limpeza, o bocal de sopro do WAP GTW INOX 20i permite soprar detritos e poeira de áreas de difícil acesso, além de ajudar  a acender a churrasqueira ou encher objetos infláveis. 
+              <br><br>
+              Para uma limpeza prática e organizada, o aspirador de água e pó da WAP conta com um porta acessórios que mantém o cabo elétrico de 3,6m e a mangueira de 1,7m armazenados de forma segura.   
+            </p>
+          </div>
+        </div>
+
+        <div class="flex md:flex-row flex-col">
+          <div class="flex flex-col justify-center pr-8 md:order-1 order-2 md:w-1/2">
+            <h2 class="font-bold px-5">Tecnologia para uma rotina de limpeza mais fácil</h2>
+            <p class="--body px-5">
+              Domine os desafios de limpeza usando a potência e a tecnologia ao seu favor. Remova resíduos com a praticidade do Aspirador de Pó e Água 1900W WAP GTW INOX 20i e viva uma nova forma de realizar as tarefas em sua casa ou estabelecimento. 
+            </p>
+          </div>
+          <div class="md:order-2 order-1 flex md:w-1/2 mt-10">
+            <img src="imgs/desktop/desktop_i04-1.png" alt="" class="md:w-full w-[80%] m-auto h-full">
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <script src="./script/conjuntoCompletoDeAcessorios.js">
+
+    </script>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+          new Splide(".splide", {
+              type: "loop",
+              perPage: 3.5,
+              perMove: 1,
+              focus: 'center',
+              arrows: false,
+              gap: "1rem",
+              rewind: true,
+              breakpoints: {
+                  640: {
+                      perPage: 1.5,
+                  },
+                  768: {
+                      perPage: 1.5,
+                  },
+              },
+          }).mount();
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
+
+  </body>
+</html>
