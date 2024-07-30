@@ -223,6 +223,10 @@
   bottom: 0%;
 }
 
+.bottom-\[1\%\] {
+  bottom: 1%;
+}
+
 .bottom-\[10\.4rem\] {
   bottom: 10.4rem;
 }
@@ -311,6 +315,10 @@
   bottom: 20rem;
 }
 
+.bottom-\[21\%\] {
+  bottom: 21%;
+}
+
 .bottom-\[21\.5\%\] {
   bottom: 21.5%;
 }
@@ -377,6 +385,10 @@
 
 .bottom-\[30\%\] {
   bottom: 30%;
+}
+
+.bottom-\[30\.5\%\] {
+  bottom: 30.5%;
 }
 
 .bottom-\[31\.5\%\] {
@@ -541,6 +553,10 @@
 
 .bottom-\[69\%\] {
   bottom: 69%;
+}
+
+.bottom-\[7\%\] {
+  bottom: 7%;
 }
 
 .bottom-\[7\.3\%\] {
@@ -1095,6 +1111,10 @@
   top: 41%;
 }
 
+.top-\[45\%\] {
+  top: 45%;
+}
+
 .top-\[45\.5\%\] {
   top: 45.5%;
 }
@@ -1578,6 +1598,10 @@
   margin-top: 0.93rem;
 }
 
+.mt-\[1rem\] {
+  margin-top: 1rem;
+}
+
 .mt-\[20rem\] {
   margin-top: 20rem;
 }
@@ -1669,6 +1693,10 @@
   height: 66.666667%;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-3\/4 {
   height: 75%;
 }
@@ -1757,6 +1785,10 @@
   height: 28rem;
 }
 
+.h-\[30rem\] {
+  height: 30rem;
+}
+
 .h-\[320px\] {
   height: 320px;
 }
@@ -1836,22 +1868,6 @@
 .h-max {
   height: -moz-max-content;
   height: max-content;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-\[30rem\] {
-  height: 30rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .max-h-44 {
@@ -1984,6 +2000,10 @@
 
 .w-80 {
   width: 20rem;
+}
+
+.w-\[10\%\] {
+  width: 10%;
 }
 
 .w-\[100\%\] {
@@ -2245,6 +2265,10 @@
 
 .max-w-\[25\.5\%\] {
   max-width: 25.5%;
+}
+
+.max-w-\[25rem\] {
+  max-width: 25rem;
 }
 
 .max-w-\[26\%\] {
@@ -2538,6 +2562,10 @@
   grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -2654,6 +2682,10 @@
   gap: 2rem;
 }
 
+.gap-\[10\%\] {
+  gap: 10%;
+}
+
 .gap-\[2\.5rem\] {
   gap: 2.5rem;
 }
@@ -2700,10 +2732,6 @@
 
 .gap-y-8 {
   row-gap: 2rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
 }
 
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
@@ -2798,10 +2826,6 @@
   border-radius: 1.5rem;
 }
 
-.rounded-\[10rem\] {
-  border-radius: 10rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -2864,10 +2888,6 @@
 
 .border {
   border-width: 1px;
-}
-
-.border-solid {
-  border-style: solid;
 }
 
 .border-none {
@@ -3012,6 +3032,11 @@
 .bg-custom-gray {
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 241 / var(--tw-bg-opacity));
+}
+
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .bg-gray-200 {
@@ -3189,11 +3214,6 @@
   padding-right: 0.35rem;
 }
 
-.px-\[5rem\] {
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -3257,11 +3277,6 @@
 .py-\[0\.35rem\] {
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
-}
-
-.px-\[30rem\] {
-  padding-left: 30rem;
-  padding-right: 30rem;
 }
 
 .pb-10 {
@@ -3412,10 +3427,6 @@
   text-align: end;
 }
 
-.align-middle {
-  vertical-align: middle;
-}
-
 .\!font-\[FontBold\] {
   font-family: FontBold !important;
 }
@@ -3425,7 +3436,7 @@
 }
 
 .\!font-bold {
-  font-family: FontBold !important;
+  font-family: FontBold, sans-serif !important;
 }
 
 .font-\[Font\] {
@@ -3433,11 +3444,15 @@
 }
 
 .font-bold {
-  font-family: FontBold;
+  font-family: FontBold, sans-serif;
 }
 
 .font-inter {
   font-family: Inter, sans-serif;
+}
+
+.font-light {
+  font-family: FontLight, sans-serif;
 }
 
 .font-poppins {
@@ -3445,7 +3460,11 @@
 }
 
 .font-semibold {
-  font-family: FontSemibold;
+  font-family: FontSemibold, sans-serif;
+}
+
+.font-unisans-bold {
+  font-family: Uni Sans Bold, sans-serif;
 }
 
 .\!text-\[10pt\] {
@@ -3481,6 +3500,11 @@
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-\[0\.7rem\] {
@@ -3535,6 +3559,10 @@
   font-size: 14px;
 }
 
+.text-\[15pt\] {
+  font-size: 15pt;
+}
+
 .text-\[15px\] {
   font-size: 15px;
 }
@@ -3573,6 +3601,10 @@
 
 .text-\[22pt\] {
   font-size: 22pt;
+}
+
+.text-\[3\.5rem\] {
+  font-size: 3.5rem;
 }
 
 .text-\[30pt\] {
@@ -3862,12 +3894,6 @@
 }
 
 @font-face {
-  font-family: Font;
-
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
-}
-
-@font-face {
   font-family: UniSans;
 
   src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
@@ -3886,23 +3912,13 @@
 }
 
 @font-face {
-  font-family: FontBold;
-
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_Bold.ttf.css);
-}
-
-@font-face {
-  font-family: 'FontBook';
+  font-family: 'UniSansBook';
 
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
-.font {
-  font-family: Font;
-}
-
 .font-book {
-  font-family: FontBook;
+  font-family: UniSans;
   font-weight: normal;
 }
 
@@ -3913,39 +3929,43 @@
 
 .font-roboto {
   font-family: FontRoboto;
-  text-transform: uppercase;
 }
 
 .font-roboto-no-uppercase {
   font-family: FontRoboto;
 }
 
-.--unisans-bold {
-  font-family: UniSansBold;
-}
-
-.--unisans-semi-bold {
-  font-family: UniSansSemiBold;
-}
-
-.--unisans {
+.font-unisans {
   font-family: UniSans;
 }
 
-.--poppins-bold {
+.font-unisans-book {
+  font-family: UniSansBook;
+}
+
+.font-unisans-semi-bold {
+  font-family: UniSansSemiBold;
+}
+
+.font-unisans-bold {
+  font-family: UniSansBold;
+}
+
+.font-poppins-bold {
   font-family: FontPoppins;
 }
 
-.--title {
-  font-family: FontBold;
-  font-size: 16pt;
-  font-weight: 700;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+/* Estilos de título */
+
+.title-unisans-bold {
+  font-family: Uni Sans Bold, sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-family: UniSansBold;
 }
 
 @media (min-width: 768px) {
-  .--title {
+  .title-unisans-bold {
     font-size: 35px;
   }
 }
@@ -3988,25 +4008,27 @@
   }
 }
 
-.--body {
-  font-size: 12pt;
-  --tw-text-opacity: 1;
-  color: rgb(29 29 27 / var(--tw-text-opacity));
-  font-family: FontBook;
-  font-weight: normal;
+.border {
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(248 113 113 / var(--tw-border-opacity));
 }
 
-@media (min-width: 768px) {
-  .--body {
-    font-size: 18px;
-  }
+/* Estilos de corpo de texto */
+
+.--body {
+  font-size: 1.3rem;
+  --tw-text-opacity: 1;
+  color: rgb(29 29 27 / var(--tw-text-opacity));
+  font-family: UniSans;
+  font-weight: normal;
 }
 
 .--body-white {
   font-size: 12pt;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  font-family: FontBook;
+  font-family: UniSans;
   font-weight: normal;
 }
 
@@ -4046,8 +4068,14 @@
   }
 }
 
+/* Outros estilos */
+
 .--product_info * {
   box-sizing: border-box;
+}
+
+.font-roboto {
+  text-transform: uppercase;
 }
 
 @media (min-width: 640px) {
@@ -4328,6 +4356,14 @@
 
   .md\:order-last {
     order: 9999;
+  }
+
+  .md\:m-0 {
+    margin: 0px;
+  }
+
+  .md\:m-auto {
+    margin: auto;
   }
 
   .md\:mx-0 {
@@ -4656,6 +4692,10 @@
     height: 66.666667%;
   }
 
+  .md\:h-20 {
+    height: 5rem;
+  }
+
   .md\:h-3\/4 {
     height: 75%;
   }
@@ -4725,10 +4765,6 @@
     height: max-content;
   }
 
-  .md\:h-20 {
-    height: 5rem;
-  }
-
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -4739,6 +4775,10 @@
 
   .md\:w-1\/4 {
     width: 25%;
+  }
+
+  .md\:w-1\/5 {
+    width: 20%;
   }
 
   .md\:w-11\/12 {
@@ -4893,6 +4933,10 @@
     max-width: 50%;
   }
 
+  .md\:max-w-\[52\%\] {
+    max-width: 52%;
+  }
+
   .md\:max-w-\[70\%\] {
     max-width: 70%;
   }
@@ -5002,10 +5046,6 @@
 
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
-  }
-
-  .md\:flex-col {
-    flex-direction: column;
   }
 
   .md\:flex-nowrap {
@@ -5126,6 +5166,12 @@
     margin-bottom: calc(4rem * var(--tw-space-y-reverse));
   }
 
+  .md\:space-y-3 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+  }
+
   .md\:space-y-4 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
@@ -5138,16 +5184,8 @@
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
-  .md\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(0.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
-  }
-
-  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  .md\:self-center {
+    align-self: center;
   }
 
   .md\:rounded-2xl {
@@ -5158,12 +5196,12 @@
     border-radius: 1.5rem;
   }
 
-  .md\:rounded-md {
-    border-radius: 0.375rem;
-  }
-
   .md\:rounded-\[10rem\] {
     border-radius: 10rem;
+  }
+
+  .md\:rounded-md {
+    border-radius: 0.375rem;
   }
 
   .md\:rounded-b-3xl {
@@ -5278,6 +5316,11 @@
     padding-right: 16%;
   }
 
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -5286,11 +5329,6 @@
   .md\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .md\:pb-0 {
@@ -5373,6 +5411,10 @@
     padding-right: 0rem;
   }
 
+  .md\:pr-\[10\%\] {
+    padding-right: 10%;
+  }
+
   .md\:pt-0 {
     padding-top: 0px;
   }
@@ -5438,7 +5480,7 @@
   }
 
   .md\:font-semibold {
-    font-family: FontSemibold;
+    font-family: FontSemibold, sans-serif;
   }
 
   .md\:\!text-\[18px\] {
@@ -5628,6 +5670,10 @@
 
   .md\:font-semibold {
     font-weight: 600;
+  }
+
+  .md\:uppercase {
+    text-transform: uppercase;
   }
 
   .md\:leading-9 {
@@ -6147,6 +6193,10 @@
 
   .lg\:text-\[2\.5rem\] {
     font-size: 2.5rem;
+  }
+
+  .lg\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .lg\:text-\[33px\] {

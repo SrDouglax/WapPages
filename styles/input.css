@@ -37,13 +37,13 @@
 }
 
 @font-face {
-  font-family: 'UniSans';
+  font-family: 'UniSansBook';
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
 /* Classes de fonte */
 .font { font-family: Font; }
-.font-book { font-family: UniSans; font-weight: normal; }
+.unisans-book { font-family: UniSansBook; font-weight: normal; }
 .font-inter { font-family: FontInter; font-weight: 300; }
 .font-roboto { font-family: FontRoboto; }
 .font-roboto-no-uppercase { font-family: FontRoboto; }
@@ -56,8 +56,8 @@
 .--poppins-bold { @apply font-[FontPoppins]; }
 
 /* Estilos de título */
-.--title {
-  @apply unisans-bold text-black text-3xl md:text-title-md;
+.--title-unisans-bold {
+  @apply unisans-bold text-xl md:text-3xl;
 }
 
 .--title-white {
@@ -74,11 +74,15 @@
 
 /* Estilos de corpo de texto */
 .--body {
-  @apply font-book text-[1.3rem] text-[#1D1D1B] ;
+  @apply unisans-book text-[1.3rem] text-[#1D1D1B] ;
+}
+
+.--body-unisans-book {
+  @apply unisans-book text-[1.1rem];
 }
 
 .--body-white {
-  @apply font-book text-body text-white md:text-body-md;
+  @apply unisans-book text-body text-white md:text-body-md;
 }
 
 .--body-inter {

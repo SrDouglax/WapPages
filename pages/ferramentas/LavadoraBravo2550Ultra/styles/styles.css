@@ -1870,6 +1870,18 @@
   height: max-content;
 }
 
+.h-\[110\%\] {
+  height: 110%;
+}
+
+.h-\[3000\%\] {
+  height: 3000%;
+}
+
+.h-\[210\%\] {
+  height: 210%;
+}
+
 .max-h-44 {
   max-height: 11rem;
 }
@@ -2179,6 +2191,14 @@
   width: max-content;
 }
 
+.w-\[210\%\] {
+  width: 210%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -2267,6 +2287,10 @@
   max-width: 25.5%;
 }
 
+.max-w-\[25rem\] {
+  max-width: 25rem;
+}
+
 .max-w-\[26\%\] {
   max-width: 26%;
 }
@@ -2335,6 +2359,10 @@
   max-width: 55%;
 }
 
+.max-w-\[5rem\] {
+  max-width: 5rem;
+}
+
 .max-w-\[60\%\] {
   max-width: 60%;
 }
@@ -2393,14 +2421,6 @@
 
 .max-w-xs {
   max-width: 20rem;
-}
-
-.max-w-\[30rem\] {
-  max-width: 30rem;
-}
-
-.max-w-\[25rem\] {
-  max-width: 25rem;
 }
 
 .flex-1 {
@@ -2686,8 +2706,8 @@
   gap: 2rem;
 }
 
-.gap-\[10\%\] {
-  gap: 10%;
+.gap-\[15\%\] {
+  gap: 15%;
 }
 
 .gap-\[2\.5rem\] {
@@ -2892,6 +2912,10 @@
 
 .border {
   border-width: 1px;
+}
+
+.border-s {
+  border-inline-start-width: 1px;
 }
 
 .border-solid {
@@ -3444,7 +3468,7 @@
 }
 
 .\!font-bold {
-  font-family: FontBold !important;
+  font-family: FontBold, sans-serif !important;
 }
 
 .font-\[Font\] {
@@ -3452,11 +3476,15 @@
 }
 
 .font-bold {
-  font-family: FontBold;
+  font-family: FontBold, sans-serif;
 }
 
 .font-inter {
   font-family: Inter, sans-serif;
+}
+
+.font-light {
+  font-family: FontLight, sans-serif;
 }
 
 .font-poppins {
@@ -3464,7 +3492,11 @@
 }
 
 .font-semibold {
-  font-family: FontSemibold;
+  font-family: FontSemibold, sans-serif;
+}
+
+.font-unisans-bold {
+  font-family: Uni Sans Bold, sans-serif;
 }
 
 .\!text-\[10pt\] {
@@ -3594,8 +3626,8 @@
   font-size: 22pt;
 }
 
-.text-\[29pt\] {
-  font-size: 29pt;
+.text-\[3\.5rem\] {
+  font-size: 3.5rem;
 }
 
 .text-\[30pt\] {
@@ -3645,15 +3677,6 @@
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[15pt\] {
-  font-size: 15pt;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
 }
 
 .\!font-\[700\] {
@@ -3918,7 +3941,7 @@
 }
 
 @font-face {
-  font-family: 'UniSans';
+  font-family: 'UniSansBook';
 
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
@@ -3929,8 +3952,8 @@
   font-family: Font;
 }
 
-.font-book {
-  font-family: UniSans;
+.unisans-book {
+  font-family: UniSansBook;
   font-weight: normal;
 }
 
@@ -3971,17 +3994,16 @@
 
 /* Estilos de título */
 
-.--title {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.--title-unisans-bold {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-family: UniSansBold;
 }
 
 @media (min-width: 768px) {
-  .--title {
-    font-size: 35px;
+  .--title-unisans-bold {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
@@ -4029,7 +4051,13 @@
   font-size: 1.3rem;
   --tw-text-opacity: 1;
   color: rgb(29 29 27 / var(--tw-text-opacity));
-  font-family: UniSans;
+  font-family: UniSansBook;
+  font-weight: normal;
+}
+
+.--body-unisans-book {
+  font-size: 1.1rem;
+  font-family: UniSansBook;
   font-weight: normal;
 }
 
@@ -4037,7 +4065,7 @@
   font-size: 12pt;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-  font-family: UniSans;
+  font-family: UniSansBook;
   font-weight: normal;
 }
 
@@ -4437,6 +4465,10 @@
     margin-left: -2.5rem;
   }
 
+  .md\:-ml-4 {
+    margin-left: -1rem;
+  }
+
   .md\:-mt-0 {
     margin-top: -0px;
   }
@@ -4585,6 +4617,10 @@
     margin-top: 4rem;
   }
 
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
   .md\:mt-20 {
     margin-top: 5rem;
   }
@@ -4663,6 +4699,10 @@
 
   .md\:mt-\[4rem\] {
     margin-top: 4rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .md\:block {
@@ -4922,8 +4962,16 @@
     width: 90%;
   }
 
+  .md\:w-\[93\%\] {
+    width: 93%;
+  }
+
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:w-\[85\%\] {
+    width: 85%;
   }
 
   .md\:max-w-2xl {
@@ -4932,6 +4980,10 @@
 
   .md\:max-w-\[100\%\] {
     max-width: 100%;
+  }
+
+  .md\:max-w-\[15rem\] {
+    max-width: 15rem;
   }
 
   .md\:max-w-\[45\%\] {
@@ -4972,6 +5024,22 @@
 
   .md\:max-w-xl {
     max-width: 36rem;
+  }
+
+  .md\:max-w-\[20rem\] {
+    max-width: 20rem;
+  }
+
+  .md\:max-w-\[17rem\] {
+    max-width: 17rem;
+  }
+
+  .md\:max-w-\[18rem\] {
+    max-width: 18rem;
+  }
+
+  .md\:max-w-\[19rem\] {
+    max-width: 19rem;
   }
 
   .md\:-translate-x-\[4rem\] {
@@ -5489,7 +5557,7 @@
   }
 
   .md\:font-semibold {
-    font-family: FontSemibold;
+    font-family: FontSemibold, sans-serif;
   }
 
   .md\:\!text-\[18px\] {
@@ -5525,6 +5593,11 @@
 
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -5997,6 +6070,14 @@
 
   .lg\:max-w-xs {
     max-width: 20rem;
+  }
+
+  .lg\:max-w-\[20rem\] {
+    max-width: 20rem;
+  }
+
+  .lg\:max-w-\[15rem\] {
+    max-width: 15rem;
   }
 
   .lg\:translate-y-10 {

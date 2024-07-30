@@ -1,0 +1,99 @@
+@import "./splide.css";
+@tailwind utilities;
+
+@font-face {
+  font-family: FontInter;
+  src: url(./fonts/Inter-Variable.ttf);
+}
+
+@font-face {
+  font-family: FontRoboto;
+  src: url(./fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: FontPoppins;
+  src: url(./fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: Font;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
+}
+
+@font-face {
+  font-family: UniSans;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
+}
+
+@font-face {
+  font-family: UniSansSemiBold;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
+}
+
+@font-face {
+  font-family: UniSansBold;
+  src: url(./fonts/Uni_Sans_Bold.ttf);
+}
+
+@font-face {
+  font-family: 'UniSans';
+  src: url(./fonts/Uni_Sans_Book.ttf);
+}
+
+/* Classes de fonte */
+.font { font-family: Font; }
+.font-book { font-family: UniSans; font-weight: normal; }
+.font-inter { font-family: FontInter; font-weight: 300; }
+.font-roboto { font-family: FontRoboto; }
+.font-roboto-no-uppercase { font-family: FontRoboto; }
+.unisans-semi-bold { @apply font-[UniSansSemiBold]; }
+.unisans-bold  { @apply font-[UniSansBold]; }
+
+/* Classes Tailwind para fontes específicas */
+.--unisans-bold { @apply font-[UniSansBold]; }
+.--unisans { @apply font-[UniSans]; }
+.--poppins-bold { @apply font-[FontPoppins]; }
+
+/* Estilos de título */
+.--title {
+  @apply unisans-bold text-black text-3xl md:text-title-md;
+}
+
+.--title-white {
+  @apply text-white text-title md:text-title-md;
+}
+
+.--title-roboto {
+  @apply text-black font-roboto text-title md:text-title-md;
+}
+
+.--title-poppins {
+  @apply font-roboto text-title md:text-title-md;
+}
+
+/* Estilos de corpo de texto */
+.--body {
+  @apply font-book text-[1.3rem] text-[#1D1D1B] ;
+}
+
+.--body-white {
+  @apply font-book text-body text-white md:text-body-md;
+}
+
+.--body-inter {
+  @apply font-inter text-body text-[#1D1D1B] md:text-body-md;
+}
+
+.--body-inter-white {
+  @apply font-inter text-body text-white md:text-body-md;
+}
+
+/* Outros estilos */
+.--product_info * {
+  box-sizing: border-box;
+}
+
+.font-roboto {
+  @apply uppercase;
+}

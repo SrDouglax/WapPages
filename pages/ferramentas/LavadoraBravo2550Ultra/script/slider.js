@@ -2,19 +2,19 @@ document.addEventListener("DOMContentLoaded", function() {
     const sliderData = [
         {
             image: "./imgs/lavadorabravo2250ultra_acessorios/lavadorabravo2250ultra_acessorios_acessorio-1.png",
-            title: "Velocidade regulável",
+            title: " Mangueira de alta pressão de 5M",
         },
         {
             image: "./imgs/lavadorabravo2250ultra_acessorios/lavadorabravo2250ultra_acessorios_acessorio-2.png",
-            title: "Corpo ergonômico",
+            title: "Pistola de alta pressão",
         },
         {
             image: "./imgs/lavadorabravo2250ultra_acessorios/lavadorabravo2250ultra_acessorios_acessorio-3.png",
-            title: "Compatível com lava-louças",
+            title: "Aplicador de detergente",
         },
         {
             image: "./imgs/lavadorabravo2250ultra_acessorios/lavadorabravo2250ultra_acessorios_acessorio-4.png",
-            title: "Compatível com lava-louças",
+            title: "Engate rápido",
         }
     ];
 
