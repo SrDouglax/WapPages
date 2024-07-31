@@ -5,23 +5,23 @@ const acessorios = {
     },
     "2": {
         description: "Remova poeira, sujeira e detritos até nos lugares mais difíceis de alcançar com o bico canto e escova. ",
-        imageUrl: "./imgs/acessories/2.png"
+        imageUrl: "./imgs/acessories/3.png"
     },
     "3": {
         description: "Lavável, ele captura partículas de poeira, alérgenos e impurezas, garantindo ambientes saudável para todos.",
-        imageUrl: "./imgs/acessories/3.png"
+        imageUrl: "./imgs/acessories/5.png"
     },
     "4": {
         description: "O bico múltiplo é capaz de lidar com várias superfícies e tipos de sujeira, desde poeira e detritos sólidos até líquidos.",
-        imageUrl: "./imgs/acessories/4.png"
+        imageUrl: "./imgs/acessories/2.png"
     },
     "5": {
         description: "Fácil de limpar e reutilizável, o filtro de espuma é altamente eficaz na captura de partículas finas e poeira.",
-        imageUrl: "./imgs/acessories/5.png"
+        imageUrl: "./imgs/acessories/6.png"
     },
     "6": {
         description: "Com o extensor de bico, o GTW INOX 20i alcança áreas de difícil acesso, como cantos e frestas, para uma limpeza mais completa. ",
-        imageUrl: "./imgs/acessories/6.png"
+        imageUrl: "./imgs/acessories/4.png"
     }
 };
 const options = document.querySelectorAll('.option');

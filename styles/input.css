@@ -17,18 +17,8 @@
 }
 
 @font-face {
-  font-family: Font;
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
-}
-
-@font-face {
   font-family: UniSans;
   src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
-}
-
-@font-face {
-  font-family: UniSansSemiBold;
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
 }
 
 @font-face {
@@ -37,27 +27,39 @@
 }
 
 @font-face {
+  font-family: UniSansSemiBold;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
+}
+
+@font-face {
   font-family: 'UniSansBook';
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
-/* Classes de fonte */
-.font { font-family: Font; }
 .unisans-book { font-family: UniSansBook; font-weight: normal; }
 .font-inter { font-family: FontInter; font-weight: 300; }
 .font-roboto { font-family: FontRoboto; }
 .font-roboto-no-uppercase { font-family: FontRoboto; }
-.unisans-semi-bold { @apply font-[UniSansSemiBold]; }
-.unisans-bold  { @apply font-[UniSansBold]; }
-
-/* Classes Tailwind para fontes específicas */
-.--unisans-bold { @apply font-[UniSansBold]; }
-.--unisans { @apply font-[UniSans]; }
-.--poppins-bold { @apply font-[FontPoppins]; }
+.unisans-semi-bold { font-family: UniSansSemiBold; }
+.unisans-bold  { font-family: UniSansBold; }
+.poppins-bold { font-family: FontPoppins; }
+.unisans { font-family: UniSans; }
 
 /* Estilos de título */
-.--title-unisans-bold {
+.title-unisans-bold {
   @apply unisans-bold text-xl md:text-3xl;
+}
+
+.title-unisans {
+  @apply unisans text-xl md:text-3xl;
+}
+
+.body-unisans-book {
+  @apply unisans-book text-[1.1rem];
+}
+
+.body-unisans-bold {
+  @apply unisans-bold text-[1.1rem];
 }
 
 .--title-white {

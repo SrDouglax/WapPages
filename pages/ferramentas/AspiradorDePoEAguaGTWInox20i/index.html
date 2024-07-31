@@ -10,7 +10,7 @@
     <title>Aspirador de Pó e Água</title>
   </head>
   <body class="m-0">
-    <main class="flex flex-col w-full items-center py-16  [&>*]:max-w-6xl  [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8">
+    <main class="flex flex-col w-full items-center py-16  [&>*]:max-w-6xl  [&>*]:w-full md:[&>*]:mb-28 [&>*]:mb-8 overflow-x-hidden">
       
       <header class="flex flex-col items-center">
         <div class="w-full" x-data="{ showVideo: false }">
@@ -35,71 +35,108 @@
         <img src="./imgs/desktop/desktop_i00-0.png" alt="Imagem do produto" class="w-[40%] md:block [display:none] border" />
         <div class="w-full border">
           <div class="title text-center md:text-start ">
-            <h3 class="text-[12pt] text-black md:text-[33px] font-book m-0">
+            <h3 class="text-[18pt] text-black md:text-[33px] unisans-book m-0">
               Aspirador de Pó e Água
             </h3>
-            <h2 class="font-unisans-bold text-[3.5rem] text-black m-0">
+            <h2 class="unisans-bold md:text-[3.5rem] text-[2rem] text-black m-0">
               WAP GTW INOX 20i
             </h2>
           </div>
           <div class="pt-2 md:pt-8 text-center md:text-start">
-            <img src="./imgs/mobile/mobile_i00-0.png" alt="Imagem do produto" class="w-[70%] m-auto px-14 md:hidden" />
-            <h3 class="pt-2 m-0 text-[14pt] text-black md:text-[40px] font-bold">
-              Limpeza completa com robustez e tecnologia
+            <img src="./imgs/mobile/mobile_i00-0.png" alt="Imagem do produto" class="w-[80%] m-auto px-14 md:hidden" />
+            <h3 class="pt-8 md:pt-0 m-0 title-unisans-bold">
+              Limpeza completa com <br class="md:hidden"> robustez e tecnologia
             </h3>
-            <p class="pt-2 m-0 leading-tight --body">
+            <p class="pt-2 m-0 leading-tight body-unisans-book">
               Ter um aspirador de água e pó potente, que oferece mobilidade e desempenho profissional, faz toda a diferença, independentemente do tipo de limpeza. Remova a sujeira, tanto em espaços internos quanto externos, com um parceiro completo. 
             </p>
           </div>
         </div>
       </section>
 
-      <section
-        class="flex flex-col items-center gap-8 px-8 mt-5 md:flex-row md:items-start md:gap-2 justify-evenly">
+      <section class="flex flex-col items-center gap-8 px-8 mt-5 md:flex-row md:items-start md:gap-2 justify-evenly">
         <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
-          <img
-            src="./imgs/replied/replied_i01-0.png"
-            alt="Imagem do produto"
-            class="object-contain w-12 h-12 md:w-16 md:h-16" />
-          <div>
-            <h3 class="m-0 font-bold --title whitespace-nowrap">Função <br> autolimpeza</h3>
-            <p class="pt-1 m-0 leading-tight --body md:pt-2">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-12 md:w-12">
+            <rect width="60" height="60" rx="13" fill="#242424"/>
+            <g clip-path="url(#clip0_2020_27)">
+            <path d="M45.5002 29.9801C45.5002 26.2349 44.0454 22.6539 41.4051 19.8984C39.0755 17.4663 36.0573 15.8797 32.687 15.3127C32.4023 15.263 32.1124 15.3326 31.8846 15.5017C31.6516 15.6758 31.5015 15.9344 31.4756 16.213C31.429 16.7352 31.8018 17.1977 32.3402 17.2873C38.651 18.3666 43.4086 23.8227 43.4086 29.9751C43.4086 33.4169 41.9487 36.6796 39.4896 39.062C38.0815 40.4248 36.342 41.4245 34.4576 42.0512L35.0322 41.0564L36.3213 38.8879C36.6371 38.3159 36.342 37.7639 35.8916 37.5202C35.7156 37.4257 35.524 37.3759 35.3273 37.3759C35.0685 37.3759 34.7061 37.4654 34.4369 37.9031L31.6154 42.7724C31.3307 43.2647 31.517 43.8865 32.0295 44.165L37.103 46.8856C37.2946 46.9602 37.4861 46.995 37.6621 46.995C38.066 46.995 38.4128 46.7811 38.5837 46.428C38.7959 45.9953 38.7183 45.3835 38.1591 45.1L35.757 43.8317L36.5646 43.4687C38.858 42.4341 40.8719 40.8674 42.3888 38.9377C44.4285 36.3414 45.5053 33.2428 45.5053 29.9801" fill="white"/>
+            <path d="M27.7842 42.9465C21.401 41.9169 16.5915 36.4558 16.5915 30.2387C16.5915 25.3248 19.4337 20.9081 24.005 18.7147L25.3459 18.0731L23.5339 21.117C23.2181 21.689 23.5132 22.2411 23.9636 22.4848C24.4192 22.7285 25.0456 22.7086 25.4132 22.1018L28.2346 17.2326C28.5194 16.7402 28.333 16.1135 27.8205 15.84L22.747 13.1144C22.5503 13.0398 22.3587 13 22.1827 13C21.5873 13 21.3285 13.4377 21.2664 13.567C21.0541 13.9997 21.1318 14.6115 21.6909 14.895L24.3881 16.3224L23.565 16.6805C18.0618 19.0927 14.5 24.4146 14.5 30.2338C14.5 34.0038 15.9703 37.6047 18.6416 40.3651C21.0023 42.8072 24.0516 44.3839 27.4581 44.926C27.7376 44.9707 28.0379 44.8961 28.2605 44.727C28.4935 44.553 28.6384 44.2943 28.6592 44.0108C28.7006 43.4886 28.3226 43.031 27.7842 42.9415" fill="white"/>
+            <path d="M34.9543 29.8856C34.9543 26.1951 31.0509 23.1612 30.8852 23.0368L30.2381 22.5444L29.5909 23.0368C29.4253 23.1612 25.5529 26.1802 25.527 30.179C25.5011 34.337 29.6168 36.2568 29.7928 36.3364L30.2174 36.5304L30.6315 36.3563C30.8282 36.2718 34.9492 34.4862 34.9492 29.8905M31.2683 33.581V29.7165C31.2683 29.1694 30.8024 28.7217 30.2329 28.7217C29.6634 28.7217 29.1975 29.1694 29.1975 29.7165V33.5711L28.8092 33.1533C27.9912 32.268 27.5823 31.2732 27.5874 30.1989C27.603 28.1 29.1509 26.2399 30.0776 25.3197L30.2381 25.1606L30.3986 25.3148C31.144 26.0459 32.8783 27.9558 32.8783 29.8955C32.8783 31.119 32.4694 32.2132 31.6566 33.1383L31.2631 33.586L31.2683 33.581Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_2020_27">
+            <rect width="31" height="34" fill="white" transform="translate(14.5 13)"/>
+            </clipPath>
+            </defs>
+          </svg>
+
+          <div class="flex flex-col items-center">
+            <h3 class="m-0 title-unisans-bold title-unisans-bold whitespace-nowrap">Função <br class="hidden md:block"> autolimpeza</h3>
+            <p class="pt-1 m-0 leading-tight body-unisans-book md:pt-2">
               A tecnologia Easy Cleaning facilita a remoção dos resíduos e a limpeza do filtro. 
             </p>
           </div>
         </div>
+
         <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
-          <img
-            src="./imgs/replied/replied_i01-1.png"
-            alt="Imagem do produto"
-            class="object-contain w-12 h-12 md:w-16 md:h-16" />
-          <div>
-            <h3 class="m-0 font-bold --title">Aspira água <br>e pó</h3>
-            <p class="pt-1 m-0 leading-tight --body md:pt-2">
-              A escolha ideal para remover sujeiras, líquidos e resíduos com facilidade e rapidez. 
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-12 md:w-12">
+            <rect width="59.9996" height="59.8935" rx="13" fill="#242424"/>
+            <g clip-path="url(#clip0_0_1)">
+            <path d="M28.2047 38.3022C31.0232 38.3022 33.3238 36.0528 33.3238 33.2786C33.3238 30.5043 31.0317 28.2549 28.2047 28.2549C27.4321 28.2549 26.6851 28.4215 25.9974 28.7464C25.174 27.6384 23.8411 26.9552 22.4064 26.9552C20.2247 26.9552 18.3994 28.5048 18.0259 30.5459C17.7712 30.4959 17.5165 30.4793 17.2534 30.4793C14.9018 30.4793 12.9917 32.3538 12.9917 34.6615C12.9917 36.9693 14.7914 38.7271 17.0411 38.8354C18.0344 40.7349 20.0549 41.9763 22.2621 41.9763C23.5949 41.9763 24.9023 41.5264 25.938 40.7016C26.7445 40.0601 27.3642 39.2187 27.7378 38.2773C27.8906 38.2939 28.0519 38.3022 28.2132 38.3022H28.2047ZM26.6936 36.611C26.4983 36.7277 26.354 36.9193 26.3031 37.1442C25.8701 39.0021 24.2062 40.3017 22.2621 40.3017C20.5557 40.3017 19.0022 39.252 18.391 37.6941C18.2636 37.3692 17.941 37.1525 17.5929 37.1525C17.5675 37.1525 17.542 37.1525 17.5081 37.1525C17.4232 37.1525 17.3383 37.1609 17.2619 37.1609C15.8526 37.1609 14.715 36.0362 14.715 34.6615C14.715 33.2869 15.8611 32.1622 17.2619 32.1622C17.6778 32.1622 18.0768 32.2538 18.4419 32.4454C18.722 32.5871 19.0616 32.5704 19.3163 32.3954C19.5795 32.2205 19.7153 31.9206 19.6813 31.6123C19.6728 31.5123 19.6644 31.4124 19.6644 31.3207C19.6644 29.8378 20.8953 28.6381 22.3979 28.6381C23.4846 28.6381 24.4609 29.2713 24.9023 30.2377C25.0042 30.471 25.2164 30.6459 25.4626 30.7126C25.7088 30.7792 25.9805 30.7292 26.1927 30.5793C26.7785 30.1627 27.4746 29.9378 28.1962 29.9378C30.0723 29.9378 31.6004 31.4374 31.6004 33.2786C31.6004 35.1197 30.0723 36.6194 28.1962 36.6194C27.9076 36.6194 27.6189 36.586 27.3388 36.511C27.118 36.4527 26.8803 36.4861 26.6766 36.611H26.6936Z" fill="white"/>
+            <path d="M24.6137 21.6565C24.758 21.6815 24.8938 21.6982 25.0382 21.7065C25.0806 23.656 26.5068 25.3806 28.5358 25.7638C29.8941 26.0221 31.2948 25.6138 32.2966 24.6974C32.3305 24.6974 32.373 24.7141 32.407 24.7224C34.2576 25.0723 36.0574 23.8726 36.4139 22.0564C36.7026 20.5735 35.9385 19.0989 34.6057 18.4241C34.3425 16.7662 33.0521 15.4332 31.3373 15.1083C30.0384 14.8666 28.7395 15.2415 27.7972 16.0913C27.3048 15.5581 26.6427 15.1916 25.9126 15.0499C24.0619 14.7 22.2621 15.8997 21.9056 17.7159C21.549 19.5321 22.7715 21.2983 24.6222 21.6482L24.6137 21.6565ZM25.6324 16.4329C26.2691 16.5495 26.804 16.9661 27.0756 17.5493C27.186 17.7826 27.4152 17.9408 27.6699 17.9575C27.933 17.9742 28.1792 17.8575 28.3236 17.6409C28.9178 16.7412 29.9875 16.2913 31.0571 16.4912C32.2796 16.7245 33.1625 17.7326 33.2134 18.9406C33.2219 19.2322 33.4172 19.4821 33.6973 19.5738C34.6312 19.8903 35.1915 20.8401 35.0047 21.7982C34.801 22.8562 33.7483 23.5561 32.6701 23.3561C32.5598 23.3311 32.4409 23.3061 32.3305 23.2645C32.0504 23.1562 31.7278 23.2395 31.5325 23.4644C30.8619 24.2392 29.8092 24.5974 28.799 24.4058C27.2454 24.1142 26.2182 22.6313 26.5068 21.0984C26.5493 20.8651 26.4729 20.6318 26.3031 20.4652C26.2012 20.3652 26.0739 20.3069 25.938 20.2736C25.8447 20.2569 25.7513 20.2569 25.6579 20.2736C25.3947 20.3236 25.1315 20.3319 24.8684 20.2736C23.7902 20.0736 23.0771 19.0406 23.2809 17.9825C23.4846 16.9244 24.5373 16.2246 25.6154 16.4246L25.6324 16.4329Z" fill="white"/>
+            <path d="M20.1398 24.4475C20.3775 24.4475 20.6152 24.3559 20.785 24.1893C20.9548 24.0227 21.0482 23.7977 21.0482 23.5561C21.0482 23.3145 20.9548 23.0896 20.785 22.9229C20.6152 22.7563 20.386 22.6647 20.1398 22.6647C19.8936 22.6647 19.6644 22.7563 19.4946 22.9229C19.3248 23.0896 19.2314 23.3145 19.2314 23.5561C19.2314 23.7977 19.3248 24.0227 19.4946 24.1893C19.6644 24.3559 19.8936 24.4475 20.1398 24.4475Z" fill="white"/>
+            <path d="M23.8238 44.8839C21.642 45.792 19.1122 44.7923 18.1869 42.6511C17.9916 42.2013 17.4568 41.9847 16.9983 42.1846C16.5399 42.3846 16.3192 42.9011 16.5229 43.351C17.8473 46.3918 21.4383 47.8165 24.5454 46.5251C25.0038 46.3335 25.2246 45.8087 25.0208 45.3588C24.8171 44.9089 24.2907 44.6923 23.8323 44.8839H23.8238Z" fill="white"/>
+            <path d="M39.1982 19.049C38.8416 19.2656 38.7397 19.7155 38.952 20.0571C39.368 20.7235 39.1557 21.59 38.4851 21.9982C38.1285 22.2148 38.0266 22.6647 38.2389 23.0063C38.4596 23.3479 38.918 23.4562 39.2661 23.2479C40.6414 22.4148 41.0743 20.6319 40.2254 19.2823C40.0047 18.9323 39.5462 18.8324 39.1982 19.0407V19.049Z" fill="white"/>
+            <path d="M38.4001 16.0914C38.1624 16.0914 37.9247 16.1831 37.7549 16.3497C37.5851 16.5163 37.4917 16.7413 37.4917 16.9829C37.4917 17.2245 37.5851 17.4494 37.7549 17.616C37.9247 17.7827 38.1539 17.8743 38.4001 17.8743C38.6463 17.8743 38.8755 17.7827 39.0453 17.616C39.215 17.4494 39.3084 17.2245 39.3084 16.9829C39.3084 16.7413 39.215 16.5163 39.0453 16.3497C38.8755 16.1831 38.6463 16.0914 38.4001 16.0914Z" fill="white"/>
+            <path d="M27.1687 43.4842C26.9479 43.5759 26.7697 43.7508 26.6848 43.9674C26.5999 44.184 26.5999 44.434 26.6848 44.6506C26.7697 44.8672 26.9564 45.0422 27.1771 45.1255C27.3979 45.2171 27.6526 45.2088 27.8733 45.1255C28.094 45.0422 28.2723 44.8589 28.3572 44.6423C28.4506 44.4256 28.4421 44.1757 28.3572 43.9591C28.2723 43.7425 28.0855 43.5675 27.8648 43.4842C27.6441 43.3926 27.3894 43.4009 27.1687 43.4842Z" fill="white"/>
+            <path d="M40.6671 29.9294C40.4039 29.9294 40.1492 30.0461 39.9794 30.2377C39.4022 30.8959 34.334 36.7693 34.334 39.9518C34.334 43.3759 37.1779 46.1669 40.6671 46.1669C44.1562 46.1669 47.0002 43.3759 47.0002 39.9518C47.0002 36.7693 41.932 30.8959 41.3547 30.2377C41.1849 30.0377 40.9302 29.9294 40.6671 29.9294ZM40.6671 44.384C38.1797 44.384 36.1507 42.3929 36.1507 39.9518C36.1507 38.2606 38.689 34.6116 40.6671 32.2122C42.6451 34.6116 45.1834 38.2606 45.1834 39.9518C45.1834 42.3929 43.1545 44.384 40.6671 44.384Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_0_1">
+            <rect width="34" height="32" fill="white" transform="translate(13 15)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            
+          <div class="flex flex-col items-center">
+            <h3 class="m-0 title-unisans-bold title-unisans-bold">Aspira água <br class="hidden md:block">e pó</h3>
+            <p class="pt-1 m-0 leading-tight body-unisans-book md:pt-2 max-w-[80%]">
+              A escolha ideal para remover sujeiras, líquidos e resíduos com facilidade e rapidez.
             </p>
           </div>
         </div>
         <div class="text-center space-y-2 md:space-y-4 w-full px-12 md:px-2 max-w-[20rem]">
-          <img
-            src="./imgs/replied/replied_i01-2.png"
-            alt="Imagem do produto"
-            class="object-contain w-12 h-12 md:w-16 md:h-16" />
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 md:h-12 md:w-12">
+            <rect x="0.0908203" y="0.0484619" width="59.9996" height="59.9515" rx="13" fill="#242424"/>
+            <g clip-path="url(#clip0_0_1)">
+            <path d="M27.9403 40.0601L26.0903 41.9101C25.7403 42.2601 25.1703 42.2601 24.8203 41.9101L23.0303 40.1101L21.2403 41.9101C20.8903 42.2601 20.3203 42.2601 19.9703 41.9101L17.5203 39.4601C17.1703 39.1101 17.1703 38.5401 17.5203 38.1901L19.3203 36.4001L17.5203 34.6001C17.1703 34.2501 17.1703 33.6801 17.5203 33.3301L19.3203 31.5401L17.5203 29.7401C17.1703 29.3901 17.1703 28.8201 17.5203 28.4701L19.3203 26.6801L17.5203 24.8801C17.1703 24.5301 17.1703 23.9601 17.5203 23.6101L19.3203 21.8201L17.5203 20.0301C17.1703 19.6801 17.1703 19.1101 17.5203 18.7601L19.9703 16.3201C20.3203 15.9701 20.8903 15.9701 21.2403 16.3201L23.0303 18.1201L24.8203 16.3201C25.1703 15.9701 25.7403 15.9701 26.0903 16.3201L27.8803 18.1201L29.6703 16.3201C30.0203 15.9701 30.5903 15.9701 30.9403 16.3201L32.7303 18.1201L34.5203 16.3201C34.8703 15.9701 35.4403 15.9701 35.7903 16.3201L37.5803 18.1201L39.3703 16.3201C39.7203 15.9701 40.2903 15.9701 40.6403 16.3201L43.0903 18.7701C43.4403 19.1201 43.4403 19.6901 43.0903 20.0401L41.2903 21.8301L43.0903 23.6201C43.4403 23.9701 43.4403 24.5401 43.0903 24.8901L41.2403 26.7401" stroke="white" stroke-width="2.38" stroke-linejoin="round"/>
+            <path d="M50.1705 37.4101C50.1705 43.8801 44.9205 49.1301 38.4505 49.1301C31.9805 49.1301 26.7305 43.8801 26.7305 37.4101C26.7305 30.9401 31.9805 25.6901 38.4505 25.6901C44.9205 25.6901 50.1705 30.9401 50.1705 37.4101Z" fill="#1D1D1B"/>
+            <path d="M37.5701 41.4201C37.3701 41.8701 36.8401 42.0701 36.3901 41.8701C34.6901 41.1101 33.6001 39.4201 33.6001 37.5601C33.6001 36.4901 33.9701 35.4701 34.6001 34.6601H34.5101C34.0201 34.5801 33.6801 34.1201 33.7501 33.6301C33.8201 33.1401 34.2801 32.8001 34.7701 32.8701C34.7801 32.8701 36.8901 33.1801 36.8901 33.1801C37.3401 33.2601 37.6501 33.6401 37.6501 34.0601V36.0301C37.6501 36.5201 37.2501 36.9201 36.7601 36.9201C36.3101 36.9201 35.8601 36.5901 35.8601 35.9501C35.5601 36.4201 35.3901 36.9701 35.3901 37.5501C35.3901 38.7001 36.0701 39.7501 37.1201 40.2301C37.5701 40.4301 37.7701 40.9601 37.5701 41.4101" fill="white"/>
+            <path d="M42.4003 40.1701C42.8903 40.2401 43.2303 40.7001 43.1603 41.1901C43.0903 41.6801 42.6303 42.0201 42.1403 41.9501L40.0303 41.6401C39.7503 41.6401 39.2603 41.3001 39.2603 40.7501V38.7801C39.2603 38.2901 39.6603 37.8901 40.1603 37.8901C40.6003 37.8901 41.0503 38.2101 41.0503 38.8601C41.3503 38.3901 41.5203 37.8401 41.5203 37.2601C41.5203 36.1101 40.8403 35.0601 39.7903 34.5801C39.3403 34.3801 39.1403 33.8501 39.3403 33.4001C39.5403 32.9501 40.0703 32.7501 40.5203 32.9501C42.2203 33.7101 43.3103 35.4001 43.3103 37.2601C43.3103 38.3301 42.9403 39.3501 42.3103 40.1601H42.4003V40.1701Z" fill="white"/>
+            <path d="M47.6505 37.4101C47.6505 42.4901 43.5305 46.6101 38.4505 46.6101C33.3705 46.6101 29.2505 42.4901 29.2505 37.4101C29.2505 32.3301 33.3705 28.2101 38.4505 28.2101C43.5305 28.2101 47.6505 32.3301 47.6505 37.4101Z" stroke="white" stroke-width="2.38" stroke-miterlimit="10"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_0_1">
+            <rect width="34.1" height="34.26" fill="white" transform="translate(16.0703 14.8701)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            
           <div>
-            <h3 class="m-0 font-bold --title">Filtro HEPA <br> Lavável</h3>
-            <p class="pt-1 m-0 leading-tight --body md:pt-2">
+            <h3 class="m-0 title-unisans-bold title-unisans-bold">Filtro HEPA <br class="hidden md:block"> Lavável</h3>
+            <p class="pt-1 m-0 leading-tight body-unisans-book md:pt-2">
               Limpeza profunda em todos os tipos de superfícies, com a garantia de alto desempenho a cada uso. 
             </p>
           </div>
         </div>
       </section>
 
-      <section class="mt-8 px-8">
+      <section class="mt-8 md:mt-0 px-8">
         <div class="md:space-y-1 px-5">
-          <h2 class="uppercase --title m-0 [fontFamily:FontBook_!important]">PODER COMPLETO</h2>
-          <div class="flex items-center gap-4">
-            <h2 class="uppercase --title m-0 [fontFamily:FontBook_!important]">DE</h2><span class="m-0 font-bold uppercase --title whitespace-nowrap">LIMPEZA</span>
-            <div class="h-0.5 w-full bg-zinc-400"></div>
+          <span class="uppercase unisans text-xl md:text-4xl m-0">PODER COMPLETO</span>
+          <div class="flex md:-mt-0  items-center md:gap-4">
+            <span class="uppercase unisans md:text-4xl text-xl m-0">DE<span class="md:hidden">&nbsp;</span></span><span class="m-0 text-xl uppercase unisans-bold md:text-4xl whitespace-nowrap">LIMPEZA</span>
+            <div class="h-0.5 w-full ml-5 bg-zinc-400"></div>
           </div>
         </div>
         <div class="px-5 m-auto  mt-8 text-center">
@@ -113,112 +150,114 @@
 
       <section class="mt-10 flex flex-col items-center gap-12 md:flex-row ">
         <div class="w-full space-y-4 px-5">
-          <h3 class="m-0 font-bold --title px-5">Potência e versatilidade <br class="hidden md:block"> para uma limpeza total</h3>
-          <p class="--body px-5">
-            O Aspirador de Pó e Água 1900W WAP GTW INOX 20i, com capacidade de 20 litros, é projetado para lidar com qualquer desafio de limpeza. Ele remove resíduos sólidos e líquidos com máxima eficiência, seja em tarefas residenciais ou comerciais.  
+          <h3 class="m-0 title-unisans-bold title-unisans-bold px-5">Potência e versatilidade <br> para uma limpeza total</h3>
+          <p class="body-unisans-book px-5">
+            O <span class="body-unisans-bold">Aspirador de Pó e Água 1900W WAP GTW INOX 20i</span>, com capacidade de <span class="body-unisans-bold">20 litros</span>, é projetado para lidar com qualquer desafio de limpeza. Ele remove resíduos sólidos e líquidos com máxima eficiência, seja em tarefas residenciais ou comerciais.  
             <br><br>
-            Resistente ao uso intensivo e aos mais variados ambientes, ele oferece durabilidade e confiabilidade de 1900W de potência e tambor de aço inox, que o torna, além de prático, elegante. 
+            Resistente ao uso intensivo e aos mais variados ambientes, ele oferece durabilidade e confiabilidade de <span class="body-unisans-bold">1900W de potência</span> e <span class="body-unisans-bold">tambor de aço inox</span>, que o torna, além de prático, elegante. 
           </p>
         </div>
         <img src="./imgs/replied/replied_i04-0.png" alt="Imagem do produto" class="w-3/4 md:w-1/2" />
       </section>
 
       <section class="w-full max-h-[40rem] z-10 flex flex-col items-center justify-center">
-        <div class="flex flex-col items-center justify-center m-auto max-w-[55%] text-center">
-          <h1>Autolimpeza em cinco cliques</h1>
-          <p>
-            Manter o aspirador sempre pronto para uso não é mais uma tarefa difícil! Com a Tecnologia Easy Cleaning exclusiva do GTW INOX 20i, a rotina de manutenção é simples e segurança. Basta pressionar o botão de acionamento cinco vezes seguidas para que o sistema integrado realize a autolimpeza do filtro, removendo o acúmulo de poeira e sujeira de forma eficiente, sem que você precise lidar diretamente com os resíduos. 
+        
+        <div class="flex flex-col md:items-center md:justify-center m-auto md:max-w-[60%] md:text-center px-5">
+          <h1 class="title-unisans-bold">Autolimpeza em cinco cliques</h1>
+          <p class="body-unisans-book -mt-1 md:-mt-4">
+            Manter o aspirador sempre pronto para uso não é mais uma tarefa difícil! Com a <span class="body-unisans-bold">Tecnologia Easy Cleaning</span> exclusiva do <span class="body-unisans-bold">GTW INOX 20i</span>, a rotina de manutenção é simples e segurança. Basta pressionar o botão de acionamento cinco vezes seguidas para que o sistema integrado realize a autolimpeza do filtro, removendo o acúmulo de poeira e sujeira de forma eficiente, sem que você precise lidar diretamente com os resíduos. 
           </p>
         </div>
+
         <div class="w-full h-full mt-10 flex">
-          <img
-            src="./imgs/desktop/desktop_i05-0.gif"
-            alt="Imagem do produto"
-            class="max-h-30 rounded-3xl object-cover object-center w-[80%] m-auto" />
+          <img src="./imgs/desktop/desktop_i05-0.gif" alt="Imagem do produto" class="max-h-30 md:rounded-3xl object-cover object-center md:w-[80%] m-auto w-full" />
         </div>
       </section>
       
-
-
-      <section class="px-8 mt-10">
-        <div class="flex md:flex-row flex-col">
-          <div class="flex flex-col justify-center px-8">
-            <h2 class="font-bold text-4xl" >Ar puro e limpeza eficiente</h2>
-            <p class="--body">
-              O filtro HEPA lavável do aspirador de pó e água WAP, equipado com um sistema de filtragem dupla do filtro espuma, facilita a manutenção e promove uma melhor qualidade do ar, pois é responsável por capturar até mesmo as menores partículas de sujeira e alérgenos, garantindo ambientes mais limpos para todos. 
+      <section class="px-8 md:mt-10">
+        <!-- Primeira linha -->
+        <div class="flex flex-col md:flex-row w-full mb-8 md:px-10">
+          <div class="w-full md:w-1/2 md:p-4 flex flex-col justify-center md:order-1 order-2 px-5">
+            <h2 class="title-unisans-bold text-4xl">Ar puro e limpeza eficiente</h2>
+            <p class="body-unisans-book md:w-[80%] w-[90%] mt-3">
+              O <span class="body-unisans-bold">filtro HEPA lavável</span> do aspirador de pó e água WAP, equipado com um sistema de filtragem dupla do filtro espuma, facilita a manutenção e promove uma melhor qualidade do ar, pois é responsável por capturar até mesmo as menores partículas de sujeira e alérgenos, garantindo ambientes mais limpos para todos. 
+            </p>
           </div>
-          <img src="imgs/desktop/desktop_i10-0.png" alt="" class="w-[80%] h-full m-auto">
+          <div class="w-full md:w-1/2 md:p-4 flex items-center justify-center md:order-2 order-1">
+            <img src="imgs/desktop/desktop_i10-0.png" alt="" class="w-[90%] h-full md:mr-0 ">
+          </div>
         </div>
-        <div class="flex md:flex-row flex-col -mt-5">
-          <div class="flex md:w-1/2 mt-10">
-            <img src="imgs/desktop/desktop_i04-22.png" alt="" class="md:w-full w-[80%] m-auto h-full">
+      
+        <!-- Segunda linha -->
+        <div class="flex flex-col md:flex-row w-full">
+          <div class="w-full md:w-1/2 md:p-4 flex items-center justify-center">
+            <img src="imgs/desktop/desktop_i04-22.png" alt="" class="w-[90%] h-full md:mr-0">
           </div>
-          <div class="flex flex-col justify-end pl-8 md:w-1/2 ">
-            <h2 class="font-bold px-5 text-4xl">Mobilidade para a <br>ação de limpeza</h2>
-            <p class="--body px-5">
-              Equipado com rodas e alça de transporte ergonômica, o Aspirador de Pó e Água 1900W WAP GTW INOX 20i se adapta melhor aos ambientes de trabalho, sem ocupar muito espaço no momento de guardá-lo.
+          <div class="w-full mt-5 md:mt-0 md:w-1/2 p-4 flex flex-col justify-center md:ml-10">
+            <h2 class="title-unisans-bold text-4xl">Mobilidade para a <br class="hidden md:block">ação de limpeza</h2>
+            <p class="body-unisans-book -mt-2 md:-mt-3 w-[90%] md:w-[80%]">
+              Equipado com <span class="body-unisans-bold">rodas</span> e <span class="body-unisans-bold">alça de transporte ergonômica</span>, o Aspirador de Pó e Água 1900W WAP GTW INOX 20i se adapta melhor aos ambientes de trabalho, sem ocupar muito espaço no momento de guardá-lo.
               <br><br>
-              Além disso, ele conta com acessórios versáteis na hora da faxina. Os bicos canto e escova aspiram cada detalhe das superfícies e cantos dos ambientes. Capaz de lidar com vários pisos e tipos de sujeira, o bico múltiplo é um ótimo parceiro da limpeza.
+              Além disso, ele conta com <span class="body-unisans-bold">acessórios versáteis</span> na hora da faxina. Os bicos canto e escova aspiram cada detalhe das superfícies e cantos dos ambientes. Capaz de lidar com vários pisos e tipos de sujeira, o bico múltiplo é um ótimo parceiro da limpeza.
             </p>
           </div>
         </div>
       </section>
 
-      <section class="container mx-auto p-4 -mt-10 md:mt-0 ">
+      <section class="container mx-auto md:p-4 md:-mt-10">
+        <h1 class="text-center title-unisans-bold md:w-full w-[70%] m-auto">Conjunto completo de acessórios para todas as necessidades</h1>
         <!-- Wrapper principal -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-            <!-- Coluna esquerda (desktop) / Parte inferior (mobile) -->
-            <div class="order-3 md:order-1  flex justify-center items-center w-full">
-              <div class="grid grid-cols-3 md:grid-cols-1 gap-10 w-full h-auto ">
-                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="1">Mangueira de 1,7m</div>
-                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="2">Bico canto e escova</div>
-                  <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="3">Filtro HEPA</div>
-              </div>
-          </div>
-            <!-- Coluna central (desktop) / Parte superior (mobile) -->
-            <div class="order-1 md:order-2 h-[30rem] md:pb-0 pb-5 flex flex-col">
-                <img id="centralImage" src="./imgs/acessories/1.png" alt="Imagem central" class="md:w-full w-[80%] m-auto mb-4">
-                <p id="centralDescription" class="text-center">Alcança áreas de limpeza maiores e aumenta sua produtividade e conforto durante as tarefas.</p>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:mt-10">
+            <!-- Coluna esquerda (desktop) / Parte superior esquerda (mobile) -->
+            <div class="order-2 md:order-1 flex flex-col gap-4 md:gap-10 md:items-end items-center">
+                <div class="bg-[#757679] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="1">Mangueira de 1,7m</div>
+                <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="2">Bico canto e escova</div>
+                <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="3">Filtro HEPA</div>
             </div>
-
-            <!-- Coluna direita (desktop) / Parte inferior (mobile) -->
-            <div class="order-3 md:order-3  flex justify-center items-center w-full">
-                <div class="grid grid-cols-3 md:grid-cols-1 gap-10 w-full h-auto ">
-                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="4">Bico múltiplo</div>
-                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="5">Filtro espuma</div>
-                    <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] font-bold md:text-2xl text-sm text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center" data-id="6">Extensor de bico</div>
-                </div>
+            
+            <!-- Coluna central (desktop) / Parte superior (mobile) -->
+            <div class="order-1 md:order-2 h-[30rem] md:pb-0 pb-5 flex flex-col md:mt-0 -mt-5 col-span-2 md:col-span-1">
+                <img id="centralImage" src="./imgs/acessories/1.png" alt="Imagem central" class="md:w-full w-[80%] m-auto mb-4 md:-mt-10">
+                <p id="centralDescription" class="text-center body-unisans-book w-[80%] md:w-full -mt-5 m-auto">Alcança áreas de limpeza maiores e aumenta sua produtividade e conforto durante as tarefas.</p>
+            </div>
+            
+            <!-- Coluna direita (desktop) / Parte superior direita (mobile) -->
+            <div class="order-2 md:order-3 flex flex-col gap-4 md:gap-10 md:items-start items-center">
+                <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="4">Bico múltiplo</div>
+                <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="5">Filtro espuma</div>
+                <div class="bg-[#D9D9D9] rounded-2xl md:rounded-[10rem] title-unisans-bold text-sm md:text-2xl text-center text-white cursor-pointer option py-3 md:py-0 md:h-20 flex items-center justify-center w-[90%] md:w-64" data-id="6">Extensor de bico</div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <section class="sm:mb-[0_!important] relative">
+      <section class="sm:mb-[0_!important] md:-mt-44 relative">
         <div class="[display:none] px-16 md:block">
           <div class="bg-[#D9D9D9] [display:none] md:block rounded-tl-[14rem] right-0 absolute bottom-0 w-1/2 h-full"></div>
           <div class="relative z-10 [display:none] w-full h-full mt-20 md:block mb-20">
             <img src="./imgs/desktop/i08-0.png" alt="Imagem do produto" class="relative w-full" />
             <div class="absolute top-0 left-0 w-full h-full">
-              <p class="absolute bottom-[80.5%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[38%]">
-                Com o enrolador de cabo, é mais prático para armazenar e utilizar o aspirador de pó e água.  
+              <p class="absolute bottom-[68%] text-[#434343] leading-tight m-0 body-unisans-book max-w-[25%]">
+                Com o <span class="body-unisans-bold">enrolador de cabo</span>, é mais prático para armazenar e utilizar o aspirador de pó e água.  
               </p>
-              <p class="absolute bottom-[64%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[36%]">
+              <p class="absolute bottom-[45%] text-[#434343] leading-tight m-0 body-unisans-book max-w-[25%]">
                 O design robusto, moderno e funcional em aço inox torna o aspirador ideal para uso contínuo. 
               </p>
-              <p class="absolute bottom-[41.5%] text-[15px] text-[#434343] lg:text-[18px] leading-tight m-0 font-book max-w-[32%]">
-                Com 1900W de potência remova sujeira, líquidos e detritos com maior poder de sucção e facilidade em qualquer ambiente.
+              <p class="absolute bottom-[25%] text-[#434343] leading-tight m-0 body-unisans-book max-w-[25%]">
+                Com <span class="body-unisans-bold">1900W de potência</span> remova sujeira, líquidos e detritos com maior poder de sucção e facilidade em qualquer ambiente.
               </p>
-              <p class="absolute bottom-[69%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
-                Acenda a churrasqueira, encha infláveis e sopre folhas utilizando o bocal de sopro. 
+              <p class="absolute bottom-[70%] right-10 leading-tight m-0 body-unisans-book max-w-[23%] text-[#434343] text-start">
+                Acenda a churrasqueira, encha infláveis e sopre folhas utilizando o <span class="body-unisans-bold">bocal de sopro</span>.
               </p>
-              <p class="absolute bottom-[42%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
-                Garante uma limpeza eficiente em áreas grandes sem interrupções, armazenando 20 litros de capacidade de sujeira, poeira e detritos líquidos.  
+              <p class="absolute bottom-[42%] right-0 leading-tight m-0 body-unisans-book max-w-[27%] text-[#434343] text-start">
+                Garante uma limpeza eficiente em áreas grandes sem interrupções, armazenando <span class="body-unisans-bold">20 litros de capacidade</span> de sujeira, poeira e detritos líquidos.  
               </p>
-              <p class="absolute bottom-[17%] text-[15px] lg:text-[18px] right-0 leading-tight m-0 font-book max-w-[31%] text-[#434343] text-end">
-                Mantenha tudo organizado enquanto trabalha e não mais perca tempo procurando pelos acessórios do aspirador com o porta acessório. 
+              <p class="absolute bottom-[18%] right-5 leading-tight m-0 body-unisans-book max-w-[25%] text-[#434343] text-start">
+                Mantenha tudo organizado enquanto trabalha e não mais perca tempo procurando pelos acessórios do aspirador com o <span class="body-unisans-bold">porta acessório</span>. 
               </p>
             </div>
           </div>
         </div>
+
         <div class="splide__wrapper mt-8 md:h-[28rem] h-[22rem] w-full overflow-hidden md:hidden">
           <div class="splide" role="group" aria-label="Splide Basic HTML Example">
             <div class="splide__track">
@@ -227,14 +266,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-0.png"
+                      src="./imgs/splider2/splider2-1.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        O
-                        <span class="font-semibold">bico regulável</span>
-                        permite ajustar o jato conforme sua necessidade. Deixe o jato concentrado para remover sujeiras
-                        resistentes ou em leque, para cuidar do jardim.
+                      <div class="card__description body-unisans-book">
+                        Com o <span class="unisans-bold">enrolador de cabo</span>, é mais prático para armazenar e utilizar o aspirador de pó e água.  
                       </div>
                     </div>
                   </div>
@@ -243,13 +279,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-1.png"
+                      src="./imgs/splider2/splider2-2.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        Para proporcionar conforto durante a limpeza, a
-                        <span class="font-semibold">mangueira de alta pressão</span>
-                        possui 3 metros de extensão. 
+                      <div class="card__description body-unisans-book">
+                        O design robusto, moderno e funcional em aço inox torna o aspirador ideal para uso contínuo. 
                       </div>
                     </div>
                   </div>
@@ -258,14 +292,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-2.png"
+                      src="./imgs/splider2/splider2-3.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        A extensão de 5 metros do
-                        <span class="font-semibold">cabo de alimentação</span>
-                        da lavadora de alta pressão transforma a rotina de limpeza, sem a necessidade de trocar de
-                        tomadas ou usar extensões que dificultam a mobilidade.
+                      <div class="card__description body-unisans-book">
+                        Com <span class="unisans-bold">1900W de potência</span> remova sujeira, líquidos e detritos com maior poder de sucção e facilidade em qualquer ambiente.
                       </div>
                     </div>
                   </div>
@@ -274,14 +305,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-3.png"
+                      src="./imgs/splider2/splider2-6.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        O
-                        <span class="font-semibold">porta acessórios</span>
-                        integrado é perfeito para o transporte, armazenando com segurança itens como mangueira, pistola,
-                        bico regulável e baioneta.
+                      <div class="card__description body-unisans-book">
+                        Acenda a churrasqueira, encha infláveis e sopre folhas utilizando o <span class="unisans-bold">bocal de sopro</span>.
                       </div>
                     </div>
                   </div>
@@ -290,13 +318,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-4.png"
+                      src="./imgs/splider2/splider2-5.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        Com o
-                        <span class="font-semibold">engate rápido</span>, apenas um clique deixa as tarefas
-                        de limpeza mais fáceis, as transformando em experiências descomplicadas.
+                      <div class="card__description body-unisans-book">
+                        Garante uma limpeza eficiente em áreas grandes sem interrupções, armazenando <span class="unisans-bold">20 litros de capacidade</span> de sujeira, poeira e detritos líquidos.  
                       </div>
                     </div>
                   </div>
@@ -305,43 +331,11 @@
                   <div class="card">
                     <img
                       class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-5.png"
+                      src="./imgs/splider2/splider2-4.png"
                       alt="Imagem do produto" />
                     <div class="card__content">
-                      <div class="card__description --body">
-                        O
-                        <span class="font-semibold">filtro com engate rápido</span>
-                        facilita a conexão da lavadora com a mangueira de jardim no bocal de água em um instante. 
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="card">
-                    <img
-                      class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-6.png"
-                      alt="Imagem do produto" />
-                    <div class="card__content">
-                      <div class="card__description --body">
-                        A pistola acompanha o sistema eletrônico de ‘<b class="font-semibold">Stop Total</b
-                        >’, que coloca você no controle da lavadora. Ao soltar o gatilho, ele interrompe a vazão e
-                        desliga o motor automaticamente.  
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <li class="splide__slide">
-                  <div class="card">
-                    <img
-                      class="rounded-lg card__image"
-                      src="./imgs/mobile/i08-7.png"
-                      alt="Imagem do produto" />
-                    <div class="card__content">
-                      <div class="card__description --body">
-                        Equipada com a
-                        <span class="font-semibold">mangueira desobstruidora</span>
-                        que remove qualquer obstáculo no caminho.
+                      <div class="card__description body-unisans-book">
+                        Mantenha tudo organizado enquanto trabalha e não mais perca tempo procurando pelos acessórios do aspirador com o <span class="unisans-bold">porta acessório</span>.
                       </div>
                     </div>
                   </div>
@@ -352,65 +346,62 @@
         </div>
       </section>
 
-
-
-
       <section class="p-8 space-y-8 md:p-16 bg-[#757679] md:space-y-16 [&]:mb-16">
         <div class="flex items-center gap-6">
-          <p class="m-0 ml-10 font-bold --title whitespace-nowrap !text-white">
-            IDEAL PARA <span class="font-book">LIMPEZAS EM</span>
+          <p class="m-0 ml-10 title-unisans-bold title-unisans-bold whitespace-nowrap !text-white">
+            IDEAL PARA <span class="unisans-book">LIMPEZAS EM</span>
           </p>
           <div class="h-[1px] w-full bg-white"></div>
         </div>
         <div class="grid grid-cols-3 gap-4 sm:flex sm:flex-wrap sm:justify-evenly">
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-0.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Piso</div>
+            <div class="body-unisans-book !text-white">Piso</div>
           </div>
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-1.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Tapete</div>
+            <div class="body-unisans-book !text-white">Tapete</div>
           </div>
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-2.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Carpete</div>
+            <div class="body-unisans-book !text-white">Carpete</div>
           </div>
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-3.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Colchão</div>
+            <div class="body-unisans-book !text-white">Colchão</div>
           </div>
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-4.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Estofado</div>
+            <div class="body-unisans-book !text-white">Estofado</div>
           </div>
           <div class="text-center space-y-3 px-1 md:px-2 max-w-[20rem]">
             <img src="./imgs/replied/replied_i09-5.png" alt="Imagem do produto" class="w-8 md:w-16 mx-auto" />
-            <div class="--body !text-white">Carro</div>
+            <div class="body-unisans-book !text-white">Carro</div>
           </div>
         </div>
       </section>
 
-      <section class="px-8 mt-10">
+      <section class="px-8 md:mt-10">
         <div class="flex md:flex-row flex-col">
-          <img src="imgs/desktop/desktop_i04-2.png" alt="" class="w-[80%] h-full m-auto">
-          <div class="flex flex-col justify-center px-8">
-            <h2 class="font-bold">Aspiração completa, prática e funcional</h2>
-            <p class="--body">
-              Parceiro ideal para todas as necessidades de limpeza, o bocal de sopro do WAP GTW INOX 20i permite soprar detritos e poeira de áreas de difícil acesso, além de ajudar  a acender a churrasqueira ou encher objetos infláveis. 
+          <img src="imgs/desktop/desktop_i04-2.png" alt="" class="w-[80%] h-full m-auto md:order-1 order-2">
+          <div class="flex flex-col justify-center px-8  md:order-2 order-1">
+            <h2 class="title-unisans-bold ">Aspiração completa,<br class="hidden md:block"> prática e funcional</h2>
+            <p class="body-unisans-book md:mt-0 -mt-3">
+              Parceiro ideal para todas as necessidades de limpeza, o <span class="font-semibold">bocal de sopro</span> do WAP GTW INOX 20i permite soprar detritos e poeira de áreas de difícil acesso, além de ajudar  a acender a churrasqueira ou encher objetos infláveis. 
               <br><br>
-              Para uma limpeza prática e organizada, o aspirador de água e pó da WAP conta com um porta acessórios que mantém o cabo elétrico de 3,6m e a mangueira de 1,7m armazenados de forma segura.   
+              Para uma limpeza prática e organizada, o aspirador de água e pó da WAP conta com um  <span class="font-semibold">porta acessórios</span> que mantém o  <span class="font-semibold">cabo elétrico de 3,6m e a mangueira de 1,7m</span> armazenados de forma segura.   
             </p>
           </div>
         </div>
 
         <div class="flex md:flex-row flex-col">
-          <div class="flex flex-col justify-center pr-8 md:order-1 order-2 md:w-1/2">
-            <h2 class="font-bold px-5">Tecnologia para uma rotina de limpeza mais fácil</h2>
-            <p class="--body px-5">
-              Domine os desafios de limpeza usando a potência e a tecnologia ao seu favor. Remova resíduos com a praticidade do Aspirador de Pó e Água 1900W WAP GTW INOX 20i e viva uma nova forma de realizar as tarefas em sua casa ou estabelecimento. 
+          <div class="flex flex-col justify-center pr-8  md:w-1/2">
+            <h2 class="title-unisans-bold px-5">Tecnologia para uma rotina <br> de limpeza mais fácil</h2>
+            <p class="body-unisans-book px-5">
+              Domine os desafios de limpeza usando a potência e a tecnologia ao seu favor. Remova resíduos com a praticidade do  <span class="font-semibold">Aspirador de Pó e Água 1900W WAP GTW INOX 20i</span> e viva uma nova forma de realizar as tarefas em sua casa ou estabelecimento. 
             </p>
           </div>
-          <div class="md:order-2 order-1 flex md:w-1/2 mt-10">
+          <div class=" flex md:w-1/2 mt-10">
             <img src="imgs/desktop/desktop_i04-1.png" alt="" class="md:w-full w-[80%] m-auto h-full">
           </div>
         </div>
@@ -418,7 +409,6 @@
 
     </main>
     <script src="./script/conjuntoCompletoDeAcessorios.js">
-
     </script>
     <script defer>
       document.addEventListener("DOMContentLoaded", function () {
@@ -432,10 +422,10 @@
               rewind: true,
               breakpoints: {
                   640: {
-                      perPage: 1.5,
+                      perPage: 2,
                   },
                   768: {
-                      perPage: 1.5,
+                      perPage: 2,
                   },
               },
           }).mount();
