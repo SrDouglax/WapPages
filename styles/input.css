@@ -1,6 +1,7 @@
 @import "./splide.css";
 @tailwind utilities;
 
+/* Font Faces */
 @font-face {
   font-family: FontInter;
   src: url(./fonts/Inter-Variable.ttf);
@@ -36,16 +37,42 @@
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
-.unisans-book { font-family: UniSansBook; font-weight: normal; }
-.font-inter { font-family: FontInter; font-weight: 300; }
-.font-roboto { font-family: FontRoboto; }
-.font-roboto-no-uppercase { font-family: FontRoboto; }
-.unisans-semi-bold { font-family: UniSansSemiBold; }
-.unisans-bold  { font-family: UniSansBold; }
-.poppins-bold { font-family: FontPoppins; }
-.unisans { font-family: UniSans; }
+/* Font Classes */
+.unisans-book {
+  font-family: UniSansBook;
+  font-weight: normal;
+}
 
-/* Estilos de título */
+.font-inter {
+  font-family: FontInter;
+  font-weight: 300;
+}
+
+.font-roboto {
+  font-family: FontRoboto;
+}
+
+.font-roboto-no-uppercase {
+  font-family: FontRoboto;
+}
+
+.unisans-semi-bold {
+  font-family: UniSansSemiBold;
+}
+
+.unisans-bold {
+  font-family: UniSansBold;
+}
+
+.poppins-bold {
+  font-family: FontPoppins;
+}
+
+.unisans {
+  font-family: UniSans;
+}
+
+/* Titles */
 .title-unisans-bold {
   @apply unisans-bold text-xl md:text-3xl;
 }
@@ -54,6 +81,7 @@
   @apply unisans text-xl md:text-3xl;
 }
 
+/* Bodies */
 .body-unisans-book {
   @apply unisans-book text-[1.1rem];
 }
@@ -74,9 +102,8 @@
   @apply font-roboto text-title md:text-title-md;
 }
 
-/* Estilos de corpo de texto */
 .--body {
-  @apply unisans-book text-[1.3rem] text-[#1D1D1B] ;
+  @apply unisans-book text-[1.3rem] text-[#1D1D1B];
 }
 
 .--body-unisans-book {
@@ -95,7 +122,7 @@
   @apply font-inter text-body text-white md:text-body-md;
 }
 
-/* Outros estilos */
+/* Other Styles */
 .--product_info * {
   box-sizing: border-box;
 }

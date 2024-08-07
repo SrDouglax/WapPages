@@ -50,14 +50,8 @@
       </header>
 
       <section class="flex flex-col items-center mt-14 md:mt-36">
-        <img
-          src="./images/fogaca_apontando_dedo_desktop.png"
-          class="hidden w-full px-10 md:block"
-          alt="Henrique Fogaca apontando dedo para o produto" />
-        <img
-          src="./images/fogaca_apontando_dedo_mobile.png"
-          class="w-full px-6 m-auto md:hidden"
-          alt="Henrique Fogaca apontando dedo para o produto" />
+        <img src="./images/fogaca_apontando_dedo_desktop.png" class="hidden w-full px-10 md:block" alt="Henrique Fogaca apontando dedo para o produto" />
+        <img src="./images/fogaca_apontando_dedo_mobile.png" class="w-full px-6 m-auto md:hidden" alt="Henrique Fogaca apontando dedo para o produto" />
 
         <div class="flex flex-col items-start mx-10 mt-20 gap-12 md:gap-0 md:mx-16 md:justify-around md:flex-row md:mt-28">
           <div class="flex flex-col items-center justify-end w-full px-1 tracking-tighter text-center md:mx-5 md:w-1/4">
@@ -98,42 +92,46 @@
         </div>
       </section>
 
-      <section
-        class="flex flex-col gap-2 mt-20 text-white md:mt-40 bg-black-default md:rounded-3xl">
-        <div class="grid grid-cols-2 gap-8">
-          <div class="relative z-10 mt-8 ml-8 space-y-6 md:mt-16 md:ml-20">
-            <h1 class="text-base font-bold uppercase  md:text-3xl font-poppins">
+      
+      <section class="flex flex-col gap-2 mt-52 text-white md:mt-40 bg-black-default md:rounded-3xl">
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="relative z-10 -mt-[10rem] px-5 md:px-0 space-y-6 md:mt-16 md:ml-20 md:order-1 order-2">
+            <h1 class="text-xl font-bold uppercase  md:text-3xl font-poppins md:w-full w-[90%]">
               DESCUBRA UMA NOVA ERA DE SABORES COM A FRITADEIRA AIRFRY OVEN DIGITAL BLACK INOX
             </h1>
-            <p class="font-inter font-light tracking-tighter text-sm sm:text-base pt-5 sm:pt-10 md:pt-20 lg:pt-0 w-[200%] lg:w-[90%]">
+            <p class="font-inter font-light tracking-tighter text-sm sm:text-base sm:pt-10 md:pt-20 lg:pt-0  lg:w-[90%]">
               A WAP combinou as funcionalidades das fritadeiras airfryer com as de fornos convencionais, o que permite fritar, grelhar, tostar e desidratar alimentos, tudo em um único aparelho. 
               <br><br>
               Seus dois andares possibilitam cozinhar diferentes tipos de alimentos simultaneamente. Com temperatura ajustável de 30°C a 200°C, é ideal para famílias grandes ou para receber convidados e servir pratos de forma eficiente e saudável. 
             </p>
           </div>
-          <div class="relative flex items-start justify-start w-[120%]">
-            <img
-              src="./images/produto_com_alimento.png"
-              class="mr-0 -translate-y-[2rem] w-[14rem] -translate-x-[2rem] sm:-translate-y-[2rem] md:-translate-y-[5rem] md:-translate-x-[4rem] md:mr-5 md:w-full"
-              alt="" />
+          <div class="relative flex items-start justify-start md:w-[120%] md:order-2 order-1">
+            <!-- Desktop -->
+            <img src="./images/produto_com_alimento.png" 
+                 class="hidden md:block mr-5 -translate-y-[5rem] -translate-x-[4rem] w-full" 
+                 alt="Descrição da imagem para acessibilidade" />
+        
+            <!-- Mobile -->
+            <img src="./images/produto_com_alimento.png" 
+                 class="block md:hidden w-[80%] m-auto -translate-y-[10rem]" 
+                 alt="Descrição da imagem para acessibilidade" />
           </div>
         </div>
 
-        <div class="flex flex-col-reverse gap-4 px-8 pb-20 mt-10 md:-mt-5 md:px-20 lg:grid lg:grid-cols-2">
+        <div class="flex flex-col-reverse gap-4 px-5 pb-20 mt-10 md:-mt-5 md:px-20 lg:grid lg:grid-cols-2">
           <div class="flex items-center justify-center px-4 md:px-8 md:py-8">
             <img
               src="./images/pão_de_queijo.png"
               alt="Bandeija com alimento"
               class="object-contain w-full h-full lg:-mt-8 lg:translate-y-10 -mt-44 translate-y-44" />
           </div>
-          <div class="flex flex-col items-center  justify-center gap-4 mt-12 md:-mt-0 font-poppins">
+          <div class="flex flex-col items-center justify-center gap-4  font-poppins">
             <h1 class="text-center">
               <span class="text-4xl font-bold md:text-7xl">12 LITROS</span><br />
               <span class="text-xl font-light md:text-5xl">DE CAPACIDADE</span>
             </h1>
-            <p
-              class="md:text-center font-inter font-light tracking-tighter text-sm sm:text-base lg:w-[100%] w-full">
-              Economize tempo e esforço na cozinha utilizando toda a ampla capacidade de 12 litros da <span class="font-bold">WAP AIRFRY OVEN DIGITAL BLACK</span>. Prove pratos deliciosos e crocantes sem esperar, economizando tempo e esforço. 
+            <p class="md:text-center font-inter font-light tracking-tighter text-sm sm:text-base md:w-[80%] w-full">
+              Economize tempo e esforço na cozinha utilizando toda a ampla capacidade de 12 litros da <span class="font-bold">WAP AIRFRY OVEN DIGITAL BLACK</span>. Prove pratos deliciosos e crocantes sem esperar, economizando tempo e esforço.
             </p>
           </div>
         </div>
@@ -144,12 +142,11 @@
         <div class="flex flex-col md:gap-10 md:justify-center md:ml-0">
           <div class="flex flex-col h-auto gap-3 mt-10 md:mt-0">
             <img src="./images/icons/icon_arco.png" alt="logo" class="w-10 md:w-14" />
-            <h1 class="font-black md:text-2xl text-black-default font-poppins">
+            <h1 class="font-black text-xl md:text-2xl  text-black-default font-poppins">
               10 FUNÇÕES <br />
               PRÉ-PROGRAMADAS
             </h1>
-            <p
-              class="text-base tracking-tighter text-black-default font-light font-inter lg:w-[80%] w-[70%]">
+            <p class="text-base tracking-tighter text-black-default font-light font-inter lg:w-[80%] w-[95%]">
               Para uma rotina culinária prática, conte com as 10 funções pré-programadas que incluem <span class="font-bold">receitas clássicas de airfryer e a função reaquecer</span>
             </p>
           </div>
@@ -163,11 +160,8 @@
                 <p class="text-base card-description font-poppins"></p>
               </div>
               <div class="flex items-center justify-center gap-5">
-                <p class="font-bold card-counter"></p>
-                <div
-                  class="w-10 h-10 bg-center bg-no-repeat bg-cover cursor-pointer previous" style="background-image: url('./images/icons/left_sign.png')"></div>
-                <div
-                  class="w-10 h-10 bg-center bg-no-repeat bg-cover cursor-pointer next" style="background-image: url('./images/icons/right_sign.png')"></div>
+                <div class="w-10 h-10 bg-center bg-no-repeat bg-cover cursor-pointer previous" style="background-image: url('./images/icons/left_sign.png')"></div>
+                <div class="w-10 h-10 bg-center bg-no-repeat bg-cover cursor-pointer next" style="background-image: url('./images/icons/right_sign.png')"></div>
               </div>
             </div>
           </div>
@@ -193,16 +187,13 @@
             <p class="ml-5 text-base card-description font-inter"></p>
           </div>
           <div class="flex items-center justify-center h-full mt-5">
-            <p class="mr-4 font-bold card-counter"></p>
-            <div
-              class="mr-2 bg-center bg-no-repeat bg-cover cursor-pointer w-7 h-7 previous" style="background-image: url('./images/icons/left_sign.png')"></div>
-            <div
-              class="bg-center bg-no-repeat bg-cover cursor-pointer w-7 h-7 next" style="background-image: url('./images/icons/right_sign.png')"></div>
+            <div class="mr-2 bg-center bg-no-repeat bg-cover cursor-pointer w-7 h-7 previous" style="background-image: url('./images/icons/left_sign.png')"></div>
+            <div class="bg-center bg-no-repeat bg-cover cursor-pointer w-7 h-7 next" style="background-image: url('./images/icons/right_sign.png')"></div>
           </div>
         </div>
       </section>
 
-      <section class="flex flex-col items-center justify-center mx-5 mt-20">
+      <section class="flex flex-col md:items-center justify-center px-5 md:mt-20 mt-10">
         <h1 class="w-11/12 text-xl font-bold md:text-4xl md:text-center font-poppins">
           VERSATILIDADE PARA VOCÊ EXPLORAR<br class="hidden md:block" />TODAS AS
           POSSIBILIDADES
@@ -252,28 +243,28 @@
       </section>
      
       <!--Mais posibilidades mobile-->
-      <section class="md:hidden flex flex-col items-center justify-center mt-[20rem] bg-black-default rounded-2xl">
+      <section class="md:hidden flex flex-col items-center justify-center mt-[16rem] bg-black-default ">
         <div class="relative fle h-[320px] w-[25rem]">
-          <img class="absolute -translate-y-[12rem]" src="./images/mais-possibilidades-sessao-mobile.png" alt="">
-          <div class="absolute left-[3rem] -top-[13rem]">
-            <h1 class="text-lg font-bold font-poppins">
+          <img class="absolute -translate-y-[14.5rem]" src="./images/mais-possibilidades-sessao-mobile.png" alt="" class="h-[120%]">
+          <div class="absolute left-[3rem] -top-[12rem]">
+            <h1 class="text-lg font-bold font-poppins leading-tight">
               PORTA <br> REMOVÍVEL
             </h1>
             <p class="text-sm tracking-tighter font-inter">Para facilitar <br> sua limpeza.</p>
           </div>
-          <div class="absolute text-end right-[3.5rem] -top-[13rem]">
+          <div class="absolute  text-end right-[3.5rem] -top-[15rem] w-[32%]">
             <h1 class="text-lg font-bold font-poppins">
               CESTO
             </h1>
-            <p class="text-sm tracking-tighter font-inter">Cesto removível <br> com 4,5 litros..</p>
+            <p class="text-sm text-end tracking-tighter font-inter">O cesto removível com 4,5 litros é perfeito para porções generosas.</p>
           </div>
-          <div class="absolute text-white left-[13rem] bottom-[3rem]">
+          <div class="absolute text-white left-[13rem] bottom-[2rem]">
             <h1 class="text-lg font-bold font-poppins">
               BANDEJAS <br> ANTIADERENTE
             </h1>
-            <p class="text-sm tracking-tighter font-inter">Cesto removível <br> com 4,5 litros..</p>
+            <p class="text-sm w-[85%] tracking-tighter font-inter">As duas bandejas com camada antiaderente oferecem versatilidade na preparação dos pratos.</p>
           </div>
-          <div class="absolute text-white text-end right-[15.8rem] bottom-[3.5rem]">
+          <div class="absolute text-white text-end right-[15.8rem] bottom-[2.5rem]">
             <h1 class="text-lg font-bold font-poppins">
               BANDEJA <br> COLETORA
             </h1>
@@ -331,11 +322,9 @@
           </h1>
 
           <p class="mt-3 text-base w-[90%] font-light text-black font-inter md:mt-5">
-            A evolução da air fryer já chegou! Agora, o almoço em família ou o preparo das
-            porções para o encontro entre amigos está mais fácil do que nunca.<br /><br />
-
-            Vá além das batatas fritas! Complete sua cozinha utilizando as funções do
-            forno e da fritadeira simultaneamente, criando receitas de dar água na boca.
+            Vá além das batatas fritas! Agora, preparar o almoço em família ou porções para encontros entre amigos está mais fácil – e saudável - do que nunca. 
+            <br><br>
+            Faça escolhas saudáveis assando, cozinhando e fritando ingredientes sem óleo ou manteiga, usando alta tecnologia e máximo desempenho.  
           </p>
           <img
             class="left-0 w-full mt-10 sm:hidden"
@@ -356,7 +345,7 @@
           </p>
           <div class="mt-10 m-auto md:ml-0">
             <span
-              class="px-4 py-2 font-bold text-white rounded-md cursor-pointer font-poppins bg-red-default"
+              class="px-4 py-2 font-bold text-white rounded-full cursor-pointer font-poppins bg-red-default"
               onclick="window.open('https://wap.ind.br/receitas', '_blank')">
               ACESSE AS RECEITAS DA WAP
             </span>

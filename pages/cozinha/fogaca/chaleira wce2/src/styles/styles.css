@@ -33,16 +33,21 @@
   margin-bottom: 2rem;
 }
 
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.-mt-5 {
+  margin-top: -1.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
 }
 
 .ml-8 {
@@ -79,6 +84,18 @@
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .flex {
@@ -218,6 +235,10 @@
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -237,6 +258,15 @@
 
 .border {
   border-width: 1px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-red-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(252 165 165 / var(--tw-border-opacity));
 }
 
 .bg-black-default {
@@ -307,6 +337,10 @@
 
 .text-center {
   text-align: center;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .font-inter {
@@ -1080,6 +1114,10 @@ video {
     gap: 0px;
   }
 
+  .md\:self-start {
+    align-self: flex-start;
+  }
+
   .md\:rounded-3xl {
     border-radius: 1.5rem;
   }
@@ -1092,6 +1130,11 @@ video {
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-4xl {
