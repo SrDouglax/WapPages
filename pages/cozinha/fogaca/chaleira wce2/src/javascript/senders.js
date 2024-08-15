@@ -1,5 +1,5 @@
 function sendHeight() {
-  let height = document.body.scrollHeight;
+  let height = document.body.scrollHeight - 2;
   window.parent.postMessage({ frameHeight: height }, "*");
 }
 

@@ -21,10 +21,10 @@
     "PRESSAOELETRICA": "npx tailwindcss -i ./styles/input.css -o ./pages/cozinha/fogaca/PressaoEletrica/styles/styles.css --watch",
     "AIRHEAT": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/AirHeat/styles/styles.css --watch",
     "GTW_ASH": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/GtwAsh/styles/styles.css --watch",
-    "OVEN": "npx tailwindcss -i ./styles/input.css -o ./pages/cozinha/fogaca/oven_2/styles/styles.css --watch",
     "ASPIRADORPOEAGUA12I": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/AspiradorDePoEAguaGTWInox12i/styles/styles.css --watch",
     "ASPIRADORPOEAGUA20I": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/AspiradorDePoEAguaGTWInox20i/styles/styles.css --watch",
-    "LAVADORABRAVO2550ULTRA": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550Ultra/styles/styles.css --watch"
+    "LAVADORABRAVO2550ULTRA": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550Ultra/styles/styles.css --watch",
+    "LAVADORABRAVO2550": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550/styles/styles.css --watch"
   },
   "devDependencies": {
     "cssnano": "^6.0.2",
