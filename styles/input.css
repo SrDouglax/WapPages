@@ -37,7 +37,6 @@
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
-/* Font Classes */
 .unisans-book {
   font-family: UniSansBook;
   font-weight: normal;
@@ -81,7 +80,6 @@
   @apply unisans text-xl md:text-3xl;
 }
 
-/* Bodies */
 .body-unisans-book {
   @apply unisans-book text-[1.1rem];
 }
@@ -122,7 +120,6 @@
   @apply font-inter text-body text-white md:text-body-md;
 }
 
-/* Other Styles */
 .--product_info * {
   box-sizing: border-box;
 }

@@ -3,7 +3,7 @@
 @tailwind base;
 
 @layer utilities {
-    .max-w-95 {
-      max-width: 100%;
-    }
+  .max-w-95 {
+    max-width: 100%;
   }
+}

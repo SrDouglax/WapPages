@@ -24,7 +24,8 @@
     "ASPIRADORPOEAGUA12I": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/AspiradorDePoEAguaGTWInox12i/styles/styles.css --watch",
     "ASPIRADORPOEAGUA20I": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/AspiradorDePoEAguaGTWInox20i/styles/styles.css --watch",
     "LAVADORABRAVO2550ULTRA": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550Ultra/styles/styles.css --watch",
-    "LAVADORABRAVO2550": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550/styles/styles.css --watch"
+    "LAVADORABRAVO2550": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550/styles/styles.css --watch",
+    "KITFERRAMENTASWFM110": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/KitFerramentasWFM110/styles/styles.css --watch"
   },
   "devDependencies": {
     "cssnano": "^6.0.2",
