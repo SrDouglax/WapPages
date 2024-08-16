@@ -1,6 +1,5 @@
 .splide__pagination {
   background-color: #ededed;
-  /* background-color: aqua; */
   display: flex;
   gap: 5px;
   width: max-content;

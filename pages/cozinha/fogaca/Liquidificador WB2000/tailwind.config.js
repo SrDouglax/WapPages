@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         red: {
           primary: '#981F1F',
+          secondary: '#A32035',
         },
         zinc: {
           primary: '#434343',
