@@ -726,12 +726,57 @@
       </section>
       <section
         class="mt-20 w-[min(1200px,_80%)] mx-auto flex flex-col justify-center md:flex-row md:w-[min(1200px,_90%)] md:gap-8 font-uni_sans"
+        x-data="{ showText: false }"
       >
-        <div class="md:flex-1 md">
-          <img src="images/desktop_liquidificador_wb2000_copo.png" />
+        <div class="md:flex-1">
+          <div class="relative">
+            <div
+              class="absolute right-[20%] top-[5%]"
+              @click="showText = !showText"
+              :class="{ 'rotate-45': showText }"
+            >
+              <div class="relative">
+                <img src="images/desktop_liquidificador_wb2000_button.png" />
+                <img
+                  class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  src="images/desktop_liquidificador_wb2000_open_close.png"
+                />
+              </div>
+            </div>
+            <div
+              class="absolute left-0 bottom-[15%]"
+              @click="showText = !showText"
+              :class="{ 'rotate-45': !showText }"
+            >
+              <div class="relative">
+                <img src="images/desktop_liquidificador_wb2000_button.png" />
+                <img
+                  class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+                  src="images/desktop_liquidificador_wb2000_open_close.png"
+                />
+              </div>
+            </div>
+            <img src="images/desktop_liquidificador_wb2000_copo.png" />
+          </div>
         </div>
         <div class="md:flex-1">
-          <div class="md:max-w-[70%] mx-auto text-lg md:text-base">
+          <div
+            :class="{ 'hidden': !showText }"
+            class="md:max-w-[70%] mx-auto text-lg md:text-base"
+          >
+            <h2 class="font-bold text-3xl mt-20 md:text-xl">
+              SISTEMA DE TRAVA
+            </h2>
+            <p class="mt-9">
+              A alça possui um sistema de travamento que evita vazamentos e
+              acidentes. Ele garante que a tampa fique presa no lugar durante o
+              uso.
+            </p>
+          </div>
+          <div
+            :class="{ 'hidden': showText }"
+            class="md:max-w-[70%] mx-auto text-lg md:text-base"
+          >
             <h2 class="font-bold text-3xl mt-20 md:text-xl">
               COZINHA RESISTENTE E SEM LIMITES 
             </h2>
