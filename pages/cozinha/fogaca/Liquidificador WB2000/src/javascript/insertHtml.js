@@ -127,7 +127,7 @@ const htmlContent = `<!DOCTYPE html>
         <div
           class="max-w-[900px] grid mx-auto font-uni_sans gap-12 justify-center md:grid-cols-3"
         >
-          <div class="flex flex-col gap-4 max-w-[300px] items-center">
+          <div class="flex flex-col gap-0.5 max-w-[300px] items-center">
             <div>
               <svg
                 width="61"
@@ -183,15 +183,17 @@ const htmlContent = `<!DOCTYPE html>
                 />
               </svg>
             </div>
-            <header class="font-bold text-2xl text-center line-clamp-2 h-16">
+            <header
+              class="font-bold text-2xl text-center line-clamp-2 leading-6 h-12 mt-6"
+            >
               Jarra de vidro
             </header>
-            <article class="text-xl text-center">
+            <article class="text-xl text-center md:text-base">
               Possui capacidade total de 2 litros, não mancha e nem absorve
               odores.
             </article>
           </div>
-          <div class="flex flex-col gap-4 max-w-[300px] items-center">
+          <div class="flex flex-col gap-0.5 max-w-[300px] items-center">
             <div>
               <svg
                 width="61"
@@ -217,15 +219,17 @@ const htmlContent = `<!DOCTYPE html>
                 />
               </svg>
             </div>
-            <header class="font-bold text-2xl text-center line-clamp-2 h-16">
+            <header
+              class="font-bold text-2xl text-center line-clamp-2 leading-6 h-12 mt-6"
+            >
               6 lâminas em aço inox
             </header>
-            <article class="text-xl text-center">
+            <article class="text-xl text-center md:text-base">
               Precisão e eficiência para cortar com rapidez desde frutas macias
               até gelo.
             </article>
           </div>
-          <div class="flex flex-col gap-4 max-w-[300px] items-center">
+          <div class="flex flex-col gap-0.5 max-w-[300px] items-center">
             <div>
               <svg
                 width="61"
@@ -251,10 +255,12 @@ const htmlContent = `<!DOCTYPE html>
                 />
               </svg>
             </div>
-            <header class="font-bold text-2xl text-center line-clamp-2 h-16">
+            <header
+              class="font-bold text-2xl text-center line-clamp-2 leading-6 h-12 mt-6"
+            >
               Velocidade variável
             </header>
-            <article class="text-xl text-center">
+            <article class="text-xl text-center md:text-base">
               Permite ajuste personalizado durante o uso e vem com 4 funções
               pré-programadas.
             </article>
@@ -279,7 +285,9 @@ const htmlContent = `<!DOCTYPE html>
             >
               PREPARE SUAS RECEITAS COM MÁXIMO DESEMPENHO
             </h3>
-            <p class="mt-6 w-4/5 mx-auto text-center md:w-full md:text-left">
+            <p
+              class="mt-6 w-4/5 mx-auto text-center md:w-full md:text-left text-xl md:text-base"
+            >
               A busca por uma solução confiável e versátil para suas
               necessidades diárias na cozinha acabou. O
               <strong>WAP LIQUIDIFICADOR PROSDÓCIMO WB2000</strong> processa
@@ -293,7 +301,9 @@ const htmlContent = `<!DOCTYPE html>
           <h3 class="text-center font-bold text-2xl w-[min(700px,90%)] mx-auto">
             CONTROLE TOTAL EM QUALQUER DESAFIO
           </h3>
-          <p class="mt-6 w-4/5 mx-auto text-center max-w-[700px]">
+          <p
+            class="mt-6 w-4/5 mx-auto text-center max-w-[700px] text-xl md:text-base"
+          >
             A velocidade variável do liquidificador WAP permite que você assuma
             o controle do preparo do início ao fim com facilidade. Além disso,
             os quatro modos de uso pré-definidos potencializam a experiência de
@@ -356,7 +366,7 @@ const htmlContent = `<!DOCTYPE html>
               </div>
               <div>
                 <h4 class="font-bold text-xl mt-4">Limpar</h4>
-                <span class="text-zinc-primary text-lg mt-1.5">
+                <span class="text-zinc-primary mt-1.5">
                   Simplifica a limpeza da jarra;
                 </span>
               </div>
@@ -404,7 +414,7 @@ const htmlContent = `<!DOCTYPE html>
               </div>
               <div>
                 <h4 class="font-bold text-xl mt-4">Vitamina</h4>
-                <span class="text-zinc-primary text-lg mt-1.5">
+                <span class="text-zinc-primary mt-1.5">
                   Ideal para preparar vitaminas;
                 </span>
               </div>
@@ -463,7 +473,7 @@ const htmlContent = `<!DOCTYPE html>
               </div>
               <div>
                 <h4 class="font-bold text-xl mt-4">Pulsar</h4>
-                <span class="text-zinc-primary text-lg mt-1.5">
+                <span class="text-zinc-primary mt-1.5">
                   Facilita picar alimentos difíceis;
                 </span>
               </div>
@@ -530,7 +540,7 @@ const htmlContent = `<!DOCTYPE html>
               </div>
               <div>
                 <h4 class="font-bold text-xl mt-4">Gelo</h4>
-                <span class="text-zinc-primary text-lg mt-1.5">
+                <span class="text-zinc-primary mt-1.5">
                   Perfeito para triturar gelo;
                 </span>
               </div>
@@ -542,13 +552,13 @@ const htmlContent = `<!DOCTYPE html>
         class="md:mt-72 mt-96 w-[min(1200px,_90%)] mx-auto font-uni_sans"
       >
         <h2
-          class="max-w-[720px] mx-auto text-center font-bold text-4xl md:max-w-[550px]"
+          class="max-w-[720px] mx-auto text-center font-bold text-3xl md:max-w-[550px]"
         >
           EFICIÊNCIA E DURABILIDADE EM UM DESIGN PREMIUM
         </h2>
-        <div class="mt-20 md:grid md:grid-cols-12 items-center">
+        <div class="mt-5 md:grid md:grid-cols-12 items-center">
           <div
-            class="hidden md:flex flex-col md:gap-8 md:col-start-1 md:col-end-6 md:row-span-full"
+            class="hidden md:flex flex-col md:gap-8 md:col-start-1 md:col-end-6 md:row-span-full xl:gap-20"
           >
             <div
               class="bg-gradient-to-l from-white to-gray-light-primary rounded-3xl pl-14 py-6"
@@ -612,11 +622,11 @@ const htmlContent = `<!DOCTYPE html>
                 <div
                   class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
                 >
-                  <div class="col-span-7 pl-10 pt-8 pb-2">
-                    <h3 class="font-bold text-2xl h-16 line-clamp-2">
+                  <div class="col-span-7 pl-5 pt-4 pb-2">
+                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
                       Na medida certa para sua rotina
                     </h3>
-                    <p class="mt-2 text-lg">
+                    <p class="mt-3 text-base">
                       Prepare receitas com a consistência ideal de forma
                       prática, usando a tampa com dosador.
                     </p>
@@ -632,11 +642,11 @@ const htmlContent = `<!DOCTYPE html>
                 <div
                   class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
                 >
-                  <div class="col-span-7 pl-10 pt-8 pb-2">
-                    <h3 class="font-bold text-2xl h-16 line-clamp-2">
+                  <div class="col-span-7 pl-5 pt-4 pb-2">
+                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
                       Fechamento perfeito
                     </h3>
-                    <p class="mt-2 text-lg">
+                    <p class="mt-3 text-base">
                       Oferece segurança ao garantir fechamento hermético durante
                       o uso, evitando o vazamentos.
                     </p>
@@ -653,11 +663,11 @@ const htmlContent = `<!DOCTYPE html>
                 <div
                   class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
                 >
-                  <div class="col-span-7 pl-10 pt-8 pb-2">
-                    <h3 class="font-bold text-2xl h-16 line-clamp-2">
+                  <div class="col-span-7 pl-5 pt-4 pb-2">
+                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
                       Cozinha sem limites
                     </h3>
-                    <p class="mt-2 text-lg">
+                    <p class="mt-3 text-base">
                       O design prático da jarra de vidro possui 2L de capacidade
                       total, perfeita para dar vida à grandes pratos.
                     </p>
@@ -674,11 +684,11 @@ const htmlContent = `<!DOCTYPE html>
                 <div
                   class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
                 >
-                  <div class="col-span-7 pl-10 pt-8 pb-2">
-                    <h3 class="font-bold text-2xl h-16 line-clamp-2">
+                  <div class="col-span-7 pl-5 pt-4 pb-2">
+                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
                       Sempre pronto para uso
                     </h3>
-                    <p class="mt-2 text-lg">
+                    <p class="mt-3 text-base">
                       As seis lâminas removíveis são projetas para oferecer
                       segurança durante o manuseio e a limpeza.
                     </p>
@@ -695,11 +705,11 @@ const htmlContent = `<!DOCTYPE html>
                 <div
                   class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
                 >
-                  <div class="col-span-7 pl-10 pt-8 pb-2">
-                    <h3 class="font-bold text-2xl h-16 line-clamp-2">
+                  <div class="col-span-7 pl-5 pt-4 pb-2">
+                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
                       Resistência e segurança
                     </h3>
-                    <p class="mt-2 text-lg">
+                    <p class="mt-3 text-base">
                       O design em aço inox proporciona elegância e durabilidade.
                       A base possui pés antiderrapantes para mais mobilidade.
                     </p>
@@ -720,7 +730,13 @@ const htmlContent = `<!DOCTYPE html>
         class="max-w-[1200px] mx-auto mt-11 overflow-hidden md:w-[95%] md:rounded-3xl font-uni_sans"
       >
         <img
+          class="hidden md:block"
           src="images/desktop_liquidificador_wb2000_background.png"
+          alt="liquidificador wb2000"
+        />
+        <img
+          class="block md:hidden"
+          src="images/mobile_liquidificador_wb2000_background.png"
           alt="liquidificador wb2000"
         />
       </section>
@@ -764,10 +780,10 @@ const htmlContent = `<!DOCTYPE html>
             :class="{ 'hidden': !showText }"
             class="md:max-w-[70%] mx-auto text-lg md:text-base"
           >
-            <h2 class="font-bold text-3xl mt-20 md:text-xl">
+            <h2 class="font-bold text-3xl mt-20 md:text-2xl">
               SISTEMA DE TRAVA
             </h2>
-            <p class="mt-9">
+            <p class="mt-9 text-zinc-primary">
               A alça possui um sistema de travamento que evita vazamentos e
               acidentes. Ele garante que a tampa fique presa no lugar durante o
               uso.
@@ -777,16 +793,16 @@ const htmlContent = `<!DOCTYPE html>
             :class="{ 'hidden': showText }"
             class="md:max-w-[70%] mx-auto text-lg md:text-base"
           >
-            <h2 class="font-bold text-3xl mt-20 md:text-xl">
+            <h2 class="font-bold text-3xl mt-20 md:text-2xl">
               COZINHA RESISTENTE E SEM LIMITES 
             </h2>
-            <p class="mt-9">
+            <p class="mt-9 text-zinc-primary">
               Versátil para preparar um cardápio completo de pratos deliciosos,
               o design prático da <strong>jarra de vidro possui 2L</strong> de
               capacidade total, perfeita para dar vida à grandes porções de
               massas, smoothies e molhos em um único recipiente.
             </p>
-            <p class="mt-5">
+            <p class="mt-5 text-zinc-primary">
               Além disso, ela não mancha, não absorve odores e é resistente a
               eventuais ranhuras provocadas pelo uso. A jarra e os acessórios
               são compatíveis com lava-louças, garantindo uma limpeza rápida e
@@ -811,8 +827,8 @@ const htmlContent = `<!DOCTYPE html>
                     Livro de receitas
                   </h4>
                   <span class="text-zinc-primary mt-5 text-sm h-16"
-                    >Localizada na base do liquidificador, mantêm o cabo
-                    elétrico sempre no lugar certo para uma cozinha organizada.
+                    >Exclusivo, inspira você a criar uma variedade de pratos
+                    deliciosos.
                   </span>
                 </div>
               </li>
@@ -848,11 +864,26 @@ const htmlContent = `<!DOCTYPE html>
                   </span>
                 </div>
               </li>
+              <li class="splide__slide flex flex-col">
+                <div class="grow">
+                  <img
+                    class="object-cover"
+                    src="images/mobile_liquidificador_wb2000_base.png"
+                  />
+                </div>
+                <div class="text-center flex flex-col mt-6 max-w-[90%] mx-auto">
+                  <h4 class="font-bold text-xl md:text-3xl">Porta fio</h4>
+                  <span class="text-zinc-primary mt-5 text-sm h-16"
+                    >Localizada na base do liquidificador, mantêm o cabo
+                    elétrico sempre no lugar certo para uma cozinha organizada.
+                  </span>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
       </section>
-      <section class="w-[min(1200px,_90%)] mx-auto font-uni_sans">
+      <section class="w-[min(1200px,_90%)] mx-auto font-uni_sans mt-10">
         <div class="md:flex flex-row-reverse md:max-w-[90%] md:mx-auto">
           <div class="md:flex-1 md:flex md:items-center">
             <img src="images/desktop_liquidificador_wb2000_morango.png" />
@@ -861,8 +892,10 @@ const htmlContent = `<!DOCTYPE html>
             <div
               class="md:flex md:justify-center md:flex-col md:h-full md:max-w-[80%]"
             >
-              <h2 class="text-3xl font-bold">SEMPRE PRONTO PARA USO </h2>
-              <p class="text-zinc-primary mt-6 text-xl">
+              <h2 class="text-3xl font-bold md:text-2xl">
+                SEMPRE PRONTO PARA USO 
+              </h2>
+              <p class="text-zinc-primary mt-6 text-xl md:text-base">
                 Descubra todas as funcionalidades do
                 <strong>WAP LIQUIDIFICADOR PROSDÓCIMO WB2000</strong> e prepare
                 receitas com praticidade. Faça a escolha mais elegan te e
@@ -902,7 +935,7 @@ const htmlContent = `<!DOCTYPE html>
               você com a linha de cozinha da WAP.
             </p>
             <a
-              class="mt-36 md:mt-10 block max-w-[max-content] mx-auto text-white font-bold bg-red-secondary text-3xl rounded-full px-8 pb-2 pt-3 leading-7 md:text-base md:mx-0"
+              class="mt-36 md:mt-10 block max-w-[max-content] mx-auto text-white font-bold bg-red-secondary text-xl rounded-full px-8 pb-2 pt-3 leading-7 md:text-base md:mx-0"
               href="#"
               ><span>ACESSE AS RECEITAS DA WAP</span>
             </a>
@@ -949,8 +982,10 @@ const htmlContent = `<!DOCTYPE html>
     </script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
     <script src="./javascript/senders.js"></script>
+
   </body>
 </html>
+
 
 `
 
