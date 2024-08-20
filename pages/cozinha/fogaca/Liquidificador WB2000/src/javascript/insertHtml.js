@@ -1,4 +1,5 @@
-const htmlContent = `<!DOCTYPE html>
+const htmlContent = `
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -183,9 +184,7 @@ const htmlContent = `<!DOCTYPE html>
                 />
               </svg>
             </div>
-            <header
-              class="font-bold text-2xl text-center line-clamp-2 leading-6 h-12 mt-6"
-            >
+            <header class="font-bold text-2xl text-center line-clamp-2 leading-6 h-12 mt-6" >
               Jarra de vidro
             </header>
             <article class="text-xl text-center md:text-base">
@@ -620,7 +619,7 @@ const htmlContent = `<!DOCTYPE html>
             <ul class="splide__list">
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="grid grid-cols-12 gap-2 h-full rounded-3xl overflow-hidden" 
                 >
                   <div class="col-span-7 pl-5 pt-4 pb-2">
                     <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
@@ -640,7 +639,7 @@ const htmlContent = `<!DOCTYPE html>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="grid grid-cols-12 gap-2 h-full rounded-3xl overflow-hidden" 
                 >
                   <div class="col-span-7 pl-5 pt-4 pb-2">
                     <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
@@ -661,7 +660,7 @@ const htmlContent = `<!DOCTYPE html>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="grid grid-cols-12 gap-2 h-full rounded-3xl overflow-hidden" 
                 >
                   <div class="col-span-7 pl-5 pt-4 pb-2">
                     <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
@@ -682,7 +681,7 @@ const htmlContent = `<!DOCTYPE html>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="grid grid-cols-12 gap-2 h-full rounded-3xl overflow-hidden" 
                 >
                   <div class="col-span-7 pl-5 pt-4 pb-2">
                     <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
@@ -703,7 +702,7 @@ const htmlContent = `<!DOCTYPE html>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="grid grid-cols-12 gap-2 h-full rounded-3xl overflow-hidden" 
                 >
                   <div class="col-span-7 pl-5 pt-4 pb-2">
                     <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
@@ -942,7 +941,7 @@ const htmlContent = `<!DOCTYPE html>
           </div>
         </div>
       </section>
-      <section class="mt-24 max-w-[2000px]">
+      <section class="mt-24 max-w-[2000px] m-auto">
         <img
           class=""
           src="images/desktop_liquidificador_wb2000_fogaca_background.png"
@@ -985,7 +984,6 @@ const htmlContent = `<!DOCTYPE html>
 
   </body>
 </html>
-
 
 `
 
