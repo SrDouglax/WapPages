@@ -620,105 +620,127 @@ const htmlContent = `<!DOCTYPE html>
             <ul class="splide__list">
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="h-[99%] bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden shadow-bottom"
                 >
-                  <div class="col-span-7 pl-5 pt-4 pb-2">
-                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
-                      Na medida certa para sua rotina
-                    </h3>
-                    <p class="mt-3 text-base">
-                      Prepare receitas com a consistência ideal de forma
-                      prática, usando a tampa com dosador.
-                    </p>
-                  </div>
-                  <div class="col-span-5 grid items-end">
-                    <img
-                      src="images/mobile_liquidificador_wb2000_dosador.png"
-                    />
+                  <div class="grid grid-cols-12 h-full gap-1.5">
+                    <div class="col-span-7 pl-5 pt-4 pb-2">
+                      <h3
+                        class="font-bold text-2xl leading-7 line-clamp-2 h-14"
+                      >
+                        Na medida certa para sua rotina
+                      </h3>
+                      <p class="mt-3 text-base">
+                        Prepare receitas com a consistência ideal de forma
+                        prática, usando a tampa com dosador.
+                      </p>
+                    </div>
+                    <div class="col-span-5 grid items-end">
+                      <img
+                        src="images/mobile_liquidificador_wb2000_dosador.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="h-[99%] bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden shadow-bottom"
                 >
-                  <div class="col-span-7 pl-5 pt-4 pb-2">
-                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
-                      Fechamento perfeito
-                    </h3>
-                    <p class="mt-3 text-base">
-                      Oferece segurança ao garantir fechamento hermético durante
-                      o uso, evitando o vazamentos.
-                    </p>
-                  </div>
-                  <div class="col-span-5 h-full">
-                    <img
-                      class="h-full object-fill"
-                      src="images/mobile_liquidificador_wb2000_fechador.png"
-                    />
+                  <div class="grid grid-cols-12 h-full gap-1.5">
+                    <div class="col-span-7 pl-5 pt-4 pb-2">
+                      <h3
+                        class="font-bold text-2xl leading-7 line-clamp-2 h-14"
+                      >
+                        Fechamento perfeito
+                      </h3>
+                      <p class="mt-3 text-base">
+                        Oferece segurança ao garantir fechamento hermético
+                        durante o uso, evitando o vazamentos.
+                      </p>
+                    </div>
+                    <div class="col-span-5 h-full">
+                      <img
+                        class="h-full object-fill"
+                        src="images/mobile_liquidificador_wb2000_fechador.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="h-[99%] bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden shadow-bottom"
                 >
-                  <div class="col-span-7 pl-5 pt-4 pb-2">
-                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
-                      Cozinha sem limites
-                    </h3>
-                    <p class="mt-3 text-base">
-                      O design prático da jarra de vidro possui 2L de capacidade
-                      total, perfeita para dar vida à grandes pratos.
-                    </p>
-                  </div>
-                  <div class="col-span-5 flex items-end">
-                    <img
-                      class="h-5/6 object-cover"
-                      src="images/mobile_liquidificador_wb2000_copo.png"
-                    />
+                  <div class="grid grid-cols-12 h-full gap-1.5">
+                    <div class="col-span-7 pl-5 pt-4 pb-2">
+                      <h3
+                        class="font-bold text-2xl leading-7 line-clamp-2 h-14"
+                      >
+                        Cozinha sem limites
+                      </h3>
+                      <p class="mt-3 text-base">
+                        O design prático da jarra de vidro possui 2L de
+                        capacidade total, perfeita para dar vida à grandes
+                        pratos.
+                      </p>
+                    </div>
+                    <div class="col-span-5 flex items-end">
+                      <img
+                        class="h-5/6 object-cover"
+                        src="images/mobile_liquidificador_wb2000_copo.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="h-[99%] bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden shadow-bottom"
                 >
-                  <div class="col-span-7 pl-5 pt-4 pb-2">
-                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
-                      Sempre pronto para uso
-                    </h3>
-                    <p class="mt-3 text-base">
-                      As seis lâminas removíveis são projetas para oferecer
-                      segurança durante o manuseio e a limpeza.
-                    </p>
-                  </div>
-                  <div class="col-span-5 h-ful">
-                    <img
-                      class="h-full object-cover"
-                      src="images/mobile_liquidificador_wb2000_lamina.png"
-                    />
+                  <div class="grid grid-cols-12 h-full gap-1.5">
+                    <div class="col-span-7 pl-5 pt-4 pb-2">
+                      <h3
+                        class="font-bold text-2xl leading-7 line-clamp-2 h-14"
+                      >
+                        Sempre pronto para uso
+                      </h3>
+                      <p class="mt-3 text-base">
+                        As seis lâminas removíveis são projetas para oferecer
+                        segurança durante o manuseio e a limpeza.
+                      </p>
+                    </div>
+                    <div class="col-span-5 h-ful">
+                      <img
+                        class="h-full object-cover"
+                        src="images/mobile_liquidificador_wb2000_lamina.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </li>
               <li class="splide__slide">
                 <div
-                  class="grid grid-cols-12 gap-2 h-full bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden"
+                  class="h-[99%] bg-gradient-to-r from-white to-gray-light-primary rounded-3xl overflow-hidden shadow-bottom"
                 >
-                  <div class="col-span-7 pl-5 pt-4 pb-2">
-                    <h3 class="font-bold text-2xl leading-7 line-clamp-2 h-14">
-                      Resistência e segurança
-                    </h3>
-                    <p class="mt-3 text-base">
-                      O design em aço inox proporciona elegância e durabilidade.
-                      A base possui pés antiderrapantes para mais mobilidade.
-                    </p>
-                  </div>
-                  <div class="col-span-5 h-full">
-                    <img
-                      class="h-full object-cover md:object-fill"
-                      src="images/mobile_liquidificador_wb2000_motor.png"
-                    />
+                  <div class="grid grid-cols-12 h-full gap-1.5">
+                    <div class="col-span-7 pl-5 pt-4 pb-2">
+                      <h3
+                        class="font-bold text-2xl leading-7 line-clamp-2 h-14"
+                      >
+                        Resistência e segurança
+                      </h3>
+                      <p class="mt-3 text-base">
+                        O design em aço inox proporciona elegância e
+                        durabilidade. A base possui pés antiderrapantes para
+                        mais mobilidade.
+                      </p>
+                    </div>
+                    <div class="col-span-5 h-full">
+                      <img
+                        class="h-full object-cover md:object-fill"
+                        src="images/mobile_liquidificador_wb2000_motor.png"
+                      />
+                    </div>
                   </div>
                 </div>
               </li>
@@ -951,6 +973,7 @@ const htmlContent = `<!DOCTYPE html>
           arrows: false,
           type: 'loop',
           pagination: true,
+          gap: '8px',
         })
         splide.mount()
 
@@ -978,9 +1001,9 @@ const htmlContent = `<!DOCTYPE html>
     </script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
     <script src="./javascript/senders.js"></script>
-
   </body>
 </html>
+
 `
 
 let iframe = document.getElementById('product-iframe-page')

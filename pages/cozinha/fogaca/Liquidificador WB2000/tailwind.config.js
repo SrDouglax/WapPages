@@ -19,6 +19,9 @@ module.exports = {
         poppins: ['Poppins', 'sans-serif'],
         uni_sans: ['Uni Sans', 'sans-serif'],
       },
+      boxShadow: {
+        bottom: '0px 2px 2px 0px rgba(0, 0, 0, 0.25)',
+      },
     },
   },
   plugins: [],
