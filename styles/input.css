@@ -101,7 +101,7 @@
 }
 
 .--body {
-  @apply unisans-book text-[1.3rem] text-[#1D1D1B];
+  @apply unisans-book text-[1.2rem] text-[#1D1D1B];
 }
 
 .body-unisans-book {
