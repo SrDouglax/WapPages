@@ -1,7 +1,7 @@
 @import "./splide.css";
-
 @tailwind utilities;
 
+/* Font Faces */
 @font-face {
   font-family: FontInter;
   src: url(./fonts/Inter-Variable.ttf);
@@ -18,20 +18,9 @@
 }
 
 @font-face {
-  font-family: Font;
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
-}
-
-@font-face {
   font-family: UniSans;
   src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans.ttf.css);
 }
-
-@font-face {
-  font-family: UniSansSemiBold;
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
-}
-
 
 @font-face {
   font-family: UniSansBold;
@@ -39,21 +28,17 @@
 }
 
 @font-face {
-  font-family: FontBold;
-  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_Bold.ttf.css);
+  font-family: UniSansSemiBold;
+  src: url(https://lojawap.vteximg.com.br/arquivos/Uni_Sans_SemiBold.ttf.css);
 }
 
 @font-face {
-  font-family: 'FontBook';
+  font-family: 'UniSansBook';
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
-.font {
-  font-family: Font;
-}
-
-.font-book {
-  font-family: FontBook;
+.unisans-book {
+  font-family: UniSansBook;
   font-weight: normal;
 }
 
@@ -64,32 +49,43 @@
 
 .font-roboto {
   font-family: FontRoboto;
-  @apply uppercase;
 }
 
 .font-roboto-no-uppercase {
   font-family: FontRoboto;
 }
 
-.--unisans-bold {
-  @apply font-[UniSansBold]
+.unisans-semi-bold {
+  font-family: UniSansSemiBold;
 }
 
-.--unisans-semi-bold {
-  @apply font-[UniSansSemiBold]
+.unisans-bold {
+  font-family: UniSansBold;
 }
 
-.--unisans {
-  @apply font-[UniSans]
+.poppins-bold {
+  font-family: FontPoppins;
 }
 
-.--poppins-bold {
-  @apply font-[FontPoppins]
+.unisans {
+  font-family: UniSans;
 }
 
+/* Titles */
+.title-unisans-bold {
+  @apply unisans-bold text-xl md:text-3xl;
+}
 
-.--title {
-  @apply font-bold text-black text-title md:text-title-md;
+.title-unisans {
+  @apply unisans text-xl md:text-3xl;
+}
+
+.body-unisans-book {
+  @apply unisans-book text-[1.1rem];
+}
+
+.body-unisans-bold {
+  @apply unisans-bold text-[1.1rem];
 }
 
 .--title-white {
@@ -105,11 +101,15 @@
 }
 
 .--body {
-  @apply font-book text-body text-[#1D1D1B] md:text-body-md;
+  @apply unisans-book text-[1.2rem] text-[#1D1D1B];
+}
+
+.body-unisans-book {
+  @apply unisans-book text-[1.1rem];
 }
 
 .--body-white {
-  @apply font-book text-body text-white md:text-body-md;
+  @apply unisans-book text-body text-white md:text-body-md;
 }
 
 .--body-inter {
@@ -122,4 +122,8 @@
 
 .--product_info * {
   box-sizing: border-box;
+}
+
+.font-roboto {
+  @apply uppercase;
 }
