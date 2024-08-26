@@ -135,6 +135,10 @@
   left: -4rem;
 }
 
+.-left-3 {
+  left: -0.75rem;
+}
+
 .-left-40 {
   left: -10rem;
 }
@@ -271,6 +275,10 @@
   bottom: 13%;
 }
 
+.bottom-\[13\.5\%\] {
+  bottom: 13.5%;
+}
+
 .bottom-\[14\%\] {
   bottom: 14%;
 }
@@ -305,6 +313,10 @@
 
 .bottom-\[17\.2\%\] {
   bottom: 17.2%;
+}
+
+.bottom-\[17\.5\%\] {
+  bottom: 17.5%;
 }
 
 .bottom-\[17\.5rem\] {
@@ -1007,6 +1019,10 @@
   right: 7rem;
 }
 
+.right-\[8\%\] {
+  right: 8%;
+}
+
 .right-\[80\%\] {
   right: 80%;
 }
@@ -1089,6 +1105,10 @@
 
 .top-\[12\.5\%\] {
   top: 12.5%;
+}
+
+.top-\[14\.5\%\] {
+  top: 14.5%;
 }
 
 .top-\[16\%\] {
@@ -1265,62 +1285,6 @@
 
 .top-\[9rem\] {
   top: 9rem;
-}
-
-.bottom-\[77\%\] {
-  bottom: 77%;
-}
-
-.-left-5 {
-  left: -1.25rem;
-}
-
-.-left-2 {
-  left: -0.5rem;
-}
-
-.-left-1 {
-  left: -0.25rem;
-}
-
-.-left-3 {
-  left: -0.75rem;
-}
-
-.bottom-\[17\.5\%\] {
-  bottom: 17.5%;
-}
-
-.bottom-\[40\.5\%\] {
-  bottom: 40.5%;
-}
-
-.top-\[15\%\] {
-  top: 15%;
-}
-
-.right-\[15\%\] {
-  right: 15%;
-}
-
-.right-\[8\%\] {
-  right: 8%;
-}
-
-.right-\[18\%\] {
-  right: 18%;
-}
-
-.bottom-\[50\%\] {
-  bottom: 50%;
-}
-
-.bottom-\[13\.5\%\] {
-  bottom: 13.5%;
-}
-
-.top-\[14\.5\%\] {
-  top: 14.5%;
 }
 
 .-z-10 {
@@ -4103,6 +4067,10 @@
   line-height: 1rem;
 }
 
+.text-\[26pt\] {
+  font-size: 26pt;
+}
+
 .\!font-\[700\] {
   font-weight: 700 !important;
 }
@@ -5304,6 +5272,10 @@
     height: 28rem;
   }
 
+  .md\:h-\[30rem\] {
+    height: 30rem;
+  }
+
   .md\:h-\[31rem\] {
     height: 31rem;
   }
@@ -5343,10 +5315,6 @@
   .md\:h-max {
     height: -moz-max-content;
     height: max-content;
-  }
-
-  .md\:h-\[30rem\] {
-    height: 30rem;
   }
 
   .md\:max-h-\[700px\] {
@@ -5821,6 +5789,11 @@
   .md\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
+  }
+
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
   }
 
   .md\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
@@ -6389,6 +6362,10 @@
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-\[13pt\] {
+    font-size: 13pt;
   }
 
   .md\:font-semibold {
