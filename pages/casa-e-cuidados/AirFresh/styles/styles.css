@@ -2853,10 +2853,6 @@
   cursor: pointer;
 }
 
-.resize {
-  resize: both;
-}
-
 .snap-start {
   scroll-snap-align: start;
 }
@@ -3237,10 +3233,6 @@
   border-left-width: 1px;
 }
 
-.border-solid {
-  border-style: solid;
-}
-
 .border-none {
   border-style: none;
 }
@@ -3428,6 +3420,11 @@
 .bg-zinc-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(67 67 67 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#BE333F\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 51 63 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-20 {
@@ -3661,6 +3658,11 @@
 .py-\[0\.35rem\] {
   padding-top: 0.35rem;
   padding-bottom: 0.35rem;
+}
+
+.py-56 {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
 }
 
 .pb-10 {
@@ -4006,6 +4008,10 @@
   font-size: 25pt;
 }
 
+.text-\[26pt\] {
+  font-size: 26pt;
+}
+
 .text-\[2rem\] {
   font-size: 2rem;
 }
@@ -4065,10 +4071,6 @@
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[26pt\] {
-  font-size: 26pt;
 }
 
 .\!font-\[700\] {
@@ -5791,11 +5793,6 @@
          column-gap: 2rem;
   }
 
-  .md\:gap-x-10 {
-    -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
-  }
-
   .md\:space-y-1 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
@@ -6362,10 +6359,6 @@
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-\[13pt\] {
-    font-size: 13pt;
   }
 
   .md\:font-semibold {

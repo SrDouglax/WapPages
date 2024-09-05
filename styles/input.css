@@ -48,6 +48,11 @@
   src: url(./fonts/Uni_Sans_Book.ttf);
 }
 
+@font-face {
+  font-family: 'UniSansBook';
+  src: url(./fonts/Uni_Sans_Book.ttf);
+}
+
 .font {
   font-family: Font;
 }
@@ -81,6 +86,10 @@
 
 .--unisans {
   @apply font-[UniSans]
+}
+
+.unisans-book {
+  @apply font-[UniSansBook]
 }
 
 .--poppins-bold {

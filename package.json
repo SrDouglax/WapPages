@@ -26,7 +26,8 @@
     "LAVADORABRAVO2550ULTRA": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550Ultra/styles/styles.css --watch",
     "LAVADORABRAVO2550": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/LavadoraBravo2550/styles/styles.css --watch",
     "KITFERRAMENTASWFM110": "npx tailwindcss -i ./styles/input.css -o ./pages/ferramentas/KitFerramentasWFM110/styles/styles.css --watch",
-    "AIRFRESH": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/AirFresh/styles/styles.css --watch"
+    "AIRFRESH": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/AirFresh/styles/styles.css --watch",
+    "AQUACLEANER": "npx tailwindcss -i ./styles/input.css -o ./pages/casa-e-cuidados/AquaCleaner/styles/styles.css --watch"
   },
   "devDependencies": {
     "cssnano": "^6.0.2",
